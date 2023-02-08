@@ -1,0 +1,51 @@
+.Tony-Nav {
+    background-color: #FFF5EB;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.Tonylist-nav li{
+    display:inline;
+    padding-right: 5px;
+}
+
+.Tony-head{
+    border-bottom: 1px solid  #F4F4F5;
+    margin-left: 20px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5D5F5F;
+}
+.second{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin-left: 120px;
+    gap: 30px;
+    color: #5D5F5F;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+.second .seller a {
+    color: #5D5F5F;
+    text-decoration: none;
+}
+.seller{
+    padding-top: 20px;
+}
+.create{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    background: #F4F4F5;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    border: none;
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import Landing from './User/Landingpage/Landing';
 
 
 
@@ -6,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <>
-    
+      <Landing/>
     </>
   );
 }
