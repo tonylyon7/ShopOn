@@ -28,6 +28,8 @@ import table1 from "./Assets/table1.png"
 import table2 from "./Assets/table2.png"
 import lamb1 from "./Assets/lamb1.png"
 import lamb2 from "./Assets/lamb2.png"
+import Rec from "./Assets/tonyrec.png"
+import Rec2 from "./Assets/tonyre2.png"
 import {VscCircleLargeFilled} from 'react-icons/vsc'
 import {ImFire} from 'react-icons/im'
 
@@ -102,7 +104,7 @@ const Main = () => {
                         <div>Flash Sale</div>
                             <div className='img-fluid'>
                                 <h5 className='lyon'>-50%</h5>
-                                <img src={main} alt='main'/>
+                                <img className='tony-main' src={main} alt='main'/>
                             </div>
                         <div className='days'>
                             <h4 className='tony-num'>06 : 12 : 50 : 48</h4>
@@ -331,7 +333,7 @@ const Main = () => {
                     </div>   
                 </div> 
             </div>
-            <div className='row'>
+            <div className='tony-hot-last container row'>
                 <div className='tony-chair col-md-6'>
                     <img src={table1} className="tony-chair1 img-fluid" />
                     <h6 className='tony-collection'>2020’s NEW COLLECTION</h6>

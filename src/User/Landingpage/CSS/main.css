@@ -206,6 +206,9 @@ small{
     gap: 1.5rem;
     padding: 30px;
 }
+.tony-main{
+    width: 90%;
+}
 .lyon{
     background-color: #CDD454;
     width: 50px;
@@ -354,7 +357,6 @@ small{
 .tony-lamp2{
     margin-left: 20rem;
 }
-
 
 
 
