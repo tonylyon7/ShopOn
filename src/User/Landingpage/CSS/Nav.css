@@ -1,4 +1,4 @@
-.Tony-Nav {
+/* .Tony-Nav {
     background-color: #FFF5EB;
     padding-top: 10px;
     margin: auto;
@@ -21,8 +21,6 @@
 }
 .second{
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     margin-left: 120px;
     gap: 30px;
     color: #5D5F5F;
@@ -48,4 +46,46 @@
     width: 400px;
     height: 40px;
     border: none;
+} */
+
+
+.Tony-Nav {
+    background-color: #FFF5EB;
+    width: 100%;
+    color: #EF8C5F;
+}
+
+.Tonylist-nav li{
+    margin: 10px;
+}
+.Tony-seller {
+    font-weight: 500;
+}
+
+.second form input {
+    padding: 8px;
+    width: 400px;
+    background: #F4F4F5;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+}
+.Tony-search {
+    position: relative;
+    left: -10%;
+    font-size: 18px;
+}
+.Tony-main {
+    margin-left: -2%;
+}
+.Tony-main li a{
+    text-decoration: none;
+    padding: 20px;
+    color: #5D5F5F;
+    font-weight: 500;
+}
+.Tony-extra {
+    font-size: 14px;
+    margin-left: -28%;
+    color: #5D5F5F;
 }
