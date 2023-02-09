@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
         <nav className="navbar navbar-expand-lg navbar-light ">
-        <div className="container ">
+        <div className="container">
             <a className="navbar-brand" href="#"><img src={img}/></a>
             <div className=' ml-auto d-flex'>
                 <div className=" navhead collapse navbar-collapse pl-auto" id="navbarSupportedContent">

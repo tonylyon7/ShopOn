@@ -10,11 +10,13 @@ import AboutImg7 from './AboutImages/Rectangle 139.png'
 import AboutImg8 from './AboutImages/Rectangle 164.png'
 import AboutImg9 from './AboutImages/Rectangle 165.png'
 import AboutImg10 from './AboutImages/Rectangle 166.png'
+import Navbar from '../Navbar/Navbar'
 
 
 const About = () => {
   return (
     <>
+    <Navbar/>
     <div className='container'>
       <div className='d-sm-flex'>
         <img className='john-basket ' src={AboutImg}/>
