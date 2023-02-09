@@ -13,7 +13,10 @@ import BlogComment from './BlogComment'
 const BlogDetail = () => {
   return (
     <div>
-        <div className='blog d-sm-flex text-center ms-5'>
+        <div className='blog-title mt-5'>
+            <h5 className='text-start ms-sm-5 pt-3 f-style fs-4'>Blog {'>'} A Guide To New Orleans' Best...</h5>
+        </div>
+        <div className='blog d-sm-flex text-center ms-5 mt-4'>
           <aside className='blogAside f-style fs-5'>
              <BlogSide/>
           </aside>
@@ -26,7 +29,7 @@ const BlogDetail = () => {
 
                 <div className='d-sm-flex blog-d-text mt-3'>
                     <div className='blog-social text-start f-style fs-5'>
-                        <div>
+                        <div className='blog-write'>
                             <p className='b-s-text'>Written by</p>
                             <h5>Dorothy Bell</h5>
                         </div>
@@ -58,7 +61,7 @@ const BlogDetail = () => {
                     <div>
                         <img src={blogImg7} className='blog-de-img'/>
                     </div>
-                    <div className='text-start ms-5 blog-de-text f-style fs-5 text-gold '>
+                    <div className='text-start ms-sm-5 blog-de-text f-style fs-5 text-gold '>
                         <p>A blanket is a catch-all term for a single-layer, rectangular piece of fabric with bound edges that's used as a cover for warmth. They come in every fabric under the sun. You may find wool blankets, linen blankets, fleece blankets, cashmere blankets and a blanket in just about any other fabric you can think of. They come in varying sizes and varying levels of thickness and warmth.</p>
                         <p>When most people hear the word quilt, they think of a homemade type of bed covering passed down from a grandmother or other older relative. Quilts conjure images of warmth, love, friendship and tradition. They're often viewed as heirlooms, and it's true, quilting is an artform with a rich history. It's also a popular craft, but despite the nostalgia, quilts are anything but old fashioned.</p>
                         <p>At its heart, a quilt is a type of bedding consisting of three layers. One layer of batting is sandwiched between two layers of woven fabric, with all layers all stitched together. The name is derived from the process in which they're made. Quilts are crafted by quilting. They are typically thicker than blankets, and can be used as a layer or on their own.</p>
