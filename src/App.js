@@ -1,5 +1,7 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from './User/Landingpage/Landing';
+import Blog from './User/BlogPage/Blog';
 
 
 
@@ -7,7 +9,12 @@ import Landing from './User/Landingpage/Landing';
 function App() {
   return (
     <>
-      <Landing/>
+      <Router>
+        <Routes>
+          <Route path='/' element={ <Landing/> } />
+          <Route path='/Blog' element={ <Blog/> } />
+        </Routes>
+      </Router>
     </>
   );
 }
