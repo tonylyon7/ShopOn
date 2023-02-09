@@ -11,7 +11,7 @@ const BlogSide = () => {
   return (
     <div>
        <label>
-                <input placeholder='Search...' className='blog-input'/>
+            <input placeholder='Search...' className='blog-input'/>
                 <FaSearch className='blog-search text-solid'/>
             </label>
                 <p className='d-sm-flex justify-content-between align-items-center'><a href='' className='text-decoration-none text-dark'>All</a>  <span className='text-solid'>(309)</span></p>
