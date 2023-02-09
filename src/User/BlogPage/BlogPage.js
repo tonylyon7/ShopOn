@@ -1,5 +1,6 @@
 import React from 'react'
 import './BlogCSS/Blog.css'
+import Navbar from '../Navbar/Navbar'
 import { FaSearch } from 'react-icons/fa'
 import BlogImg from './Assets/Rectangle 17.png'
 import BlogImg2 from './Assets/Rectangle 3.png'
@@ -18,7 +19,8 @@ import BlogPage2 from './BlogPage2'
 
 const BlogPage = () => {
   return (
-    <div className='mt-5'>
+    <div className=''>
+         <Navbar/>
        <div className='blog d-sm-flex text-center ms-5'>
           <aside className='blogAside f-style fs-5'>
             <label>
@@ -115,7 +117,7 @@ const BlogPage = () => {
                          <h4 className='text-start ms-md-4 fs-5 blog-text2'>5 Modern Airbnbs Travel Bug You Will Love</h4>
                     </div>
                 </div>
-
+               
                 <BlogPage2/>
             </div>
           </section>

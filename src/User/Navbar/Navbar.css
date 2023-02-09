@@ -1,0 +1,12 @@
+.navbar{
+    border-bottom: 2px solid #F4F4F5;
+}
+.icons ul>li{
+    display: inline;
+    margin-right: 18px;
+    font-size: 15px;
+}
+.navhead{
+    margin-right: 200px;
+    font-size: 15px;
+}
