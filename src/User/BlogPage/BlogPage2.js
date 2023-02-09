@@ -20,32 +20,32 @@ const BlogPage2 = () => {
         <div className='blog-box'>
             <img src={BlogImg14} className='blog-post-img'/>
             <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
-            <h4 className='text-start ms-md-4 fs-5 blog-text2'>Incredible Before & After Living Room Makeovers</h4>
+            <h4 className='text-start ms-md-4 b-text blog-text2'>Incredible Before & After Living Room Makeovers</h4>
         </div>
         <div className='blog-box'>
             <img src={BlogImg15} className='blog-post-img'/>
             <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
-            <h4 className='text-start ms-md-4 fs-5 blog-text2'>Accent Walls for Every Style of Living Room</h4>
+            <h4 className='text-start ms-md-4 b-text blog-text2'>Accent Walls for Every Style of Living Room</h4>
         </div>
         <div className='blog-box blog-b'>
             <img src={BlogImg16} className='blog-post-img'/>
             <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
-            <h4 className='text-start ms-md-4 fs-5 blog-text2'>Furniture Ideas for Dog and Cat Owners</h4>
+            <h4 className='text-start ms-md-4 b-text blog-text2'>Furniture Ideas for Dog and Cat Owners</h4>
         </div>
         <div className='blog-box mt-4'>
             <img src={BlogImg17} className='blog-post-img'/>
             <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
-            <h4 className='text-start ms-md-4 fs-5 blog-text2'>Pick Your Perfect Pillow With Our Quiz</h4>
+            <h4 className='text-start ms-md-4 b-text blog-text2'>Pick Your Perfect Pillow With Our Quiz</h4>
         </div>
         <div className='blog-box mt-4'>
             <img src={BlogImg18} className='blog-post-img'/>
             <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
-            <h4 className='text-start ms-md-4 fs-5 blog-text2'>Guide to Mattress Toppers & Mattress Pads: What's the Difference?</h4>
+            <h4 className='text-start ms-md-4 b-text blog-text2'>Guide to Mattress Toppers & Mattress Pads: What's the Difference?</h4>
         </div>
         <div className='blog-box mt-4'>
             <img src={BlogImg19} className='blog-post-img'/>
             <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
-            <h4 className='text-start ms-md-4 fs-5 blog-text2'>Can't Live Without: Parachute Moms Share Their Must-Have Baby Items</h4>
+            <h4 className='text-start ms-md-4 b-text blog-text2'>Can't Live Without: Parachute Moms Share Their Must-Have Baby Items</h4>
         </div>
       </div>
 
