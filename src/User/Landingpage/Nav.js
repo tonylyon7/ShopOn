@@ -11,7 +11,7 @@ import {BsPerson} from 'react-icons/bs'
 import logo from './Assets/SHOPON.png'
 import { FaSearch } from 'react-icons/fa'
 
-const LandingpageNav = () => {
+const Nav = () => {
   return (
     <>
       <div>
@@ -78,4 +78,4 @@ const LandingpageNav = () => {
   )
 }
 
-export default LandingpageNav
+export default Nav
