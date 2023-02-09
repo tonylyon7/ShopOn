@@ -81,38 +81,38 @@ const BlogPage = () => {
                 <div className='blog-text'>
                 <h6 className='text-solid text-start'>By Dorothy Bell- Nov 05, 2019</h6>
                 <h3 className='text-start'>A Guide To New Orleans' Best - From Boutique Hotel Maison de la Luz</h3>
-                <p className='mt-2 text-start blog-para'>One of the most important aspects of vacation has always been choosing accommodations. Finding somewhere relaxing and clean with modern furniture <br/> and close to amenities can sometimes make or break a vacation .Choosing a hotel has always been at the top of a priority list when it came to vacation...</p>
+                <p className='mt-2 text-start blog-para'>One of the most important aspects of vacation has always been choosing accommodations. Finding somewhere relaxing and clean with <br className='bg-none'/> modern furniture <br className='none'/> and close to amenities can sometimes make or break a vacation .Choosing a hotel has always been at the top of a <br className='bg-none'/> priority list when it came to vacation...</p>
                 </div>
                 <div className='blog-post'>
                     <div className='blog-box'>
                          <img src={BlogImg7} className='blog-post-img'/>
-                         <p className='text-solid ms-4 text-start mt-2'>By Dorothy Bell- Nov 05, 2019</p>
-                         <h4 className='text-start ms-4 fs-5'>How To Care For Wool Furniture</h4>
+                         <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
+                         <h4 className='text-start ms-md-4 fs-5 blog-text2'>How To Care For Wool Furniture</h4>
                     </div>
                     <div className='blog-box'>
                          <img src={BlogImg8} className='blog-post-img'/>
-                         <p className='text-solid ms-4 text-start mt-2'>By Dorothy Bell- Nov 05, 2019</p>
-                         <h4 className='text-start ms-4 fs-5'>Decorating And Furnishing Small Spaces</h4>
+                         <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
+                         <h4 className='text-start ms-md-4 fs-5 blog-text2'>Decorating And Furnishing Small Spaces</h4>
                     </div>
-                    <div className='blog-box'>
+                    <div className='blog-box blog-b'>
                          <img src={BlogImg9} className='blog-post-img' />
-                         <p className='text-solid ms-4 text-start mt-2'>By Dorothy Bell- Nov 05, 2019</p>
-                         <h4 className='text-start ms-4 fs-5'>Our Favourite 2019 Design Furniture Trends</h4>
+                         <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
+                         <h4 className='text-start ms-md-4 fs-5 blog-text2'>Our Favourite 2019 Design Furniture Trends</h4>
                     </div>
                     <div className='blog-box mt-4'>
                          <img src={BlogImg10} className='blog-post-img' />
-                         <p className='text-solid ms-4 text-start mt-2'>By Dorothy Bell- Nov 05, 2019</p>
-                         <h4 className='text-start ms-4 fs-5'>The Right Way to Layer Lighting with Mitzi</h4>
+                         <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
+                         <h4 className='text-start ms-md-4 fs-5 blog-text2'>The Right Way to Layer Lighting with Mitzi</h4>
                     </div>
                     <div className='blog-box mt-4'>
                          <img src={BlogImg11} className='blog-post-img' />
-                         <p className='text-solid ms-4 text-start mt-2'>By Dorothy Bell- Nov 05, 2019</p>
-                         <h4 className='text-start ms-4 fs-5'>6 Amazing Ideas To Improve Your Dining Area</h4>
+                         <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
+                         <h4 className='text-start ms-md-4 fs-5 blog-text2'>6 Amazing Ideas To Improve Your Dining Area</h4>
                     </div>
                     <div className='blog-box mt-4'>
                          <img src={BlogImg12} className='blog-post-img' />
-                         <p className='text-solid ms-4 text-start mt-2'>By Dorothy Bell- Nov 05, 2019</p>
-                         <h4 className='text-start ms-4 fs-5'>5 Modern Airbnbs Travel Bug You Will Love</h4>
+                         <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
+                         <h4 className='text-start ms-md-4 fs-5 blog-text2'>5 Modern Airbnbs Travel Bug You Will Love</h4>
                     </div>
                 </div>
 
