@@ -1,10 +1,14 @@
 import React from 'react'
-import LandingpageNav from './LandingpageNav.js'
+import Main from './Main.js'
+import Nav from './Nav.js'
 
 
 const Landing = () => {
   return (
-    <LandingpageNav/>
+    <>
+    <Nav/>
+    <Main/>
+    </>
   )
 }
 

@@ -1,0 +1,24 @@
+.Tonys-main {
+    background: #103D37;
+    height: 430px;
+}
+small{
+    color: #CDD454;
+}
+.dami-new{
+    font-size: 30px;
+    overflow: hidden;
+    font-weight: 700;
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E3E3E3;
+}
+.dami-shop{
+    background: #DE5212 !important;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
