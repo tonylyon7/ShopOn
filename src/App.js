@@ -5,8 +5,6 @@ import Blog from './User/BlogPage/Blog';
 import BlogDetail from './User/BlogPage/BlogDetail';
 
 
-
-
 function App() {
   return (
     <>
