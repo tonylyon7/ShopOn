@@ -11,17 +11,14 @@ import AboutImg8 from './AboutImages/Rectangle 164.png'
 import AboutImg9 from './AboutImages/Rectangle 165.png'
 import AboutImg10 from './AboutImages/Rectangle 166.png'
 import AboutImg11 from './AboutImages/Rectangle 159.png'
-import AboutImg12 from './AboutImages/Rectangle 160.png'
-import AboutImg13 from './AboutImages/Rectangle 162.png'
-import AboutImg14 from './AboutImages/Rectangle 163.png'
 
-
-
+import Navbar from '../Navbar/Navbar'
 
 
 const About = () => {
   return (
     <>
+   <Navbar/>
     <div className='container'>
       <div className='d-sm-flex'>
           <img className='john-basket ' src={AboutImg}/>
@@ -87,9 +84,9 @@ const About = () => {
             <img className='' src={AboutImg8}/>
             <img className='' src={AboutImg9}/>
             <img className='' src={AboutImg10}/>
-            <img className='' src={AboutImg11}/>
-            <img className='' src={AboutImg13}/>
-            <img className='' src={AboutImg14}/>
+            {/* <img className='' src={AboutImg11}/> */}
+            {/* <img className='' src={AboutImg13}/> */}
+            {/* <img className='' src={AboutImg14}/> */}
           </div>
         </div>
     
