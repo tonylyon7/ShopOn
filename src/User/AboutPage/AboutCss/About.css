@@ -1,13 +1,13 @@
 .john-basket{
     width: 50% ;
-    margin-top: 140px ;
+    margin-top: 50px ;
     height: 500px;
 }    
 .john-about {
-    margin-top: 15%;
+    margin-top: 8%;
 }
 .john-fl{
-    margin-left: 40px;
+    margin-left: 60px;
 }
 .john-ab{
     color:#E9672B;
@@ -45,7 +45,51 @@
     height: 500px;
     margin-left: 140px;
 }
+.j-major img {
+    margin: 20px;
+} 
 .john-loer{
     color: #5D5F5F;
     margin-top: 100px;
+}
+.j-major{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+@media (max-width: 992px) { 
+    .j-major{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: -30px;
+    }
+    br{
+        display: none;
+    }
+    .john-basket{
+        width: 400px;
+        height: auto;
+    }
+    .john-fl{
+        margin-left: 10px;
+    }
+    .john-money{
+        margin-left: 6px;
+        margin-top: 5px;
+    }
+    .john-phone{
+        margin-left: 10px;
+    }
+    .john-gift{
+        margin-left: 10px;
+    }
+    /* .john-aero{
+        margin-left: px;
+    } */
+    .john-study{
+        margin-left: 1px;
+    }
+    .j-major img{
+         width: 90px;
+    }
+    
 }
