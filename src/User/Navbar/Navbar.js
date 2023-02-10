@@ -5,9 +5,12 @@ import {BsCart2} from 'react-icons/bs'
 import {BsPerson} from 'react-icons/bs'
 import img  from '../Landingpage/Assets/SHOPON.png';
 import '../Navbar/Navbar.css'
+import { FaBars, FaTimes } from 'react-icons/fa'
+
 const Navbar = () => {
     const location = useLocation()
     console.log(location)
+    
   return (
     <>
         <nav className="navbar navbar-expand-lg navbar-light ">
@@ -36,6 +39,10 @@ const Navbar = () => {
                     </li>
                     </ul>
                 </div>
+                {/* <button className="navbar-toggler" 
+                   onClick={ () => { this.setState({show: !this.state.show}) }}>
+                   {this.state.show ? <FaBars/> : <FaTimes/>}
+                </button> */}
                 {location.pathname == "/ErrorPage"?
                 
                     <div className=' icons' >
