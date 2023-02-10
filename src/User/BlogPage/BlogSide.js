@@ -25,7 +25,7 @@ const BlogSide = () => {
                 <p className='d-sm-flex justify-content-between align-items-center'><a href='' className='text-decoration-none text-dark'> Accesories</a> <span className='text-solid'> (54)</span></p>
 
                 <div className='Blog-top-post f-style'>
-                    <h4 className='text-start mt-4'>Top post</h4>
+                    <h4 className='text-start mt-4'>Top posts</h4>
                     <div className='blog-tops mt-3'> 
                        <div className='blog-box d-sm-flex'>
                             <img src={BlogImg2}/>
