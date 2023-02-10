@@ -16,7 +16,7 @@ const BlogPage = () => {
   return (
     <div className=''>
          <Navbar/>
-       <div className='blog d-sm-flex text-center ms-5'>
+       <div className='blog d-sm-flex text-center ms-2'>
           <aside className='blogAside f-style fs-5'>
              <BlogSide/>
           </aside>
