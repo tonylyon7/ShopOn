@@ -6,8 +6,6 @@ import About from './User/AboutPage/About';
 import BlogDetail from './User/BlogPage/BlogDetail'
 
 
-
-
 function App() {
   return (
     <>
@@ -19,6 +17,7 @@ function App() {
           <Route path='/BlogDetail' element={ <BlogDetail/> } />
         </Routes>
       </Router>
+      
     </>
   );
 }
