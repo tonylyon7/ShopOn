@@ -9,14 +9,16 @@ import blogImg5 from './Assets/Layer 2 (3).png'
 import blogImg6 from './Assets/Group.png'
 import blogImg7 from './Assets/Rectangle 17 (13).png'
 import BlogComment from './BlogComment'
+import Navbar from '../Navbar/Navbar'
 
 const BlogDetail = () => {
   return (
     <div>
-        <div className='blog-title mt-5'>
-            <h5 className='text-start ms-sm-5 pt-3 f-style fs-4'>Blog {'>'} A Guide To New Orleans' Best...</h5>
+        <Navbar/>
+        <div className='blog-title'>
+            <h5 className='text-start ms-sm-2 pt-3 f-style fs-4'>Blog {'>'} A Guide To New Orleans' Best...</h5>
         </div>
-        <div className='blog d-sm-flex text-center ms-5 mt-4'>
+        <div className='blog d-sm-flex text-center ms-2 mt-4'>
           <aside className='blogAside f-style fs-5'>
              <BlogSide/>
           </aside>
