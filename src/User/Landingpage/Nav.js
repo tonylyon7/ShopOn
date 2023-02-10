@@ -64,7 +64,7 @@ const Nav = () => {
             <li><Link to=''>Shop</Link></li>
             <li><Link to='/Blog'>Blog</Link></li>
             <li><Link to=''>Contact</Link></li>
-            <li><Link to=''>About Us</Link></li>
+            <li><Link to='/About'>About Us</Link></li>
             <li><Link to=''>Sale</Link></li>
            </ul>
            </div>
