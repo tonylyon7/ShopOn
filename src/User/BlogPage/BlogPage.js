@@ -29,7 +29,7 @@ const BlogPage = () => {
                 <h3 className='text-start'><Link to='/BlogDetail' className='text-decoration-none text-dark'>A Guide To New Orleans' Best - From Boutique Hotel <br className='bg-none'/> Maison de la Luz</Link></h3>
                 <p className='mt-2 text-start blog-para'>One of the most important aspects of vacation has always been <br className='bg-none'/> choosing accommodations. Finding somewhere relaxing and clean <br className='bg-none'/> with  modern furniture and close to amenities can sometimes make <br className='bg-none'/> or break a vacation .Choosing a hotel has always been at the top <br className='bg-none'/> of a priority list when it came to vacation...</p>
                 </div>
-                <div className='blog-post'>
+                <div className='blog-post f-style'>
                     <div className='blog-box'>
                          <img src={BlogImg7} className='blog-post-img'/>
                          <p className='text-solid ms-md-4 text-start mt-2 blog-text2'>By Dorothy Bell- Nov 05, 2019</p>
