@@ -576,7 +576,7 @@ progress {
 }
 .f-style {
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -7357,6 +7357,9 @@ textarea.form-control-lg {
 
 .text-solid {
   color: #b6b8b8 !important;
+}
+.text-gold {
+  color: #5D5F5F;
 }
 
 .text-warning {
