@@ -298,6 +298,10 @@ small{
     border-radius: 8px;
     display: flex;
     height: 27rem;
+    width: 580px;
+}
+.tony-hot-last {
+    margin-left: 6rem;
 }
 
 .tony-chair:hover{
@@ -306,42 +310,52 @@ small{
 }
 
 .tony-lamb{
+    background: #F4F4F5;
     border-radius: 8px;
     display: flex;
     height: 27rem;
+    width: 580px;
 }
 
 .tony-lamb{
     box-shadow: 0 2px 8px gray;
     border-radius: 10px;
 }
+.tony-lamb1 {
+    background: #F4F4F5;
+    margin-top: 3%;
+    height: 300px !important;
+}
 
 .tony-chair1 {
     position: absolute;
-    padding-left: 1rem;
-    margin-left: -1.9rem;
-    margin-top: 2rem;
+    margin-top: 4.4rem;
+    width: 260px;
 }
 .tony-chair2 {
     position: absolute;
-    padding-left: 29.5rem;
-    padding-top: 5.5rem;
+    padding-left: 24rem;
+    padding-top: 4.5rem;
     margin-top: 3rem;
 }
 
 .tony-collection {
     color: #E9672B;
     position: absolute;
-    margin-top: 8.5rem;
-    margin-left: 14rem;
+    margin-top: 12rem;
+    margin-left: 12.3rem;
+    letter-spacing: 3px;
+    font-size: 12px;
 }
 
 .tony-comfort {
     position: absolute;
     color: #1D1F1F;
-    margin-top: 10rem;
-    margin-left: 13rem;
-    overflow: hidden;
+    margin-top: 13.3rem;
+    margin-left: 10rem;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
 }
 
 .Tony-explore {
@@ -349,13 +363,26 @@ small{
     width: 9rem;
     height: 40px;
     border-radius: 40px;
-    margin-top: 15rem;
+    margin-top: 18rem;
     position: absolute;
-    margin-left: 15rem;
+    margin-left: 13.3rem;
     border: none;
+    color: #fff;
+}
+.tony-coll2 {
+    margin-left: 13rem;
+}
+.tony-explo2 {
+    margin-left: 15rem;
+}
+.tony-comf2 {
+    margin-left: 11.4rem;
 }
 .tony-lamp2{
-    margin-left: 20rem;
+    margin-left: 17rem;
+    margin-top: 3%;
+    width: 124px;
+    height: 235px !important;
 }
 
 .tony2-heading{

@@ -104,7 +104,8 @@ const Main = () => {
       </div>
     </section>
     {/* Hotsales */}
-    <div className='container'>
+    <div className=''>
+      <div className='container'>
             <h2 className='Tony-heading'>Hot Sales</h2>
             <div className='row tony-liner' >
                 <div className='tony col-md-3'>
@@ -265,6 +266,7 @@ const Main = () => {
                 </div>
             </div>
             <div> 
+            </div>
                 <div className='tony-row row'>
                 <div className='SubH'>Top categories for you</div>
                     <div className='tony-kids col-md-2'>    
@@ -341,23 +343,24 @@ const Main = () => {
                     </div>   
                 </div> 
             </div>
-            <div className='tony-hot-last container row col-md-12'>
-                <div className='tony-chair col-md-6'>
+            <div className='tony-hot-last d-sm-flex'>
+                <div className='tony-chair'>
                     <img src={table1} className="tony-chair1 img-fluid" />
-                    <h6 className='tony-collection'>2020’s NEW COLLECTION</h6>
+                    <h6 className='tony-collection'>2020's NEW COLLECTION</h6>
                     <h3 className='tony-comfort'>Comfortable Chair</h3>
                     <button className='Tony-explore'>Explore Now</button>
                     <img src={table2} className="tony-chair2 img-fluid" />
                 </div>
-                <div className='tony-lamb col-md-6'>
+                <div className='tony-lamb ms-5'>
                     <img src={lamb1} className="tony-lamb1 img-fluid" />
-                    <h6 className='tony-collection'>2020’s NEW COLLECTION</h6>
-                    <h3 className='tony-comfort'>Vega Table Lamp</h3>
-                    <button className='Tony-explore'>Explore Now</button>
+                    <h6 className='tony-collection tony-coll2'>2020's NEW COLLECTION</h6>
+                    <h3 className='tony-comfort tony-comf2'>Vega Table Lamp</h3>
+                    <button className='Tony-explore tony-explo2'>Explore Now</button>
                     <img src={lamb2} className="tony-lamp2 img-fluid" />
                 </div>
             </div> 
             {/* our future   */}
+            <div className='container'>
             <div className='tony2-heading'>Our Feature Product</div>
             <div className='tony2-items'>
                 <ul>
@@ -528,6 +531,7 @@ const Main = () => {
                   <div className='link'>Add to Cart</div>
                 </div>
               </div>
+            </div>
             </div>
         </div>
     </>
