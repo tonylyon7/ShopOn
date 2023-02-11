@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import './Faq.css'
 import data from './FaqMap'
 import { Link } from 'react-router-dom'
+import Footer from '../Footer/Footer'
 
 
 const FAQ = () => {
@@ -61,6 +62,7 @@ const FAQ = () => {
       </div>
       
     </div>
+    <Footer/>
     </>
   )
 }

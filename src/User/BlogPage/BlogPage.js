@@ -12,6 +12,7 @@ import BlogImg11 from './Assets/Rectangle 17 (4).png'
 import BlogImg12 from './Assets/Rectangle 17 (5).png'
 import BlogPage2 from './BlogPage2'
 import BlogSide from './BlogSide'
+import Footer from '../Footer/Footer'
 const BlogPage = () => {
   return (
     <div className=''>
@@ -66,6 +67,8 @@ const BlogPage = () => {
             </div>
           </section>
        </div>
+
+       <Footer/>
     </div>
   )
 }

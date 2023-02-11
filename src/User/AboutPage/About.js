@@ -16,6 +16,7 @@ import AboutImg13 from './AboutImages/Rectangle 162.png'
 
 
 import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
 
 
 const About = () => {
@@ -108,7 +109,7 @@ const About = () => {
           </div>
         </div>
     
-
+          <Footer/>
     </>
   )
 }
