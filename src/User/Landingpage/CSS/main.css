@@ -431,7 +431,7 @@ small{
 
 .tony-friday {
     background-color: #212121;
-    padding: 8px;
+    padding: 8px 12px;
 }
 .tony-40 {
     color: #CDD454;
@@ -441,16 +441,26 @@ small{
     font-size: 50px;
 }
 .friday2 {
-    /* margin-left: 14rem; */
+    margin-left: 13rem;
 }
 .friday-text {
     font-family: 'Sofia Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 19px;
-    line-height: 25px;
+    /* line-height: 25px; */
     letter-spacing: -0.03em;
     color: #FEFEFE;
+}
+.fri-text2 {
+    line-height: 39px;
+}
+.friday-img {
+    width: 130px !important;
+}
+.tony-friday img {
+    width: 82.3px;
+    height: 80px;
 }
 
 

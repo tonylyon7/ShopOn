@@ -536,20 +536,20 @@ const Main = () => {
               </div>
             </div>
 
-            <div className='tony-friday d-flex  align-items-center text-white mb-5'>
-              <div className='d-flex'>
-                <p className='text-start friday-text'>Up To <span className='tony-40'> 40% </span> Off <br/> <span className='tony-40-sale'> SALE!</span></p>
-                <div className='tony-truck d-flex ms-5'>
-                  <img src={truck} />
-                  <p className='text-start mt-3 friday-text'>Free & Fast <br/> Shipping</p>
+            <div className='tony-friday d-flex  align-items-center text-white mb-5 mt-5'>
+              <div className='d-flex ps-3'>
+                <p className='text-start friday-text fri-text2 mt-3'>Up To <span className='tony-40'> 40% </span> Off <br/> <span className='tony-40-sale mt-3'> SALE!</span></p>
+                <div className='tony-truck d-flex ms-5 mt-3'>
+                  <img src={truck} className='mt-2 friday-img' />
+                  <p className='text-start mt-4 friday-text ms-2'>Free & Fast  Shipping</p>
                 </div>
               </div>
-              <div className='d-flex justify-content-end friday2'>
-                <img src={group} />
-                <p className='text-start friday-text'>30-days <br/> Free Return</p>
-                <div className='d-flex ms-5'>
-                  <img src={vector} />
-                  <p className='text-start friday-text'>100% Secure Shopping</p>
+              <div className='d-flex friday2'>
+                <img src={vector} className='mt-3' />
+                <p className='text-start friday-text mt-4 ms-3'>30-days Free Return</p>
+                <div className='d-flex ms-5 mt-2'>
+                  <img src={group} />
+                  <p className='text-start friday-text mt-3 ms-2'>100% Secure Shopping</p>
                 </div>
               </div>
             </div>
