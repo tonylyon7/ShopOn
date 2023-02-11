@@ -28,8 +28,16 @@ import table1 from "./Assets/table1.png"
 import table2 from "./Assets/table2.png"
 import lamb1 from "./Assets/lamb1.png"
 import lamb2 from "./Assets/lamb2.png"
-import Rec from "./Assets/tonyrec.png"
-import Rec2 from "./Assets/tonyre2.png"
+import tony1 from "./Assets/tony2img1.png"
+import tony2 from "./Assets/tony2img2.png"
+import tony3 from "./Assets/tony2img3.png"
+import tony4 from "./Assets/tony2img4.png"
+import tony5 from "./Assets/tony2img5.png"
+import tony6 from "./Assets/tony2img6.png"
+import tony7 from "./Assets/tony2img7.png"
+import tony8 from "./Assets/tony2img8.png"
+import tony9 from "./Assets/tony2img9.png"
+import tony10 from "./Assets/tony2img10.png"
 import {VscCircleLargeFilled} from 'react-icons/vsc'
 import {ImFire} from 'react-icons/im'
 
@@ -333,7 +341,7 @@ const Main = () => {
                     </div>   
                 </div> 
             </div>
-            <div className='tony-hot-last container row'>
+            <div className='tony-hot-last container row col-md-12'>
                 <div className='tony-chair col-md-6'>
                     <img src={table1} className="tony-chair1 img-fluid" />
                     <h6 className='tony-collection'>2020’s NEW COLLECTION</h6>
@@ -348,7 +356,179 @@ const Main = () => {
                     <button className='Tony-explore'>Explore Now</button>
                     <img src={lamb2} className="tony-lamp2 img-fluid" />
                 </div>
-            </div>   
+            </div> 
+            {/* our future   */}
+            <div className='tony2-heading'>Our Feature Product</div>
+            <div className='tony2-items'>
+                <ul>
+                    <li><a href=''>All</a></li>
+                    <li><a href=''>Electronics</a></li>
+                    <li><a href=''>Kitchen</a></li>
+                    <li><a href=''>Phones</a></li>
+                    <li><a href=''>Kids</a></li>
+                    <li><a href=''>Fashions</a></li>
+                </ul>
+            </div>
+            <div className='col-md-12'>
+              <div className='row'> 
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony1}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Eco 32" LED TELEVISION</div>
+                  <div className='price'>$69.36 <span className='tony-discount'>$50.74</span></div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony2}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Double pocket men jacket</div>
+                  <div className='price'>$56.12 <span className='tony-discount'>$69.36</span></div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony3}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Blender and Juicer</div>
+                  <div className='price'>$163.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony4}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Iphone 14 128gb</div>
+                  <div className='price'>$999.99</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony5}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Kids Cloth</div>
+                  <div className='price'>$45.32 <span className='tony-discount'>$50.74</span></div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony6}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Lenovo Laptop</div>
+                  <div className='price'>$240.99</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony7}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Patterned Chair</div>
+                  <div className='price'>$129.99</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony8}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Bluetooth</div>
+                  <div className='price'>$101.36 <span className='tony-discount'>$142.74</span></div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony9}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Red Heels</div>
+                  <div className='price'>$90.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony10}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>7kg washing machine</div>
+                  <div className='price'>$156.12</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={secound}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Long Chair</div>
+                  <div className='price'>$197.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={third}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Wooden Lamp</div>
+                  <div className='price'>$69.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+              </div>
+            </div>
         </div>
     </>
   )

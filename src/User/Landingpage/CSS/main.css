@@ -358,6 +358,29 @@ small{
     margin-left: 20rem;
 }
 
+.tony2-heading{
+    font-family: Sofia Pro;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 48px;
+    align-items: Center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.tony2-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.tony2-items ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
 
 
 
