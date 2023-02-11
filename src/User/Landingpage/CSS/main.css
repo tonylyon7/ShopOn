@@ -403,10 +403,22 @@ small{
 }
 .tony2-items ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     list-style: none;
+    gap: 30px;
+}
+.tony2-items li a{
     gap: 50px;
+    color: #E9672B;
+    background-color: #FBF8F5;
+    text-decoration: none;
+    border-radius: 9px;
+    padding: 3px 17px;
+}
+.tony2-items li a:hover{
+    color:#FBF8F5;
+    background-color: #E9672B;
 }
 
 
