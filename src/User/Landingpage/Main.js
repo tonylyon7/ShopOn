@@ -40,6 +40,9 @@ import tony9 from "./Assets/tony2img9.png"
 import tony10 from "./Assets/tony2img10.png"
 import {VscCircleLargeFilled} from 'react-icons/vsc'
 import {ImFire} from 'react-icons/im'
+import truck from './Assets/mdi_truck-delivery-outline.png'
+import vector from './Assets/Vector.png'
+import group from './Assets/Group.png'
 
 
 const Main = () => {
@@ -348,14 +351,14 @@ const Main = () => {
                     <img src={table1} className="tony-chair1 img-fluid" />
                     <h6 className='tony-collection'>2020's NEW COLLECTION</h6>
                     <h3 className='tony-comfort'>Comfortable Chair</h3>
-                    <button className='Tony-explore'>Explore Now</button>
+                    <a href='' className='Tony-explore text-decoration-none text-center'>Explore Now</a>
                     <img src={table2} className="tony-chair2 img-fluid" />
                 </div>
                 <div className='tony-lamb ms-5'>
                     <img src={lamb1} className="tony-lamb1 img-fluid" />
                     <h6 className='tony-collection tony-coll2'>2020's NEW COLLECTION</h6>
                     <h3 className='tony-comfort tony-comf2'>Vega Table Lamp</h3>
-                    <button className='Tony-explore tony-explo2'>Explore Now</button>
+                    <a href='' className='Tony-explore tony-explo2 text-decoration-none text-center'>Explore Now</a>
                     <img src={lamb2} className="tony-lamp2 img-fluid" />
                 </div>
             </div> 
@@ -529,6 +532,24 @@ const Main = () => {
                   <div className='tony-text'>Wooden Lamp</div>
                   <div className='price'>$69.36</div>
                   <div className='link'>Add to Cart</div>
+                </div>
+              </div>
+            </div>
+
+            <div className='tony-friday d-flex  align-items-center text-white mb-5'>
+              <div className='d-flex'>
+                <p className='text-start friday-text'>Up To <span className='tony-40'> 40% </span> Off <br/> <span className='tony-40-sale'> SALE!</span></p>
+                <div className='tony-truck d-flex ms-5'>
+                  <img src={truck} />
+                  <p className='text-start mt-3 friday-text'>Free & Fast <br/> Shipping</p>
+                </div>
+              </div>
+              <div className='d-flex justify-content-end friday2'>
+                <img src={group} />
+                <p className='text-start friday-text'>30-days <br/> Free Return</p>
+                <div className='d-flex ms-5'>
+                  <img src={vector} />
+                  <p className='text-start friday-text'>100% Secure Shopping</p>
                 </div>
               </div>
             </div>
