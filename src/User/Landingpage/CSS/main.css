@@ -72,6 +72,7 @@ small{
     border-radius: 20px; 
     margin-left: 95px;
     margin-top: 7rem;
+    font-weight: 600;
 }
 .men{
     margin-left: -1rem;
@@ -139,6 +140,7 @@ small{
     background: white;
     border: none;
     border-radius: 20px; 
+    font-weight: 600;
 }
 .icons ul>li{
     display: inline;
@@ -477,3 +479,41 @@ small{
 }
 
 
+/* Categories */
+
+.categotie-img img {
+   padding: 21px;
+}
+
+/* Popular Categories */
+
+.popular-head {
+    margin-left: 4.5rem;
+}
+.tony-popular {
+    background-image: url('../Assets/Rectangle\ 296.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1150px;
+}
+.popular-head h5 {
+    padding: 43px;
+}
+.popluar-hr {
+    width: 1054px;
+    margin-left: 2.5rem;
+    margin-top: -2rem;
+    border: 1px solid #FFFFFF;
+}
+.popular-body {
+    margin-left: 4rem;
+}
+.popular-body h6 {
+    text-align: center;
+   padding: 58px;
+   margin-top: -5rem;
+   letter-spacing: 0.7px;
+}
+.tony-body {
+    margin-top: 2.5rem;
+}
