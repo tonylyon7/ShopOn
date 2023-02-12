@@ -5,12 +5,16 @@ import Blog from './User/BlogPage/Blog';
 import About from './User/AboutPage/About';
 import BlogDetail from './User/BlogPage/BlogDetail'
 import FAQ from './User/FAQ/FAQ';
+import SignIn from './User/SignUp/SignIn';
+import Register from './User/SignUp/Register';
 
 
 function App() {
   return (
     <>
-      <Router>
+    <Register/>
+      {/* <SignIn/> */}
+      {/* <Router>
         <Routes>
           <Route path='/' element={ <Landing/> } />
           <Route path='/About' element={<About/>}/>
@@ -18,7 +22,7 @@ function App() {
           <Route path='/BlogDetail' element={ <BlogDetail/> } />
           <Route path='/FAQ' element={ <FAQ/> } />
         </Routes>
-      </Router>
+      </Router> */}
     </>
   );
 }
