@@ -209,7 +209,7 @@
     .blog-detail .blog-detail-img {
         width: 350px;
         height: 500px;
-        margin-left: -20%;
+        margin-left: -30% !important;
     }
     .blog-de-img {
         width: 350px;
