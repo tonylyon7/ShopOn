@@ -3,8 +3,10 @@ import './CSS/main.css'
 import img1 from './Assets/img1.png'
 import food from './Assets/food.png'
 import laptop from './Assets/laptop.png'
-import chair from './Assets/chair.png'
+import chair1 from './Assets/Rectangle 267.png'
+import label from './Assets/label.png'
 import weather from './Assets/weather.png'
+import group1 from './Assets/Group 131.png'
 import special from './Assets/special.png'
 import main from "./Assets/Main.png"
 import first from "./Assets/1.png"
@@ -72,34 +74,42 @@ const Main = () => {
         </div>
      </div>
 
-     <section className='my-5'>
-      <div className="container">
+     <section className='my-5 special-offer'>
+      <div className="container-fluid">
         <div className="row">
           <div className="col-md-4  man">
-            <div className='special'> 
-            <img classname='offer'src={special}/>
-              <h4 className='furn'>on<span className='furni'>Furniture</span></h4>
+            <div className='special mt-5'> 
+            <img classname='offer' src={special}/>
+              <h4 className='furn ms-5'>on <span className='furni'> Furniture </span></h4>
             </div>
             <h5 className='fun'>import furniture sold by the best vendors <br/>
              known globally for quality</h5>
             <div className='chair'>
-            <p className="chair"><img src={chair}/></p>
+            <p className="chair"><img src={chair1}/></p>
+            <img src={label} className='chair-label' />
             </div>
             <button className='Tony-now px-5 py-2'>shop now</button>
           </div>
-          <div className="col-md-8 ">
+          <div className="col-md-8">
                   <div className="row">
-                    <div className="col-md-6 men"><img src={laptop}/></div>
-                    <div className="col-md-6 men"><img src={food}/></div>
+                    <div className="col-md-6"><img src={laptop}/></div>
+                    <div className="col-md-6 men"><img src={food}/>
+                    <div className='food-text text-center text-white'>
+                      <h5 className='pt-4'>Beauty is not expensive here</h5>
+                      <h6 className='food-price ms-5'>$19.99 <span className='ms-3'>$54.20</span></h6>
+                     </div>
+                    </div>
                   </div>
             <div className='tony-weather my-3'>
-                <div className='row'>
-                  <div className="col-md-4">
+                <div className='row ms-3'>
+                  <div className="col-md-4 mt-3">
                     <p className='tonyweda'>Myriam's garden wall Art</p>
-                    <p className='after'>$42.13 <span className='before'>$42.33</span></p>
+                    <p className='after'>$42.13 <span className='before ms-3 mt-1'>$42.33</span></p>
                     <button className='tony-b px-5 py-2'> shop now</button>
                   </div>
-                      <div className='col-md-8'><img src={weather}/></div>
+                      <div className='col-md-8'><img src={weather}/>
+                        <img src={group1} className='weather-group' />
+                      </div>
                 </div>
             </div>
           </div>
