@@ -494,19 +494,18 @@ small{
     background-image: url('../Assets/Rectangle\ 296.png');
     background-repeat: no-repeat;
     background-position: center;
-    width: 1150px;
 }
 .popular-head h5 {
     padding: 43px;
 }
 .popluar-hr {
-    width: 1054px;
-    margin-left: 2.5rem;
+    width: 1000px;
+    margin-left: 3rem;
     margin-top: -2rem;
     border: 1px solid #FFFFFF;
 }
 .popular-body {
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 .popular-body h6 {
     text-align: center;
@@ -516,4 +515,30 @@ small{
 }
 .tony-body {
     margin-top: 2.5rem;
+}
+.great-design {
+    background-color: #103D37;
+    height: 141px;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+.design-sofa {
+    margin-top: -2.7rem;
+}
+.great-60 {
+    margin-left: -3.5rem;
+}
+.design-text  {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.design-wood {
+    color: #CDD454;
+}
+.design-explore {
+    padding: 10px 50px;
+    background: #DA3E31;
+    border-radius: 40px;
+    margin-top: 8rem;
+    margin-left: 5rem;
 }

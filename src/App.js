@@ -5,16 +5,14 @@ import Blog from './User/BlogPage/Blog';
 import About from './User/AboutPage/About';
 import BlogDetail from './User/BlogPage/BlogDetail'
 import FAQ from './User/FAQ/FAQ';
-import Error from './User/Error404/Error';
 import SignIn from './User/SignUp/SignIn';
 import Register from './User/SignUp/Register';
+import Error404 from './User/Error404/Error404';
 
 
 function App() {
   return (
     <>
-    {/* <Register/> */}
-      {/* <SignIn/> */}
       <Router>
         <Routes>
           <Route path='/Register' element={<Register/>} />
@@ -24,9 +22,8 @@ function App() {
           <Route path='/Blog' element={ <Blog/> } />
           <Route path='/BlogDetail' element={ <BlogDetail/> } />
           <Route path='/FAQ' element={ <FAQ/> } />
-          {/* <Route path='/Error' element={ <Error/> } /> */}
+          <Route path='/Error404' element={<Error404/>} />
         </Routes>
-        <Error/>
       </Router>
     </>
   );
