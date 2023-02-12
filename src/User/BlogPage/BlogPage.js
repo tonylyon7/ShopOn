@@ -15,6 +15,7 @@ import BlogSide from './BlogSide'
 import Footer from '../Footer/Footer'
 const BlogPage = () => {
   return (
+     <>
     <div className=''>
          <Navbar/>
        <div className='blog d-sm-flex text-center ms-5 mt-4'>
@@ -67,9 +68,9 @@ const BlogPage = () => {
             </div>
           </section>
        </div>
-
-       <Footer/>
     </div>
+    <Footer className='blog-footer' />
+    </>
   )
 }
 

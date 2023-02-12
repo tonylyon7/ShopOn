@@ -165,10 +165,11 @@
     .blog-main-img {
         left: -14% !important;
         width: 350px !important;
+        top: -15rem;
     }
     .blog-contain {
-        position: absolute;
-        margin-top: 197%;
+        position: relative;
+        top: 24rem;
         margin-left: -12%;
     }
     .blog-post {
