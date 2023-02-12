@@ -546,7 +546,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-
+              {/* vector */}
             <div className='tony-friday d-flex  align-items-center text-white mb-5 mt-5'>
               <div className='d-flex ps-3'>
                 <p className='text-start friday-text fri-text2 mt-3'>Up To <span className='tony-40'> 40% </span> Off <br/> <span className='tony-40-sale mt-3'> SALE!</span></p>
@@ -564,8 +564,50 @@ const Main = () => {
                 </div>
               </div>
             </div>
+            {/* Top categories */}
+            <div className='tony-categories'>
+            <h2>Top categories for you</h2>
+              <div className='d-sm-flex categotie-img text-center'>
+              <div className='tony-kids col-md-2'>    
+                <div className='kid text-center'>
+                  <img src={kid1} className="img-fluid" />
+                  <p>for Kids</p>
+                </div>    
+              </div>
+              <div className='tony-kids col-md-2'>    
+                <div className='kid text-center'>
+                  <img src={kid2} className="img-fluid" />
+                  <p>for Kids</p>
+                </div>    
+              </div>
+              <div className='tony-kids col-md-2'>    
+                <div className='kid text-center'>
+                  <img src={kid3} className="img-fluid" />
+                  <p>for Kids</p>
+                </div>    
+              </div>
+              <div className='tony-kids col-md-2'>    
+                <div className='kid text-center'>
+                  <img src={kid4} className="img-fluid" />
+                  <p>for Kids</p>
+                </div>    
+              </div>
+              <div className='tony-kids col-md-2'>    
+                <div className='kid text-center'>
+                  <img src={kid5} className="img-fluid" />
+                  <p>for Kids</p>
+                </div>    
+              </div>
+              <div className='tony-kids col-md-2'>    
+                <div className='kid text-center'>
+                  <img src={kid6} className="img-fluid" />
+                  <p>for Kids</p>
+                </div>    
+              </div>    
+              </div>
             </div>
             <Main2/>
+          </div>
         </div>
     </>
   )
