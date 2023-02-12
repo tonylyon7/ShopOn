@@ -290,7 +290,7 @@ small{
 }
 
 .kid {
-    /* padding-bottom: 1rem; */
+    padding-bottom: 1rem;
     padding-top: 1rem;
     border-radius: 10px;
 }
