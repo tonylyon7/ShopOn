@@ -12,17 +12,19 @@ import Register from './User/SignUp/Register';
 function App() {
   return (
     <>
-    <Register/>
+    {/* <Register/> */}
       {/* <SignIn/> */}
-      {/* <Router>
+      <Router>
         <Routes>
+          <Route path='/Register' element={<Register/>} />
+          <Route path='/SignIn' element={<SignIn/>} />
           <Route path='/' element={ <Landing/> } />
           <Route path='/About' element={<About/>}/>
           <Route path='/Blog' element={ <Blog/> } />
           <Route path='/BlogDetail' element={ <BlogDetail/> } />
           <Route path='/FAQ' element={ <FAQ/> } />
         </Routes>
-      </Router> */}
+      </Router>
     </>
   );
 }

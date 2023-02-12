@@ -51,7 +51,7 @@ const Nav = () => {
                 <ul className='Tonylist-nav d-sm-flex align-items-center list-unstyled mt-3'> 
                   <li><GrFavorite/></li>
                   <li><BsCart2/> 0</li>
-                  <li> <BsPerson/> sign in</li>
+                  <li><Link to='/Register' className='text-decoration-none text-dark'><BsPerson/> sign in</Link></li>
                   </ul>
               </div>
           </div>

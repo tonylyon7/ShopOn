@@ -3,6 +3,7 @@ import './Signup style/signin.css'
 import img from '../SignUp/Images/signin image.png'
 import img1 from '../SignUp/Images/SHOPON.png'
 import {AiFillFacebook, AiFillGoogleCircle} from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const SignIn = () => {
   return (
@@ -43,7 +44,7 @@ const SignIn = () => {
                     </form>
                     <div className='stephmember'>
                     <p className='newmember'>New Member?</p>
-                    <a href='' className='newmembers'>Register Now</a>
+                    <Link to='/Register' className='newmembers'>Register Now</Link>
                     </div>
                 </div>
             </div>

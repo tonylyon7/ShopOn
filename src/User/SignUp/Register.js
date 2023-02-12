@@ -4,6 +4,7 @@ import img from '../SignUp/Images/register.png'
 import img1 from '../SignUp/Images/SHOPON.png'
 import {AiFillFacebook, AiFillGoogleCircle} from 'react-icons/ai'
 import SignIn from './SignIn'
+import { Link } from 'react-router-dom'
 
 const Register = () => {
   return (
@@ -50,7 +51,7 @@ const Register = () => {
                     </form>
                     <div className='stephmember'>
                     <p className='newmember'>Already a Member?</p>
-                   <p className='newmembers'><a href=''>Sign In</a></p>
+                   <p className='newmembers'><Link to='/SignIn'>Sign In</Link></p>
                     </div>
                 </div>
                 <div className='col-md-1'>
