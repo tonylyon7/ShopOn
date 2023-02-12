@@ -455,17 +455,17 @@ small{
     font-size: 50px;
 }
 .friday2 {
-    margin-left: 13rem;
+    margin-left: 12rem;
 }
 .friday-text {
     font-family: 'Sofia Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 19px;
-    letter-spacing: -0.03em;
     color: #FEFEFE;
 }
 .fri-text2 {
+    letter-spacing: 2px;
     line-height: 39px;
 }
 .friday-img {
