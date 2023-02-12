@@ -1,0 +1,36 @@
+
+
+.Oops{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    
+}
+.the{
+    font-weight: 400;   
+}
+.error-button{
+    background: #DE5212 !important;
+    border: none;
+    border-radius: 40px;
+    padding: 5px 10px;
+}
+.errorDiv{
+    padding: 3rem
+}
+.below1{ 
+    width: 100%;
+    height: 66px;
+    text-align: center;
+}
+.below{
+    justify-content: space-between;
+    background: #F4F4F5;
+    padding-top: 15px;
+}.copyright{
+   font-weight: 400;
+}
+.privacy{
+   font-weight: 400;
+}
+

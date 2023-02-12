@@ -5,6 +5,7 @@ import Blog from './User/BlogPage/Blog';
 import About from './User/AboutPage/About';
 import BlogDetail from './User/BlogPage/BlogDetail'
 import FAQ from './User/FAQ/FAQ';
+import Error from './User/Error404/Error';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/Blog' element={ <Blog/> } />
           <Route path='/BlogDetail' element={ <BlogDetail/> } />
           <Route path='/FAQ' element={ <FAQ/> } />
+          <Route path='/Error' element={ <Error/> } />
         </Routes>
       </Router>
     </>
