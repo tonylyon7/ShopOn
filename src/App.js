@@ -8,6 +8,9 @@ import FAQ from './User/FAQ/FAQ';
 import SignIn from './User/SignUp/SignIn';
 import Register from './User/SignUp/Register';
 import Error404 from './User/Error404/Error404';
+import Shopingcart from './User/Shoppingcart/Shopingcart';
+import Emptyshoppingcart from './User/Shoppingcart/Emptyshoppingcart';
+import Wishlistp from './User/Wishlist/Wishlistp';
 
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
           <Route path='/BlogDetail' element={ <BlogDetail/> } />
           <Route path='/FAQ' element={ <FAQ/> } />
           <Route path='/Error404' element={<Error404/>} />
+          <Route path='/Shopingcart' element={<Shopingcart/>}/>
+          <Route path='/Emptyshoppingcart' element={<Emptyshoppingcart/>}/>
+          <Route path='/Wishlist' element={<Wishlistp/>}/>
         </Routes>
       </Router>
     </>
