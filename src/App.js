@@ -18,8 +18,9 @@ function App() {
           <Route path='/Blog' element={ <Blog/> } />
           <Route path='/BlogDetail' element={ <BlogDetail/> } />
           <Route path='/FAQ' element={ <FAQ/> } />
-          <Route path='/Error' element={ <Error/> } />
+          {/* <Route path='/Error' element={ <Error/> } /> */}
         </Routes>
+        <Error/>
       </Router>
     </>
   );
