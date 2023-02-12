@@ -194,7 +194,7 @@
         left: -1% !important;
     }
     .blog-container .b-detail {
-        margin-left: -33%;
+        margin-left: -11% !important;
     }
     .Move-Slide {
         margin-left: -1%;
@@ -213,9 +213,6 @@
     }
     .blog-de-img {
         width: 350px;
-    }
-    .b-detail {
-        margin-left: 8rem;
     }
     /* .blog-write {
         margin-left: -57%;
