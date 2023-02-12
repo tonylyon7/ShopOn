@@ -209,15 +209,15 @@
     .blog-detail .blog-detail-img {
         width: 350px;
         height: 500px;
-        margin-left: -35%;
+        margin-left: -20%;
     }
     .blog-de-img {
         width: 350px;
     }
-    .blog-write {
+    /* .blog-write {
         margin-left: -57%;
-    }
-    .blog-social {
+    } */
+    /* .blog-social {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-left: -20%;
@@ -225,10 +225,10 @@
     .blog-follow {
         margin-left: -10%;
         text-align: center;
-    }
-    .blog-tags {
+    } */
+    /* .blog-tags {
         text-align: center;
-    }
+    } */
     .blog-social-media {
         margin-top: -6%;
     }
