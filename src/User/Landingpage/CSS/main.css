@@ -446,7 +446,7 @@ small{
     justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
-    
+    gap: 10px;
 }
 
 .featured-card{ 

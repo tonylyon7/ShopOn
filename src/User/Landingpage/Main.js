@@ -45,6 +45,16 @@ import tony12 from "./Assets/addidas.png"
 import tony13 from "./Assets/tools.png"
 import tony14 from "./Assets/fruits.png"
 import tony15 from "./Assets/gucci.png"
+import tony16 from "./Assets/lv.png"
+import sofa from './Assets/sofa.png'
+import T1 from './Assets/trending1.png'
+import T2 from './Assets/trending3.png'
+import T3 from './Assets/trending4.png'
+import T4 from './Assets/trending5.png'
+import A1 from './Assets/addidas1.png'
+import A2 from './Assets/addidas2.png'
+import A3 from './Assets/addidas3.png'
+import groups from './Assets/Group 113.png'
 import {VscCircleLargeFilled} from 'react-icons/vsc'
 import {ImFire} from 'react-icons/im'
 import truck from './Assets/mdi_truck-delivery-outline.png'
@@ -669,7 +679,7 @@ const Main = () => {
               <div className='d-sm-flex flex-sm-row featured-row'>
                 <div className='card col-md-2 featured-card'>
                   <div>
-                    <img src={tony11} className='card-image img-fluid'/>
+                    <img src={tony16} className='card-image img-fluid'/>
                   </div>
                   <div className='storeName'>
                     <h2 className='featured-name'>Name of store</h2>
@@ -701,16 +711,463 @@ const Main = () => {
                 </div>                            
                 <div className='card col-md-2 featured-card'>
                   <div>
-                    <img src={tony15} className='card-image img-fluid'/>
+                    <img src={tony16} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                                                      
+              </div>
+            </div>
+            <div className='container'>
+              <h3 className='py-5'>Shop Fashions</h3>
+              <div className='d-sm-flex flex-sm-row featured-row'>
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony13} className='card-image img-fluid'/>
                   </div>
                   <div className='storeName'>
                     <h2 className='featured-name'>Name of store</h2>
                   </div>
                 </div>                            
-                                         
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony13} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony16} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony12} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony13} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                                                      
               </div>
             </div>
-            <Main2/>
+            <div className='great-design d-flex'>
+              <div className='great-sofa'>
+                <img src={sofa} className='ms-5 design-sofa'/>
+                <img src={groups} className='great-60'/>
+              </div>
+              <div className='design-text text-center text-white'>
+                <h5 className='design-wood'>Make real with wood</h5>
+                <h3>Greate Design Affordable Prices</h3>
+              </div>
+              <div className='mt-5'>
+              <a href='' className='design-explore text-decoration-none text-white text-center'>Explore Now</a>
+              </div>
+            </div>
+            {/* shop and gadget */}
+            <div className='container'>
+              <h3 className='py-5'>Shop Electronics and Gadgets</h3>
+              <div className='d-sm-flex flex-sm-row featured-row'>
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony13} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony13} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony16} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony12} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony13} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                                                      
+              </div>
+            </div>
+            {/* new Arival */}
+            <div className='container'>
+            <div className='tony2-heading pb-5'>New Arrival</div>
+            <div className='col-md-12'>
+              <div className='row'> 
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony1}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Eco 32" LED TELEVISION</div>
+                  <div className='price'>$69.36 <span className='tony-discount'>$50.74</span></div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony2}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Double pocket men jacket</div>
+                  <div className='price'>$56.12 <span className='tony-discount'>$69.36</span></div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony3}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Blender and Juicer</div>
+                  <div className='price'>$163.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony4}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Iphone 14 128gb</div>
+                  <div className='price'>$999.99</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony5}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Kids Cloth</div>
+                  <div className='price'>$45.32 <span className='tony-discount'>$50.74</span></div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony6}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Lenovo Laptop</div>
+                  <div className='price'>$240.99</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony7}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Patterned Chair</div>
+                  <div className='price'>$129.99</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony8}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Bluetooth</div>
+                  <div className='price'>$101.36 <span className='tony-discount'>$142.74</span></div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony9}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Red Heels</div>
+                  <div className='price'>$90.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={tony10}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>7kg washing machine</div>
+                  <div className='price'>$156.12</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={secound}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Long Chair</div>
+                  <div className='price'>$197.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={third}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Wooden Lamp</div>
+                  <div className='price'>$69.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Trending */}
+          <div className='container'>
+            <div className='tony2-heading pb-5'>Top Trending</div>
+            <div className='col-md-12'>
+              <div className='row'> 
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={T1}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Red Heels</div>
+                  <div className='price'>$90.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={T2}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>7kg washing machine</div>
+                  <div className='price'>$156.12</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={T3}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Long Chair</div>
+                  <div className='price'>$197.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+                <div className='tony-hot col-md-3 py-sm-2'>
+                  <img src={T4}/>
+                  <div className='select py-sm-3'>
+                    <VscCircleLargeFilled className='black'/>
+                    <VscCircleLargeFilled className='red'/>
+                    <VscCircleLargeFilled className='yellow'/>
+                    <VscCircleLargeFilled className='grey'/>
+                    <VscCircleLargeFilled className='green'/>
+                  </div>
+                  <div className='tony-text'>Wooden Lamp</div>
+                  <div className='price'>$69.36</div>
+                  <div className='link'>Add to Cart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='tony-row row pt-5'>
+                <div className='SubH'>Top categories for you</div>
+                  <div className='tony-kids col-md-2'>    
+                    <div className='kid text-center'>
+                      <img src={kid1} className="img-fluid" />
+                      <p>for Kids</p>
+                    </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                    <div className='kid text-center'>
+                        <img src={kid2} className="img-fluid" />
+                        <p>for Kids</p>
+                      </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                    <div className='kid text-center'>
+                      <img src={kid3} className="img-fluid" />
+                      <p>for Kids</p>
+                      </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                    <div className='kid text-center'>
+                      <img src={kid4} className="img-fluid" />
+                        <p>for Kids</p>
+                      </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                      <div className='kid text-center'>
+                        <img src={kid5} className="img-fluid" />
+                        <p>for Kids</p>
+                      </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                    <div className='kid text-center'>
+                        <img src={kid2} className="img-fluid" />
+                        <p>for Kids</p>
+                      </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                    <div className='kid text-center'>
+                        <img src={kid7} className="img-fluid" />
+                        <p>for Kids</p>
+                      </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                    <div className='kid text-center'>
+                      <img src={kid8} className="img-fluid" />
+                      <p>for Kids</p>
+                    </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                    <div className='kid text-center'>
+                      <img src={kid1} className="img-fluid" />
+                      <p>for Kids</p>
+                    </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                    <div className='kid text-center'>
+                        <img src={kid6} className="img-fluid" />
+                        <p>for Kids</p>
+                      </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                        <div className='kid text-center'>
+                            <img src={kid1} className="img-fluid" />
+                            <p>for Kids</p>
+                        </div>    
+                  </div>
+                  <div className='tony-kids col-md-2'>    
+                        <div className='kid text-center'>
+                            <img src={kid3} className="img-fluid" />
+                  <p>for Kids</p>
+                </div>    
+              </div>   
+            </div>
+            <div className='container'>
+              <h3 className='py-5'>Addidas</h3>
+              <div className='d-sm-flex flex-sm-row featured-row'>
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={A3} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={A1} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={A2} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={A3} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={A2} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                                                      
+              </div>
+            </div>
+            {/* <Main2/> */}
           </div>
         </div>
     </>
