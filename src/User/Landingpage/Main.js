@@ -40,6 +40,11 @@ import tony7 from "./Assets/tony2img7.png"
 import tony8 from "./Assets/tony2img8.png"
 import tony9 from "./Assets/tony2img9.png"
 import tony10 from "./Assets/tony2img10.png"
+import tony11 from "./Assets/mark.png"
+import tony12 from "./Assets/addidas.png"
+import tony13 from "./Assets/tools.png"
+import tony14 from "./Assets/fruits.png"
+import tony15 from "./Assets/gucci.png"
 import {VscCircleLargeFilled} from 'react-icons/vsc'
 import {ImFire} from 'react-icons/im'
 import truck from './Assets/mdi_truck-delivery-outline.png'
@@ -657,6 +662,52 @@ const Main = () => {
                     <h6>Organissers</h6>
                     <h6>Bookcases</h6>                
                 </div>
+              </div>
+            </div>
+            <div className='container'>
+              <h3 className='py-5'>Top feature Store for Us</h3>
+              <div className='d-sm-flex flex-sm-row featured-row'>
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony11} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony12} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony13} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony14} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={tony15} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                                         
               </div>
             </div>
             <Main2/>

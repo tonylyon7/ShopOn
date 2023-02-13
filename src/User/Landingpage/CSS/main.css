@@ -441,10 +441,33 @@ small{
     color:#FBF8F5;
     background-color: #E9672B;
 }
+.featured-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.featured-card{ 
+    width: 250px;
+}
+.storeName{
+    background: black;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 3px;
+}
+.featured-name{
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffff;
+}
 
 
-
-
+/* great design */
 .tony-friday {
     background-color: #212121;
     padding: 8px 12px;
