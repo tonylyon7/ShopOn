@@ -54,6 +54,14 @@ import T4 from './Assets/trending5.png'
 import A1 from './Assets/addidas1.png'
 import A2 from './Assets/addidas2.png'
 import A3 from './Assets/addidas3.png'
+import LV1 from './Assets/louise0.png'
+import LV2 from './Assets/louise1.png'
+import LV3 from './Assets/louise2.png'
+import LV4 from './Assets/louise3.png'
+import O1 from './Assets/oriamo1.png'
+import O2 from './Assets/oriamo2.png'
+import O3 from './Assets/oriamo3.png'
+import O4 from './Assets/oriamo4.png'
 import groups from './Assets/Group 113.png'
 import {VscCircleLargeFilled} from 'react-icons/vsc'
 import {ImFire} from 'react-icons/im'
@@ -1160,6 +1168,96 @@ const Main = () => {
                 <div className='card col-md-2 featured-card'>
                   <div>
                     <img src={A2} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                                                      
+              </div>
+            </div>
+            <div className='container'>
+              <h3 className='py-5'>Louis Vuitton</h3>
+              <div className='d-sm-flex flex-sm-row featured-row'>
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={LV1} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={LV2} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={LV3} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={LV4} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={LV2} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                                                      
+              </div>
+            </div>
+            <div className='container'>
+              <h3 className='py-5'>Oriamo</h3>
+              <div className='d-sm-flex flex-sm-row featured-row'>
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={O1} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={O2} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={O3} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={O4} className='card-image img-fluid'/>
+                  </div>
+                  <div className='storeName'>
+                    <h2 className='featured-name'>Name of store</h2>
+                  </div>
+                </div>                            
+                <div className='card col-md-2 featured-card'>
+                  <div>
+                    <img src={O2} className='card-image img-fluid'/>
                   </div>
                   <div className='storeName'>
                     <h2 className='featured-name'>Name of store</h2>
