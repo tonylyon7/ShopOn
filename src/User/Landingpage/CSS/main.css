@@ -565,3 +565,15 @@ small{
     margin-top: 8rem;
     margin-left: 5rem;
 }
+
+.holiday-sale img {
+    width: 1100px;
+}
+.holiday-explore {
+    position: relative;
+    top: -6rem;
+    left: 29.6rem;
+    padding: 8.7px 34px;
+    background-color: #103D37;
+    border-radius: 40px;
+}

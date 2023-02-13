@@ -1265,7 +1265,7 @@ const Main = () => {
                 </div>                                                      
               </div>
             </div>
-            {/* <Main2/> */}
+            <Main2/>
           </div>
         </div>
     </>
