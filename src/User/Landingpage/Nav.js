@@ -72,10 +72,17 @@ const Nav = () => {
               <div className=" icons col-md-3">
                 <ul className="Tonylist-nav d-sm-flex align-items-center list-unstyled mt-3">
                   <li>
-                    <GrFavorite />
+                    <Link to="/Wishlist">
+                      <GrFavorite />
+                    </Link>
                   </li>
                   <li>
-                    <BsCart2 /> 0
+                    <Link
+                      to="/Shopingcart"
+                      className="text-decoration-none text-dark"
+                    >
+                      <BsCart2 /> 0
+                    </Link>
                   </li>
                   <li>
                     <Link
@@ -105,7 +112,7 @@ const Nav = () => {
                   <Link to="/Blog">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/Contact">Contact</Link>
+                  <Link to="">Contact</Link>
                 </li>
                 <li>
                   <Link to="/About">About Us</Link>
