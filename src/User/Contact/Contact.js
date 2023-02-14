@@ -4,7 +4,7 @@ import "../Contact/Contact.css"
 const Contact = () => {
   return (
     <section className="contact">
-      <div className="container">
+      <div className="container-fluid">
         <div className="d-sm-flex">
           <div className="contact-begin">
             <h2>Contact Us</h2>
