@@ -12,7 +12,7 @@ const Main2 = () => {
         <img src={holiday} img-fluid/>
         <Link to='' className='holiday-explore text-decoration-none text-white'>Explore Now</Link>
       </div>
-      
+
     </div>
   )
 }

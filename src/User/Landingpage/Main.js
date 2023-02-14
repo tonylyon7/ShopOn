@@ -1281,7 +1281,7 @@ const Main = () => {
               </div>
             </div>
             <div className=' container py-4 '>
-              <button className='tony-news'><img src={newsletter} /></button>
+              <a href='' className='tony-news'><img src={newsletter} className='newletter-img' /></a>
               <p className='mt-3 ps-5 tony-ig'><Link to='' className='text-decoration-none text-dark'>Follow us on Instagram</Link></p>
             </div>
             <div className='container d-flex gap-5'>
@@ -1291,7 +1291,7 @@ const Main = () => {
               <img src={lyon4} className='col-md-2'/>
               <img src={lyon5} className='col-md-2'/>
             </div>
-            <div className='container d-flex gap-3 pt-4'>
+            <div className='d-flex pt-4 gap-3 landing-sponsor'>
               <img src={foot1}/>
               <img src={foot2}/>
               <img src={foot3}/>
