@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './CSS/main.css'
 import img1 from './Assets/img1.png'
+import img2 from './Assets/girl.png'
 import food from './Assets/food.png'
 import laptop from './Assets/laptop.png'
 import chair1 from './Assets/Rectangle 267.png'
@@ -62,6 +64,19 @@ import O1 from './Assets/oriamo1.png'
 import O2 from './Assets/oriamo2.png'
 import O3 from './Assets/oriamo3.png'
 import O4 from './Assets/oriamo4.png'
+import lyon1 from './Assets/tone1.png'
+import lyon2 from './Assets/tone2.png'
+import lyon3 from './Assets/tone3.png'
+import lyon4 from './Assets/tone4.png'
+import lyon5 from './Assets/tone5.png'
+import foot1 from './Assets/logo1.png'
+import foot2 from './Assets/logo2.png'
+import foot3 from './Assets/logo3.png'
+import foot4 from './Assets/logo4.png'
+import foot5 from './Assets/logo5.png'
+import foot6 from './Assets/logo6.png'
+import foot7 from './Assets/logo7.png'
+import newsletter from './Assets/news.png'
 import groups from './Assets/Group 113.png'
 import {VscCircleLargeFilled} from 'react-icons/vsc'
 import {ImFire} from 'react-icons/im'
@@ -76,8 +91,8 @@ const Main = () => {
     <>
      <div className='container Tonys-main'>
         <div className="row">
-          <div className="col-md-4 text-center mans">
-               <img classname='mans'src={img1}/>
+          <div className="col-md-4 text-center pt-5">
+            <img src={img1} />
           </div>
           <div className="col-md-4 text-center Lyon-wrap">
             <div className='opo'>
@@ -92,8 +107,8 @@ const Main = () => {
                 <button className='dami-shop px-5 py-2'> shop now</button>
           </div>
           </div>
-          <div className="col-md-4 text-center ">
-          <p className="text-warning">2nd image</p>
+          <div className="col-md-4 text-center pt-4">
+            <img src={img2}/>
           </div>
         </div>
      </div>
@@ -1265,7 +1280,28 @@ const Main = () => {
                 </div>                                                      
               </div>
             </div>
-            <Main2/>
+            <div className=' container py-4 '>
+              <button className='tony-news'><img src={newsletter} /></button>
+              <p className='mt-3 ps-5 tony-ig'><Link to='' className='text-decoration-none text-dark'>Follow us on Instagram</Link></p>
+            </div>
+            <div className='container d-flex gap-5'>
+              <img src={lyon1} className='col-md-2'/>
+              <img src={lyon2} className='col-md-2'/>
+              <img src={lyon3} className='col-md-2'/>
+              <img src={lyon4} className='col-md-2'/>
+              <img src={lyon5} className='col-md-2'/>
+            </div>
+            <div className='container d-flex gap-3 pt-4'>
+              <img src={foot1}/>
+              <img src={foot2}/>
+              <img src={foot3}/>
+              <img src={foot4}/>
+              <img src={foot5}/>
+              <img src={foot6}/>
+              <img src={foot7}/>
+            </div>
+            
+            {/* <Main2/> */}
           </div>
         </div>
     </>

@@ -102,12 +102,7 @@ small{
     margin-left: -4rem;
     margin-top: -7rem;
 }
-.mans{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
+
 .tonyweda{
     font-style: normal;
     font-weight: 400;
@@ -567,13 +562,24 @@ small{
 }
 
 .holiday-sale img {
-    width: 1100px;
+    width: 1200px;
+    /* justify-content: center; */
+    padding-left: 5rem;
 }
 .holiday-explore {
     position: relative;
-    top: -6rem;
-    left: 29.6rem;
+    top: -7rem;
+    left: 33rem;
     padding: 8.7px 34px;
     background-color: #103D37;
     border-radius: 40px;
+}
+
+.tony-news {
+    border: none;  
+}
+
+.tony-ig {
+    justify-content: center;
+    display: flex;
 }
