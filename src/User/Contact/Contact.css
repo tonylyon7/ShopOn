@@ -15,13 +15,13 @@
      }
      
      .email-label {
-         margin-left: 32%;
+         margin-left: 37%;
          font-weight: bold;
      }
      
      .subject-label {
          margin-top: 20px;
-         margin-left: 32%;
+         margin-left: 36%;
          font-weight: bold;
      }
      
@@ -31,7 +31,7 @@
      }
      
      .contact-form input {
-         width: 300px;
+         width: 335px;
          padding: 10px 20px;
          outline: none;
          border: 1px solid #B6B8B8;
@@ -80,6 +80,9 @@
      .working-hour p {
          font-size: 15px;
          color: #5D5F5F;
+     }
+     .contact-social img {
+        padding: 10px;
      }
      /* .iframe-map {
          width: 100%;

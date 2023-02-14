@@ -1,9 +1,20 @@
 import React from "react"
 import "../Contact/Contact.css"
+import Footer from "../Footer/Footer"
+import Navbar from "../Navbar/Navbar"
+import home from './Assets/Rectangle.png'
+import phone from './Assets/Vector.png'
+import email from './Assets/Union.png'
+import facebook from './Assets/Facebook.png'
+import google from './Assets/Google.png'
+import camera from './Assets/Camera.png'
+import twitter from './Assets/Twitter.png'
+import youtube from './Assets/Youtube.png'
 
 const Contact = () => {
   return (
     <section className="contact">
+      <Navbar/>
       <div className="container-fluid">
         <div className="d-sm-flex">
           <div className="contact-begin">
@@ -39,17 +50,24 @@ const Contact = () => {
           </div>
           <div className="working-hour">
             <h3>WORKING HOURS</h3>
-            <p>Monday-Friday, 9:00am-5:00pm WAT.</p>
+            <p className="mt-1">Monday-Friday, 9:00am-5:00pm WAT.</p>
 
-            <p>Soair Hub, Airforce base Ikeja LAGOS</p>
-            <p>+2347082427348</p>
-            <p>hello@shoponsoair.com</p>
+            <p className="d-flex align-items-center"><img src={home} className='me-3'/> Soair Hub, Airforce base Ikeja LAGOS</p>
+            <p className="d-flex align-items-center"><img src={phone} className='me-3'/> +2347082427348</p>
+            <p className="d-flex align-items-center"><img src={email} className='me-3'/> hello@shoponsoair.com</p>
 
-            <h3>JOIN US</h3>
+            <h3 className="mt-4">JOIN US</h3>
             <p>
               We are happily open new collaboration. You can ask any questions
               and offer problems by phone,email, Instagram or Facebook.
             </p>
+            <div className="contact-social">
+              <a href="" target='_blank'><img src={facebook}/></a>
+              <a href="" target='_blank'><img src={google}/></a>
+              <a href="" target='_blank'><img src={camera}/></a>
+              <a href="" target='_blank'><img src={twitter}/></a>
+              <a href="" target='_blank'><img src={youtube}/></a>
+            </div>
           </div>
         </div>
         <div className="mt-5 iframe-map">
@@ -65,6 +83,8 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
+
+      <Footer/>
     </section>
   )
 }
