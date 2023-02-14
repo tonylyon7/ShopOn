@@ -1281,7 +1281,7 @@ const Main = () => {
                 </div>                                                      
               </div>
             </div>
-            <div className=' container py-4 '>
+            <div className=' container py-4 mt-5'>
               <a href='' className='tony-news'><img src={newsletter} className='newletter-img' /></a>
               <p className='mt-3 ps-5 tony-ig'><Link to='' className='text-decoration-none text-dark'>Follow us on Instagram</Link></p>
             </div>
