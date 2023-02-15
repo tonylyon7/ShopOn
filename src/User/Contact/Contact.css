@@ -84,7 +84,6 @@
      .contact-social img {
         padding: 10px;
      }
-     /* .iframe-map {
-         width: 100%;
-         height: 100vh;
-     } */
+     .iframe-map {
+        margin-bottom: -1.8rem;
+     }

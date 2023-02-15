@@ -73,7 +73,7 @@ const Contact = () => {
         <div className="mt-5 iframe-map">
           <iframe
             width="100%"
-            height="100%"
+            height="350px"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=code learners soair&t=&z=14&ie=UTF8&iwloc=&output=embed"
             frameborder="0"
