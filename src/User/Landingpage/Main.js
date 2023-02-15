@@ -188,9 +188,6 @@ const Main = () => {
                         </div>
                         <p className='lastitem'>Already Sold</p>
                     </div>
-                    {/* <div className='blackfriday'>
-                        <img src={black}/>
-                    </div> */}
                 </div>
 
                 <div className='col-md-9'>
