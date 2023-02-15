@@ -1292,7 +1292,7 @@ const Main = () => {
               <img src={lyon4} className='col-md-2'/>
               <img src={lyon5} className='col-md-2'/>
             </div>
-            <div className='d-flex pt-4 gap-3 landing-sponsor'>
+            <div className='d-flex pt-4 gap-3 landing-sponsor mt-5'>
               <img src={foot1}/>
               <img src={foot2}/>
               <img src={foot3}/>
@@ -1301,9 +1301,9 @@ const Main = () => {
               <img src={foot6}/>
               <img src={foot7}/>
             </div>
-            <Footer/>
             {/* <Main2/> */}
           </div>
+          <Footer/>
         </div>
     </>
   )
