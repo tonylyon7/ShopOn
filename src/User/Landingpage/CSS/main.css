@@ -590,3 +590,14 @@ small{
     justify-content: center;
     display: flex;
 }
+
+@media screen and (max-width: 1024px) {
+    
+}
+  
+
+@media screen and (max-width: 600px) {
+    
+    
+  }
+  
