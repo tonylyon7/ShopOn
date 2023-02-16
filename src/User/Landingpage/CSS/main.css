@@ -827,17 +827,45 @@ small{
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-
+.great-designed {
+    display: none !important;
+}
 
   /* TOP TRENDING */
   .tony-trending {
     display: grid !important;
+    gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .featured-storename {
     width: 330px;
 } 
+
+.newletter-img {
+    width: 130%;
+    height: 70px;
+    object-fit: cover;
+    margin-left: -3rem;
+}
+.landing-insta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    margin-left: -1.7rem !important;
+}
+.landing-insta img {
+    width: 190%;
+}
+.landing-sponsor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-left: -15px;
+}
+.landing-sponsor img {
+    width: 120%;
+}
 }
 
 /* @media screen and (max-width: 1024px) {

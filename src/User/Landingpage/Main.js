@@ -828,6 +828,7 @@ const Main = () => {
               </div>
             </div>
 
+          <div className='great-designed'>
             <div className='great-design d-flex'>
               <div className='great-sofa'>
                 <img src={sofa} className='ms-5 design-sofa'/>
@@ -841,6 +842,7 @@ const Main = () => {
               <a href='' className='design-explore text-decoration-none text-white text-center'>Explore Now</a>
               </div>
             </div>
+          </div>  
             {/* shop and gadget */}
             <div className='container'>
               <h3 className='mt-5 texttt landing-textt textt'>Shop Electronics and Gadgets</h3>
@@ -1389,14 +1391,14 @@ const Main = () => {
               <a href='' className='tony-news'><img src={newsletter} className='newletter-img' /></a>
               <p className='mt-3 ps-5 tony-ig'><Link to='' className='text-decoration-none text-dark'>Follow us on Instagram</Link></p>
             </div>
-            <div className='container d-flex gap-5'>
+            <div className='container d-sm-flex landing-insta gap-sm-5'>
               <img src={lyon1} className='col-md-2'/>
               <img src={lyon2} className='col-md-2'/>
               <img src={lyon3} className='col-md-2'/>
               <img src={lyon4} className='col-md-2'/>
               <img src={lyon5} className='col-md-2'/>
             </div>
-            <div className='d-flex pt-4 gap-3 landing-sponsor mt-5'>
+            <div className='d-sm-flex pt-4 gap-sm-3 landing-sponsor mt-5'>
               <img src={foot1}/>
               <img src={foot2}/>
               <img src={foot3}/>
