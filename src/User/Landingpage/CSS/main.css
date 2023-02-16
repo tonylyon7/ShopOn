@@ -773,6 +773,9 @@ small{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
  }
+ .categotie-img img {
+    width: 130% !important;
+ }
 
 /* TONY-POPULAR */
  .tony-popular {

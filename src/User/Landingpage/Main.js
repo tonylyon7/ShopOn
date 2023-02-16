@@ -610,37 +610,37 @@ const Main = () => {
               <div className='d-sm-flex categotie-img text-center'>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid1} className="img-fluid" />
+                  <img src={kid1} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid2} className="img-fluid" />
+                  <img src={kid2} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid3} className="img-fluid" />
+                  <img src={kid3} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid4} className="img-fluid" />
+                  <img src={kid4} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid5} className="img-fluid" />
+                  <img src={kid5} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid6} className="img-fluid" />
+                  <img src={kid6} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>    
