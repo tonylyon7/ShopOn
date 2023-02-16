@@ -401,7 +401,7 @@ const Main = () => {
                     <a href='' className='Tony-explore text-decoration-none text-center'>Explore Now</a>
                     <img src={table2} className="tony-chair2 img-fluid" />
                 </div>
-                <div className='tony-lamb ms-5'>
+                <div className='tony-lamb ms-sm-5'>
                     <img src={lamb1} className="tony-lamb1 img-fluid" />
                     <h6 className='tony-collection tony-coll2'>2020's NEW COLLECTION</h6>
                     <h3 className='tony-comfort tony-comf2'>Vega Table Lamp</h3>

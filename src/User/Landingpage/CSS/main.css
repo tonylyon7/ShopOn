@@ -693,9 +693,45 @@ small{
         font-family: serif;
         margin-left: -0.8rem;
         color: #fff;
-        /* padding-bottom: 20px; */
     }
-   
+
+    .tony-chair {
+        height: 20rem;
+        width: 400px;
+        margin-left: -5.5rem;
+    }
+    .tony-chair1 {
+        margin-top: 2.6rem;
+        width: 200px;
+    } 
+    .tony-collection {
+        margin-left: 10rem;
+        margin-top: 8rem;
+    }
+   .tony-comfort {
+    margin-left: 8rem;
+    margin-top: 10rem;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 1px;
+   }
+   .Tony-explore {
+    padding-top: 6px;
+    width: 12rem;
+    height: 40px;
+    margin-top: 15rem;
+    margin-left: 10rem;
+}
+.tony-chair2 {
+    display: none;
+}
+.tony-lamb {
+    height: 20rem;
+    width: 400px;
+    margin-left: -5.5rem;
+    margin-top: 3rem;
+}
+
 }
 
 /* @media screen and (max-width: 1024px) {
