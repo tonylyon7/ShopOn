@@ -313,10 +313,11 @@ small{
 
 .tony-chair {
     background-color: #FDF2E8;
-    border-radius: 8px;
+    border-radius: 10px;
     display: flex;
     height: 27rem;
     width: 580px;
+    box-shadow: 0 2px 8px gray;
 }
 .tony-hot-last {
     margin-left: 6rem;
@@ -604,7 +605,7 @@ small{
         height: 100%;
     }
     .special-offer {
-        margin-left: 2rem;
+        margin-left: 0;
         margin-top: 1rem;
     }
     .special img {
@@ -612,7 +613,7 @@ small{
     }
     .man{
         background: #E8E8E8;
-        width: 350px !important;
+        width: 100% !important;
         height: 600px;
     }
     .chair {
@@ -620,7 +621,6 @@ small{
     }
     .special-second {
         margin-top: 2rem;
-        margin-left: -2rem;
     }
     .special-second img {
         width: 100%;
@@ -633,8 +633,7 @@ small{
         margin-top: -5.7rem;
     }
     .tony-weather {
-        width: 380px;
-        margin-left: -1.8rem;
+        width: 100%;
     } 
     .weather {
         margin-left: -2.5rem;
@@ -730,6 +729,18 @@ small{
     width: 400px;
     margin-left: -5.5rem;
     margin-top: 3rem;
+}
+.tony-lamb1 {
+    display: none;
+}
+.tony-coll2 {
+    margin-left: 3rem;
+}
+.tony-comf2 {
+    margin-left: 2rem;
+}
+.tony-explo2 {
+    margin-left: 3.7rem;
 }
 
 }
