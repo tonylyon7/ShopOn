@@ -189,7 +189,7 @@ const Main = () => {
                         <p className='lastitem'>Already Sold</p>
                     </div>
                 </div>
-
+                 <div className='container'>
                 <div className='col-md-9 hot-imgs'>
                     <div className='row hot-sales-imgs'>
                         <div className='tony-hot col-md-3'>
@@ -313,6 +313,7 @@ const Main = () => {
                             <div className='link'>Add to Cart</div>
                         </div>
                     </div> 
+                </div>
                 </div>
             </div>
             <div> 
