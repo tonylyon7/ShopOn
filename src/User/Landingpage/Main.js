@@ -1,6 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './CSS/main.css'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { FreeMode } from 'swiper'
+import 'swiper/css'
+import 'swiper/css/free-mode'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import ProductCard from './ProductCard'
 import img1 from './Assets/img1.png'
 import img2 from './Assets/girl.png'
 import food from './Assets/food.png'
@@ -88,6 +94,7 @@ import Footer from './Footer'
 
 
 const Main = () => {
+
   return (
     <>
      <div className='container Tonys-main'>
@@ -157,10 +164,10 @@ const Main = () => {
       </div>
     </section>
     {/* Hotsales */}
-    <div className=''>
+    <div className='hott-sales'>
       <div className='container'>
             <h2 className='Tony-heading'>Hot Sales</h2>
-            <div className='row tony-liner' >
+            <div className='tony-liner d-sm-flex' >
                 <div className='tony col-md-3'>
                     <div className='flash-sales'>
                         <div>Flash Sale</div>
@@ -190,9 +197,9 @@ const Main = () => {
                     </div>
                 </div>
                  <div className='container'>
-                <div className='col-md-9 hot-imgs'>
-                    <div className='row hot-sales-imgs'>
-                        <div className='tony-hot col-md-3'>
+                <div className=' hot-imgs'>
+                    <div className='hot-sales-imgs'>
+                        <div className='tony-hot'>
                             <img src={first}/>
 
                             <div className='select'>
@@ -207,7 +214,7 @@ const Main = () => {
                             <div className='price'>$69.36</div>
                             <div className='link'>Add to Cart</div>
                         </div>
-                        <div className='tony-hot col-md-3'>
+                        <div className='tony-hot'>
                             <img src={secound}/>
 
                             <div className='select'>
@@ -222,7 +229,7 @@ const Main = () => {
                             <div className='price'>$69.36</div>
                             <div className='link'>Add to Cart</div>
                         </div>
-                        <div className='tony-hot col-md-3'>
+                        <div className='tony-hot'>
                             <img src={third}/>
 
                             <div className='select'>
@@ -237,7 +244,7 @@ const Main = () => {
                             <div className='price'>$69.36 <span className='tony-discount'>$50.74</span></div>
                             <div className='link'>Add to Cart</div>
                         </div>
-                        <div className='tony-hot col-md-3'>
+                        <div className='tony-hot'>
                             <img src={forth}/>
 
                             <div className='select'>
@@ -252,7 +259,7 @@ const Main = () => {
                             <div className='price'>$69.36</div>
                             <div className='link'>Add to Cart</div>
                         </div>
-                        <div className='tony-hot col-md-3'>
+                        <div className='tony-hot'>
                             <img src={fifth}/>
 
                             <div className='select'>
@@ -267,7 +274,7 @@ const Main = () => {
                             <div className='price'>$69.36 <span className='tony-discount'>$50.74</span></div>
                             <div className='link'>Add to Cart</div>
                         </div>
-                        <div className='tony-hot col-md-3'>
+                        <div className='tony-hot'>
                             <img src={sixth}/>
 
                             <div className='select'>
@@ -282,7 +289,7 @@ const Main = () => {
                             <div className='price'>$69.36</div>
                             <div className='link'>Add to Cart</div>
                         </div>
-                        <div className='tony-hot col-md-3'>
+                        <div className='tony-hot'>
                             <img src={seventh}/>
 
                             <div className='select'>
@@ -297,7 +304,7 @@ const Main = () => {
                             <div className='price'>$69.36 </div>
                             <div className='link'>Add to Cart</div>
                         </div>
-                        <div className='tony-hot col-md-3'>
+                        <div className='tony-hot'>
                             <img src={last}/>
 
                             <div className='select'>
@@ -413,7 +420,7 @@ const Main = () => {
             {/* our future   */}
           
             <div className='container'>
-            <div className='tony2-heading'>Our Feature Product</div>
+            <div className='tony2-heading SubH '>Our Feature Product</div>
             <div className='tony2-items'>
                 <ul>
                     <li><a href=''>All</a></li>
@@ -606,7 +613,7 @@ const Main = () => {
             </div>
             {/* Top categories */}
             <div className='tony-categories'>
-            <h2>Top categories for you</h2>
+            <h2 className='SubH'>Top categories for you</h2>
               <div className='d-sm-flex categotie-img text-center'>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
@@ -700,95 +707,127 @@ const Main = () => {
               </div>
             </div>
             <div className='container'>
-              <h3 className='py-5'>Top feature Store for Us</h3>
-              <div className='d-sm-flex flex-sm-row featured-row'>
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony16} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony12} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony13} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony14} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony16} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                                                      
+              <h3 className='mt-5 landing-textt textt'>Top featured Store for Us</h3>
+                <div className='mt-5'>
+                    <div>
+                      <Swiper
+                      FreeMode={true}
+                      grabCursor={true}
+                      modules={[FreeMode]}
+                      className='mySwiper'
+                      breakpoints={{
+                        0: {
+                          slidesPerView: 1,
+                          spaceBetween: 10,
+                        },
+                        480: {
+                          slidesPerView: 2,
+                          spaceBetween: 10,
+                        },
+                        768: {
+                          slidesPerView: 3,
+                          spaceBetween: 15,
+                        },
+                        1024: {
+                          slidesPerView: 4,
+                          spaceBetween: 15,
+                        },
+                        1280: {
+                          slidesPerView: 5,
+                          spaceBetween: 30,
+                        }
+                      }}
+                      >
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony16, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony12, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony13, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony14, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony16, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony14, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony13, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony14, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      </Swiper>
+                    </div>
+                </div>
+            </div> 
+
+            <div className='container mt-5'>
+              <h3 className='mt-5 landing-textt textt'>Shop Fashions</h3>
+              <div>
+                <div>
+                <Swiper
+                  FreeMode={true}
+                  grabCursor={true}
+                  modules={[FreeMode]}
+                  className='mySwiper mt-4'
+                  breakpoints={{
+                    0: {
+                      slidesPerView: 1,
+                      spaceBetween: 10,
+                    },
+                    480: {
+                      slidesPerView: 2,
+                      spaceBetween: 10,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                      spaceBetween: 15,
+                    },
+                    1024: {
+                      slidesPerView: 4,
+                      spaceBetween: 15,
+                    },
+                    1280: {
+                      slidesPerView: 5,
+                      spaceBetween: 30,
+                    }
+                  }}
+                 >
+                  <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony13, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony13, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony16, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony12, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony15, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony14, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony13, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony14, StoreName: "Store Name"}}/>
+                  </SwiperSlide>
+              </Swiper>
+                </div>
               </div>
             </div>
-            <div className='container'>
-              <h3 className='py-5'>Shop Fashions</h3>
-              <div className='d-sm-flex flex-sm-row featured-row'>
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony13} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony13} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony16} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony12} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony13} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                                                      
-              </div>
-            </div>
+
             <div className='great-design d-flex'>
               <div className='great-sofa'>
                 <img src={sofa} className='ms-5 design-sofa'/>
@@ -804,54 +843,70 @@ const Main = () => {
             </div>
             {/* shop and gadget */}
             <div className='container'>
-              <h3 className='py-5'>Shop Electronics and Gadgets</h3>
-              <div className='d-sm-flex flex-sm-row featured-row'>
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony13} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony13} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony16} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony12} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={tony13} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                                                      
+              <h3 className='mt-5 landing-textt textt'>Shop Electronics and Gadgets</h3>
+              <div>
+                <div>
+                <Swiper
+                  FreeMode={true}
+                  grabCursor={true}
+                  modules={[FreeMode]}
+                  className='mySwiper mt-4'
+                  breakpoints={{
+                    0: {
+                      slidesPerView: 1,
+                      spaceBetween: 10,
+                    },
+                    480: {
+                      slidesPerView: 2,
+                      spaceBetween: 10,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                      spaceBetween: 15,
+                    },
+                    1024: {
+                      slidesPerView: 4,
+                      spaceBetween: 15,
+                    },
+                    1280: {
+                      slidesPerView: 5,
+                      spaceBetween: 30,
+                    }
+                  }}
+                 >
+                  <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony13, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony13, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony16, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony12, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony15, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony14, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony13, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: tony14, StoreName: "Store Name"}}/>
+                  </SwiperSlide>
+              </Swiper>
+                </div>
               </div>
             </div>
+
             {/* new Arival */}
             <div className='container'>
-            <div className='tony2-heading pb-5'>New Arrival</div>
-            <div className='col-md-12'>
+            <div className='tony2-heading textt landing-textt'>New Arrival</div>
+            <div className='col-md-12 mt-5'>
               <div className='row tony-arrival'> 
                 <div className='tony-hot col-md-3 py-sm-2'>
                   <img src={tony1}/>
@@ -1014,8 +1069,8 @@ const Main = () => {
           </div>
           {/* Trending */}
           <div className='container'>
-            <div className='tony2-heading pb-5'>Top Trending</div>
-            <div className='col-md-12'>
+            <div className='tony2-heading textt landing-textt'>Top Trending</div>
+            <div className='col-md-12 mt-5'>
               <div className='row tony-trending'> 
                 <div className='tony-hot col-md-3 py-sm-2'>
                   <img src={T1}/>
@@ -1148,139 +1203,187 @@ const Main = () => {
               </div>   
             </div>
             <div className='container'>
-              <h3 className='py-5'>Addidas</h3>
-              <div className='d-sm-flex flex-sm-row featured-row'>
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={A3} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={A1} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={A2} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={A3} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={A2} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                                                      
+              <h3 className='textt landing-textt'>Addidas</h3>
+              <div className='mt-4'>
+                <div>
+                <Swiper
+                  FreeMode={true}
+                  grabCursor={true}
+                  modules={[FreeMode]}
+                  className='mySwiper mt-4'
+                  breakpoints={{
+                    0: {
+                      slidesPerView: 1,
+                      spaceBetween: 10,
+                    },
+                    480: {
+                      slidesPerView: 2,
+                      spaceBetween: 10,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                      spaceBetween: 15,
+                    },
+                    1024: {
+                      slidesPerView: 4,
+                      spaceBetween: 15,
+                    },
+                    1280: {
+                      slidesPerView: 5,
+                      spaceBetween: 30,
+                    }
+                  }}
+                 >
+                  <SwiperSlide>
+                        <ProductCard data={{imgSrc: A3, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: A1, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: A2, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: A3, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: A2, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: A3, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: A1, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: A2, StoreName: "Store Name"}}/>
+                  </SwiperSlide>
+              </Swiper>
+                </div>
               </div>
+
             </div>
             <div className='container'>
-              <h3 className='py-5'>Louis Vuitton</h3>
-              <div className='d-sm-flex flex-sm-row featured-row'>
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={LV1} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={LV2} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={LV3} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={LV4} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={LV2} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                                                      
+              <h3 className='textt landing-textt'>Louis Vuitton</h3>
+              <div className='mt-4'>
+                <div>
+                <Swiper
+                  FreeMode={true}
+                  grabCursor={true}
+                  modules={[FreeMode]}
+                  className='mySwiper mt-4'
+                  breakpoints={{
+                    0: {
+                      slidesPerView: 1,
+                      spaceBetween: 10,
+                    },
+                    480: {
+                      slidesPerView: 2,
+                      spaceBetween: 10,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                      spaceBetween: 15,
+                    },
+                    1024: {
+                      slidesPerView: 4,
+                      spaceBetween: 15,
+                    },
+                    1280: {
+                      slidesPerView: 5,
+                      spaceBetween: 30,
+                    }
+                  }}
+                 >
+                  <SwiperSlide>
+                        <ProductCard data={{imgSrc: LV1, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: LV2, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: LV3, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: LV4, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: LV2, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: LV1, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: LV4, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: LV3, StoreName: "Store Name"}}/>
+                  </SwiperSlide>
+              </Swiper>
+                </div>
               </div>
+
             </div>
             <div className='container'>
-              <h3 className='py-5'>Oriamo</h3>
-              <div className='d-sm-flex flex-sm-row featured-row'>
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={O1} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={O2} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={O3} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={O4} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                            
-                <div className='card col-md-2 featured-card'>
-                  <div>
-                    <img src={O2} className='card-image img-fluid'/>
-                  </div>
-                  <div className='storeName'>
-                    <h2 className='featured-name'>Name of store</h2>
-                  </div>
-                </div>                                                      
+              <h3 className='textt landing-textt'>Oriamo</h3>
+              <div className='mt-5'>
+                <div>
+                <Swiper
+                  FreeMode={true}
+                  grabCursor={true}
+                  modules={[FreeMode]}
+                  className='mySwiper mt-4'
+                  breakpoints={{
+                    0: {
+                      slidesPerView: 1,
+                      spaceBetween: 10,
+                    },
+                    480: {
+                      slidesPerView: 2,
+                      spaceBetween: 10,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                      spaceBetween: 15,
+                    },
+                    1024: {
+                      slidesPerView: 4,
+                      spaceBetween: 15,
+                    },
+                    1280: {
+                      slidesPerView: 5,
+                      spaceBetween: 30,
+                    }
+                  }}
+                 >
+                  <SwiperSlide>
+                        <ProductCard data={{imgSrc: O1, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: O2, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: O3, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: O4, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: O2, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: O1, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: O4, StoreName: "Store Name"}}/>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <ProductCard data={{imgSrc: O3, StoreName: "Store Name"}}/>
+                  </SwiperSlide>
+              </Swiper>
+                </div>
               </div>
+
             </div>
             <div className=' container py-4 mt-5'>
               <a href='' className='tony-news'><img src={newsletter} className='newletter-img' /></a>

@@ -244,6 +244,13 @@ small{
     padding-bottom: 0.5rem;
     text-align: center;
 }
+.hott-sales {
+    margin-left: -3rem;
+}
+.hot-sales-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 .tony-hot:hover {
     box-shadow: 0 2px 8px gray;
@@ -439,29 +446,31 @@ small{
     color:#FBF8F5;
     background-color: #E9672B;
 }
-.featured-row{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    overflow: hidden;
-    gap: 10px;
-}
 
-.featured-card{ 
-    width: 250px;
+.featured-img {
+    min-width: 30rem;
+    padding: 40px;
+    margin-left: -1rem;
 }
-.storeName{
-    background: black;
-    color: white;
-    overflow: hidden;
+.featured-img img {
+    width: 328px;
+    height: 170px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+.featured-storename {
+    background: rgba(0, 0, 0, 0.74);
+    border-radius: 8px;
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    font-size: 11px !important;
+    padding-top: 10px;
+    line-height: 36px;
+    align-items: center;
     text-align: center;
-    border-radius: 3px;
-}
-.featured-name{
-    overflow: hidden;
-    font-size: 25px;
-    font-weight: 400;
-    color: #ffff;
+    margin-top: -3.1rem;
+    position: relative;
 }
 
 
@@ -644,6 +653,9 @@ small{
     }
 
     /* HOTSALES */
+    .hott-sales {
+        margin-left: 0;
+    }
     .lastitem {
         margin-left: 6rem;
     }
@@ -685,7 +697,7 @@ small{
         display: grid !important;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    .SubH {
+    .landing-textt {
         margin-top: 3rem;
         background-color: #DE5212;
         height: 50px;
@@ -696,6 +708,25 @@ small{
         font-family: serif;
         margin-left: -0.8rem;
         color: #fff;
+        text-align: start;
+        margin-bottom: 3rem;
+    }
+    .textt {
+        margin-left: -3rem;
+        width: 130%;
+    }
+    .SubH {
+        margin-top: 3rem;
+        background-color: #DE5212;
+        height: 50px;
+        width: 115%;
+        padding-left: 1rem;
+        font-size: 30px;
+        font: bolder;
+        font-family: serif;
+        margin-left: -1.5rem;
+        color: #fff;
+        text-align: start !important;
     }
 
     .tony-chair {
@@ -772,6 +803,9 @@ small{
  .categotie-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+ }
+ .categotie-img {
+    margin-left: -1.5rem;
  }
  .categotie-img img {
     width: 130% !important;
