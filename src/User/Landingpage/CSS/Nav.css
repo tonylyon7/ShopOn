@@ -39,3 +39,18 @@
     margin-left: -28%;
     color: #5D5F5F;
 }
+
+@media (max-width: 992px) {
+    .Tony-Nav {
+       display: none;   
+    }
+    .Tony-head {
+        display: none;
+    }
+    .Tony-main-nav {
+        display: none;
+    }
+    .landing-search {
+        display: block;
+    }
+}

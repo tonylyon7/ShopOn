@@ -72,30 +72,6 @@ const Checkout = () => {
                         <label type='tel' className='check3'>Phone Number</label><br/>
                         <input for='zip code' className='check-input'></input>
                         <input for='phone number' className='check-input ms-5'></input><br/>
-                        <p className='check22'>
-                            <input type='checkbox'></input>
-                            <label for='check1' id='tick1'>My billing and shipping address are the same</label>
-                        </p>
-                        <p>
-                            <input type='checkbox'></input>
-                            <label for='check2'>Create an account for 10% off this purchase</label>
-                        </p>
-                             
-                        <p>Add Tip</p>
-                        <table>
-                            <thead>Show your support for the team at Soairshop</thead>
-                            <tr>
-                                <td>15%</td>
-                                <td>18%</td>
-                                <td>20%</td>
-                                <td>None</td>
-                            </tr>
-                            <tr>
-                                <td>$14.70</td>
-                                <td>$17.64</td>
-                                <td>$19.60</td>
-                            </tr>
-                        </table>
                     </form>
                 </div>
             </div>

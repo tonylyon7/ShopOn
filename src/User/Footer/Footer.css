@@ -66,4 +66,13 @@
         width: 113%;
         margin-left: -10.7%;
     }
+    .foot-new-img {
+        margin-left: 8rem;
+    }
+    .footer-card {
+        margin-left: -1rem;
+    }
+    .footer-card img {
+        margin-left: 2.5rem;
+    }
 }

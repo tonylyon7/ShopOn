@@ -10,6 +10,7 @@ import blogImg6 from './Assets/Group.png'
 import blogImg7 from './Assets/Rectangle 17 (13).png'
 import BlogComment from './BlogComment'
 import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
 
 
 const BlogDetail = () => {
@@ -98,6 +99,8 @@ const BlogDetail = () => {
             </div>
           </section>
           </div>
+
+          <Footer/>
     </div>
   )
 }

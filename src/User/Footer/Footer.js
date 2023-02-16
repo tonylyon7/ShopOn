@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className='footer-hr mt-4'/>
-        <div className='d-flex justify-content-between '>
+        <div className='d-sm-flex justify-content-between text-center'>
           <p className='mt-3'>Copyright © All rights Reserved</p>
           <div className='footer-card'>
             <img src={visa} />

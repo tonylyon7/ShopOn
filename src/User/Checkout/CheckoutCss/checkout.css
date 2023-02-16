@@ -67,3 +67,15 @@
     display: inline;
     padding-left: 10px;
 }
+.box1{
+    box-sizing: border-box;
+    width: 12.4px;
+    height: 12.4px;
+    background: #FFFFFF;
+    border: 0.775px solid #D0D5DD;
+    border-radius: 3.1px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: inline;
+}

@@ -1,16 +1,19 @@
-.wrapper{
-    width: 90%;
+.contsteph{
+    justify-content: space-between;
 }
-
+.stephcon{
+    margin-right: 17px;
+}
 .stephimage2{
-    padding-top: 30px;
-    margin-top: 30px;
+    padding-top: 18px;
+    margin-top: 19px
     
 }
 
 .stephfrontimg{
-    width: 590px;
+    width: 540px;
     height: 629px;
+    margin-left: 8px;
 }
 .registerheading{
     font-weight: 600;
@@ -31,7 +34,6 @@
     box-shadow: 2px 2px 2px rgb(151, 150, 150);
 }
 .socialmedia{
-    
 }
 .stephor{
     text-align: center;
@@ -65,11 +67,11 @@
 .passworde{
     margin-top: 10px;
     margin-bottom: 4px;
-    margin-left: 5px;
+    margin-left: 3px;
     font-weight: 500;
 }
 .forgotpassword{
-    margin-left: 363px;
+    margin-left: 200px;
     color: red;
     text-decoration: none;
     margin-top: 3px;

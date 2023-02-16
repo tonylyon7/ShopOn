@@ -165,10 +165,11 @@
     .blog-main-img {
         left: -14% !important;
         width: 350px !important;
+        top: -10rem;
     }
     .blog-contain {
-        position: absolute;
-        margin-top: 197%;
+        position: relative;
+        top: 30rem;
         margin-left: -12%;
     }
     .blog-post {
@@ -193,11 +194,12 @@
         left: -1% !important;
     }
     .blog-container .b-detail {
-        margin-left: -33%;
+        margin-left: -11% !important;
     }
     .Move-Slide {
         margin-left: -1%;
         margin-top: 5%;
+        margin-bottom: 35rem;
     }
 
     /* BLOG DETAILS */
@@ -207,15 +209,15 @@
     .blog-detail .blog-detail-img {
         width: 350px;
         height: 500px;
-        margin-left: -35%;
+        margin-left: -22% !important;
     }
     .blog-de-img {
         width: 350px;
     }
-    .blog-write {
+    /* .blog-write {
         margin-left: -57%;
-    }
-    .blog-social {
+    } */
+    /* .blog-social {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-left: -20%;
@@ -223,10 +225,10 @@
     .blog-follow {
         margin-left: -10%;
         text-align: center;
-    }
-    .blog-tags {
+    } */
+    /* .blog-tags {
         text-align: center;
-    }
+    } */
     .blog-social-media {
         margin-top: -6%;
     }
@@ -234,20 +236,20 @@
         margin: 7px;
     }
     .blog-data {
-        margin-left: -30%;
+        margin-left: -14%;
         margin-top: 7%;
     }
     .blog-sm {
-        margin-left: -30%;
+        margin-left: -14%;
     }
     .blog-de-text {
         margin-top: 4%;
     }
     .blog-quite {
-        margin-left: -30%;
+        margin-left: -14%;
     }
     .blog-comment{
-        margin-left: -30%;
+        margin-left: -14%;
     }
     .blog-form input {
         width: 338px;
