@@ -8,12 +8,14 @@ import earb from "../Images/earb.svg"
 import visa from "../Images/visa.png"
 import master from "../Images/maste.png"
 import paypal from "../Images/paypal.png"
+import Navbar from '../../Navbar/Navbar'
 
 
 const Scart = () => {
   return (
     <>
-        <div className='container py-3'>
+    <Navbar/>
+        <div className='container py-3 mt-4'>
             <p style={{fontSize: "20px",fontWeight:"700"}}>Shopping Cart<sup style={{fontSize: "12px", fontWeight: "500"}}>(2)</sup></p>
             <div className='row'>
                 <div className='col-md-8'>

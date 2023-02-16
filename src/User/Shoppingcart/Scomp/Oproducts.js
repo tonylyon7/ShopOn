@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../Footer/Footer'
 import a100 from "../Images/100.svg"
 import a200 from "../Images/200.svg"
 import a300 from "../Images/300.svg"
@@ -106,6 +107,7 @@ const Oproducts = () => {
                 </div>
             </div>
         </div>
+        <Footer/>
     </>
   )
 }
