@@ -7,6 +7,7 @@ import BlogDetail from './User/BlogPage/BlogDetail'
 import FAQ from './User/FAQ/FAQ';
 import SignIn from './User/SignUp/SignIn';
 import Register from './User/SignUp/Register';
+import Checkout from './User/Checkout/Checkout';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/About' element={<About/>}/>
           <Route path='/Blog' element={ <Blog/> } />
           <Route path='/BlogDetail' element={ <BlogDetail/> } />
+          <Route path='/Checkout' element={ <Checkout/>} />
           <Route path='/FAQ' element={ <FAQ/> } />
         </Routes>
       </Router>

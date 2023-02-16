@@ -65,7 +65,7 @@ const Nav = () => {
             <li><Link to='/Blog'>Blog</Link></li>
             <li><Link to=''>Contact</Link></li>
             <li><Link to='/About'>About Us</Link></li>
-            <li><Link to='/'>Sale</Link></li>
+            <li><Link to='/Checkout'>Sale</Link></li>
            </ul>
            </div>
            <div className='mt-4'>
