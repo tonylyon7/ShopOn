@@ -652,6 +652,7 @@ small{
     }
     .tony-hot  {
         justify-self: center;
+        width: -30px;
         padding-left: 0 !important;
         padding-right: 0 !important;
         padding-bottom: 0.5rem;
@@ -665,7 +666,10 @@ small{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .hot-sales-imgs img {
-        width: 100px;
+        width: 80px;
+        padding: 5px;
+        margin-top: 2rem;
+        background-color: #f5f5f5;
     }
     .tony-hot .select {
         display: none;
@@ -743,6 +747,55 @@ small{
     margin-left: 3.7rem;
 }
 
+/* FEATURED PRODUCT */
+.tony2-items {
+    display: none;
+}
+.tony-featured {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.tony-hot img {
+    width: 75px;
+    padding: 7px;
+    margin-top: 2rem;
+    background-color: #f5f5f5;
+}
+
+/* TONY-FRIDAY */
+.fridayyy { 
+    display: none;
+ }
+
+
+ /* ANOTHER TOP CATEGORIES */
+ .categotie-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ .categotie-img img {
+    width: 130% !important;
+ }
+
+/* TONY-POPULAR */
+ .tony-popular {
+    display: none;
+ }
+
+
+/* NEW ARRIVAL */
+  .tony-arrival {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+
+
+  /* TOP TRENDING */
+  .tony-trending {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 /* @media screen and (max-width: 1024px) {

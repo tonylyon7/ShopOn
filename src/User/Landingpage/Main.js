@@ -189,7 +189,7 @@ const Main = () => {
                         <p className='lastitem'>Already Sold</p>
                     </div>
                 </div>
-
+                 <div className='container'>
                 <div className='col-md-9 hot-imgs'>
                     <div className='row hot-sales-imgs'>
                         <div className='tony-hot col-md-3'>
@@ -314,6 +314,7 @@ const Main = () => {
                         </div>
                     </div> 
                 </div>
+                </div>
             </div>
             <div> 
             </div>
@@ -410,6 +411,7 @@ const Main = () => {
                 </div>
             </div> 
             {/* our future   */}
+          
             <div className='container'>
             <div className='tony2-heading'>Our Feature Product</div>
             <div className='tony2-items'>
@@ -423,7 +425,7 @@ const Main = () => {
                 </ul>
             </div>
             <div className='col-md-12'>
-              <div className='row'> 
+              <div className='row tony-featured'> 
                 <div className='tony-hot col-md-3 py-sm-2'>
                   <img src={tony1}/>
                   <div className='select py-sm-3'>
@@ -583,22 +585,24 @@ const Main = () => {
               </div>
             </div>
               {/* vector */}
-            <div className='tony-friday d-flex  align-items-center text-white mb-5 mt-5'>
-              <div className='d-flex ps-3'>
-                <p className='text-start friday-text fri-text2 mt-3'>Up To <span className='tony-40'> 40% </span> Off <br/> <span className='tony-40-sale mt-3'> SALE!</span></p>
-                <div className='tony-truck d-flex ms-5 mt-3'>
-                  <img src={truck} className='mt-2 friday-img' />
-                  <p className='text-start mt-4 friday-text ms-2'>Free & Fast  Shipping</p>
+              <div className='fridayyy'>
+                <div className='tony-friday d-flex align-items-center text-white mb-5 mt-5'>
+                  <div className='d-flex ps-3'>
+                    <p className='text-start friday-text fri-text2 mt-3'>Up To <span className='tony-40'> 40% </span> Off <br/> <span className='tony-40-sale mt-3'> SALE!</span></p>
+                    <div className='tony-truck d-flex ms-5 mt-3'>
+                      <img src={truck} className='mt-2 friday-img' />
+                      <p className='text-start mt-4 friday-text ms-2'>Free & Fast  Shipping</p>
+                    </div>
+                  </div>
+                  <div className='d-flex friday2'>
+                    <img src={vector} className='mt-3' />
+                    <p className='text-start friday-text mt-4 ms-3'>30-days Free Return</p>
+                    <div className='d-flex ms-5 mt-2'>
+                      <img src={group} />
+                      <p className='text-start friday-text mt-3 ms-2'>100% Secure Shopping</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className='d-flex friday2'>
-                <img src={vector} className='mt-3' />
-                <p className='text-start friday-text mt-4 ms-3'>30-days Free Return</p>
-                <div className='d-flex ms-5 mt-2'>
-                  <img src={group} />
-                  <p className='text-start friday-text mt-3 ms-2'>100% Secure Shopping</p>
-                </div>
-              </div>
             </div>
             {/* Top categories */}
             <div className='tony-categories'>
@@ -606,37 +610,37 @@ const Main = () => {
               <div className='d-sm-flex categotie-img text-center'>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid1} className="img-fluid" />
+                  <img src={kid1} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid2} className="img-fluid" />
+                  <img src={kid2} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid3} className="img-fluid" />
+                  <img src={kid3} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid4} className="img-fluid" />
+                  <img src={kid4} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid5} className="img-fluid" />
+                  <img src={kid5} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>
               <div className='tony-kids col-md-2'>    
                 <div className='kid text-center'>
-                  <img src={kid6} className="img-fluid" />
+                  <img src={kid6} className="" />
                   <p>for Kids</p>
                 </div>    
               </div>    
@@ -848,7 +852,7 @@ const Main = () => {
             <div className='container'>
             <div className='tony2-heading pb-5'>New Arrival</div>
             <div className='col-md-12'>
-              <div className='row'> 
+              <div className='row tony-arrival'> 
                 <div className='tony-hot col-md-3 py-sm-2'>
                   <img src={tony1}/>
                   <div className='select py-sm-3'>
@@ -1012,7 +1016,7 @@ const Main = () => {
           <div className='container'>
             <div className='tony2-heading pb-5'>Top Trending</div>
             <div className='col-md-12'>
-              <div className='row'> 
+              <div className='row tony-trending'> 
                 <div className='tony-hot col-md-3 py-sm-2'>
                   <img src={T1}/>
                   <div className='select py-sm-3'>
@@ -1068,8 +1072,8 @@ const Main = () => {
               </div>
             </div>
           </div>
+           <div className='SubH'>Top categories for you</div>
           <div className='tony-row row pt-5'>
-                <div className='SubH'>Top categories for you</div>
                   <div className='tony-kids col-md-2'>    
                     <div className='kid text-center'>
                       <img src={kid1} className="img-fluid" />
