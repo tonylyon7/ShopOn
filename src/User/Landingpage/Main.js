@@ -843,7 +843,7 @@ const Main = () => {
             </div>
             {/* shop and gadget */}
             <div className='container'>
-              <h3 className='mt-5 landing-textt textt'>Shop Electronics and Gadgets</h3>
+              <h3 className='mt-5 texttt landing-textt textt'>Shop Electronics and Gadgets</h3>
               <div>
                 <div>
                 <Swiper

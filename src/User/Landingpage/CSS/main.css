@@ -675,11 +675,12 @@ small{
     }
     .hot-sales-imgs {
         display: grid !important;
+        gap: 1.5rem;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: -2rem;
     }
     .hot-sales-imgs img {
-        width: 80px;
-        padding: 5px;
+        width: 140px;
         margin-top: 2rem;
         background-color: #f5f5f5;
     }
@@ -714,6 +715,9 @@ small{
     .textt {
         margin-left: -3rem;
         width: 130%;
+    }
+    .texttt {
+        height: 64px;
     }
     .SubH {
         margin-top: 3rem;
@@ -830,6 +834,10 @@ small{
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  .featured-storename {
+    width: 330px;
+} 
 }
 
 /* @media screen and (max-width: 1024px) {
