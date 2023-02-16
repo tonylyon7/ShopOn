@@ -93,7 +93,7 @@ const Main = () => {
      <div className='container Tonys-main'>
         <div className="row">
           <div className="col-md-4 text-center pt-5">
-            <img src={img1} />
+            <img src={img1} className='landing-fridge' />
           </div>
           <div className="col-md-4 text-center Lyon-wrap">
             <div className='opo'>
@@ -109,17 +109,17 @@ const Main = () => {
           </div>
           </div>
           <div className="col-md-4 text-center pt-4">
-            <img src={img2}/>
+            <img src={img2} className='landing-girl'/>
           </div>
         </div>
      </div>
 
-     <section className='my-5 special-offer'>
+     <section className='my-sm-5 special-offer'>
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-4  man">
             <div className='special mt-5'> 
-            <img classname='offer' src={special}/>
+              <img classname='offer' src={special}/>
               <h4 className='furn ms-5'>on <span className='furni'> Furniture </span></h4>
             </div>
             <h5 className='fun'>import furniture sold by the best vendors <br/>
@@ -131,12 +131,12 @@ const Main = () => {
             <button className='Tony-now px-5 py-2'>shop now</button>
           </div>
           <div className="col-md-8">
-                  <div className="row">
-                    <div className="col-md-6"><img src={laptop}/></div>
-                    <div className="col-md-6 men"><img src={food}/>
+                  <div className="d-flex special-second">
+                    <div className=""><img src={laptop}/></div>
+                    <div className="men"><img src={food}/>
                     <div className='food-text text-center text-white'>
-                      <h5 className='pt-4'>Beauty is not expensive here</h5>
-                      <h6 className='food-price ms-5'>$19.99 <span className='ms-3'>$54.20</span></h6>
+                      <h5 className='pt-sm-4'>Beauty is not expensive here</h5>
+                      <h6 className='food-price ms-sm-5'>$19.99 <span className='ms-sm-3'>$54.20</span></h6>
                      </div>
                     </div>
                   </div>
@@ -147,7 +147,7 @@ const Main = () => {
                     <p className='after'>$42.13 <span className='before ms-3 mt-1'>$42.33</span></p>
                     <button className='tony-b px-5 py-2'> shop now</button>
                   </div>
-                      <div className='col-md-8'><img src={weather}/>
+                      <div className='col-md-8 weather'><img src={weather}/>
                         <img src={group1} className='weather-group' />
                       </div>
                 </div>
@@ -190,8 +190,8 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div className='col-md-9'>
-                    <div className='row'>
+                <div className='col-md-9 hot-imgs'>
+                    <div className='row hot-sales-imgs'>
                         <div className='tony-hot col-md-3'>
                             <img src={first}/>
 
@@ -317,8 +317,8 @@ const Main = () => {
             </div>
             <div> 
             </div>
+            <div className='SubH'>Top categories for you</div>
                 <div className='tony-row row'>
-                <div className='SubH'>Top categories for you</div>
                     <div className='tony-kids col-md-2'>    
                         <div className='kid text-center'>
                             <img src={kid1} className="img-fluid" />

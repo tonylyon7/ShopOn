@@ -60,7 +60,7 @@ const Nav = () => {
                       create a seller account
                     </Link>
                   </p>
-                  <form className="ms-3">
+                  <form className="ms-3 landing-search">
                     <input
                       className="search"
                       placeholder="   search..."
