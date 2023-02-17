@@ -37,7 +37,7 @@ const Footer = () => {
 
                 <div className='pt-3 d-sm-flex justify-content-center'>
                     <ul className='footernav list-unstyled d-sm-flex gap-lg-5'>
-                        <li><Link to='FAQ' className='text-decoration-none text-dark'>Help & FAQs</Link></li>
+                        <li><Link to='/FAQ' className='text-decoration-none text-dark'>Help & FAQs</Link></li>
                         <li><a href='' className='text-decoration-none text-dark'>Gift Cards</a></li>
                         <li><a href='' className='text-decoration-none text-dark'>Shipping & Delivery</a></li>
                         <li><a href='' className='text-decoration-none text-dark'>Refund Policy</a></li>
