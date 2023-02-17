@@ -768,7 +768,7 @@ small{
     margin-left: 8rem;
     margin-top: 10rem;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 26px;
     letter-spacing: 1px;
    }
    .Tony-explore {
@@ -844,6 +844,7 @@ small{
     display: grid !important;
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: -2rem;
   }
 
 .great-designed {
@@ -875,7 +876,7 @@ small{
     margin-left: -1.7rem !important;
 }
 .landing-insta img {
-    width: 220%;
+    width: 235%;
 }
 .landing-sponsor {
     display: grid;
@@ -900,19 +901,20 @@ small{
     pointer-events: none;
     margin-left: -4.7rem;
 }
-.featured-storename {
-    background: rgba(0, 0, 0, 0.74);
-    border-radius: 8px;
-    width: 220px;
-    height: 50px;
-    color: #fff;
-    font-size: 11px !important;
-    padding-top: 10px;
-    line-height: 36px;
-    align-items: center;
-    text-align: center;
-    margin-top: -3.1rem;
-    position: relative;
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #c56336;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #DE5212;
 }
 }
 

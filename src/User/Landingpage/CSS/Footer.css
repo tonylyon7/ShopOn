@@ -27,8 +27,8 @@
 
 @media (max-width: 992px) {
     .line {
-        margin-left: 0;
-        width: 370px;
+        margin-left: -3rem;
+        width: 390px;
     }
     .landing-footer {
         display: flex;
