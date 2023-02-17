@@ -54,7 +54,7 @@ const Contact = () => {
               </form>
             </div>         
           </div>
-          <div className="working-hour">
+          <div className="working-hour mt-md-5">
             <h3>WORKING HOURS</h3>
             <p className="mt-1">Monday-Friday, 9:00am-5:00pm WAT.</p>
 
