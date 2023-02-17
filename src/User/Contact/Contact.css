@@ -1,76 +1,72 @@
-     .contact-begin {
-         width: 100%;
-         margin-top: 5rem;
-         margin-left: 2rem;
-     }
+.contact-begin {
+    /* width: 100%; */
+    /* margin-top: 5rem; */
+    /* margin-left: 2rem; */
+}
      
-     .name-label {
-         margin-top: 10px;
-         font-weight: bold;
-     }
+.name-label {
+    /* margin-top: 10px; */
+    font-weight: bold;
+}
      
-     .phone-label {
-         margin-top: 10px;
-         font-weight: bold;
-     }
+.phone-label {
+    /* margin-top: 10px; */
+    font-weight: bold;
+}
      
-     .email-label {
-         margin-left: 37%;
-         font-weight: bold;
-     }
+.email-label {        
+    font-weight: bold;
+}
      
-     .subject-label {
-         margin-top: 20px;
-         margin-left: 36%;
-         font-weight: bold;
-     }
+.subject-label {
+   font-weight: bold;
+}
      
-     .message-label {
-         margin-top: 29px;
-         font-weight: bold;
-     }
+.message-label {
+    font-weight: bold;
+}
      
-     .contact-form input {
-         width: 335px;
-         padding: 10px 20px;
-         outline: none;
-         border: 1px solid #B6B8B8;
-         margin-top: 10px;
-         font-size: 1rem;
-         font-weight: 400;
-         border-radius: 40px;
-         background-color: #fff;
-     }
+.contact-form input {
+    width: 335px;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #B6B8B8;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 40px;
+    background-color: #fff;
+}
      
-     .contact-form textarea {
-         width: 90%;
-         height: 150px;
-         padding: 12px 20px;
-         margin-top: 10px;
-         outline: none;
-         box-sizing: border-box;
-         border: 2px solid #B6B8B8;
-         border-radius: 4px;
-         background-color: #fff;
-         resize: none;
-     }
+.contact-form textarea {
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid #B6B8B8;
+    border-radius: 4px;
+    background-color: #fff;
+    resize: none;
+}
      
-     .contact-form button {
-         background-color: black;
-         border: none;
-         border-radius: 40px;
-         margin-top: 15px;
-         margin-left: 62%;
-         color: #fff;
-         padding: 7px 70px;
-         text-decoration: none;
-         cursor: pointer;
-     }
+.contact-form button {
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    /* margin-top: 15px; */
+    /* margin-left: 62%; */
+    color: #fff;
+    padding: 7px 70px;
+    text-decoration: none;
+    cursor: pointer;
+}
      
-     .working-hour {
-         margin-left: 54px;
-         margin-top: 125px;
-     }
+.working-hour {
+    /* margin-left: 54px; */
+    /* margin-top: 125px; */
+}
      
      .working-hour h3 {
          font-size: 18px;

@@ -16,37 +16,43 @@ const Contact = () => {
     <section className="contact">
       <Navbar/>
       <div className="container-fluid">
-        <div className="d-sm-flex">
-          <div className="contact-begin">
+        <div className="d-sm-flex gap-md-5 mt-md-5 ms-md-3 ">
+          <div className="contact-begin col-md-6">
             <h2>Contact Us</h2>
             <p>
               We love to hear from you, so if there's anything you'd like to ask
               us we're right here <br /> and ready to help in every way we can.
             </p>
-            <form className="contact-form">
+            <div className=" col-md-6 d-sm-flex gap-md-2">
+              <form className="contact-form">
               <label className="name-label">Your name</label>
-              <label className="email-label">Your email</label> <br />
               <input type="text" placeholder="ex: Chisom Sample" />
-              <input
-                type="email"
-                placeholder="ex:chisom@gmail.com"
-                className="ms-3"
-              />
-              <br />
-              <label className="phone-label">Your phone</label>
-              <label className="subject-label">Subject</label> <br />
-              <input type="text" placeholder="ex: +1 234 455 5564" />
-              <input
-                type="text"
-                placeholder="ex: return"
-                className="ms-3"
-              />{" "}
-              <br />
-              <label className="message-label">Message</label> <br />
-              <textarea placeholder="Write your message here."></textarea>{" "}
-              <br />
-              <button type="submit">Submit</button>
-            </form>
+              </form>
+
+              <form className="contact-form">
+              <label className="email-label">Your email</label>
+              <input type="email" placeholder="ex:chisom@gmail.com"/>
+              </form>
+
+            </div>
+            <div className=" col-md-6 d-sm-flex gap-md-2 mt-md-2 ">
+              <form className="contact-form">
+                <label className="phone-label">Your phone</label>
+                <input type="text" placeholder="ex: +1 234 455 5564" />
+              </form>
+
+              <form className="contact-form">
+                <label className="subject-label">Subject</label> 
+                <input type="text" placeholder="ex: return"/>{" "}
+              </form>
+            </div>
+            <div className=" col-md-12 d-sm-flex ">
+              <form className="contact-form">
+                <label className="message-label">Message</label>
+                <textarea placeholder="Write your message here."></textarea>{" "}
+                <button type="submit">Submit</button>
+              </form>
+            </div>         
           </div>
           <div className="working-hour">
             <h3>WORKING HOURS</h3>
@@ -83,7 +89,6 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
-
       <Footer/>
     </section>
   )
