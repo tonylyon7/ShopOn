@@ -1,5 +1,4 @@
 import React from 'react'
-import SignIn from '../SignUp/SignIn.js'
 import Main from './Main.js'
 import Nav from './Nav.js'
 import './CSS/main.css'
@@ -11,6 +10,7 @@ const Landing = () => {
     <Nav/>
     <SignIn className='landing-sign'/>
     <Main/>
+    <Footer/>
     </>
   )
 }
