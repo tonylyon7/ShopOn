@@ -707,7 +707,7 @@ const Main = () => {
               </div>
             </div>
             <div className='container'>
-              <h3 className='mt-5 landing-textt textt'>Top featured Store for Us</h3>
+              <h3 className='mt-5 landing-textt textt texttt'>Top featured Store for Us</h3>
                 <div className='mt-5'>
                     <div>
                       <Swiper
