@@ -844,7 +844,7 @@ small{
     display: grid !important;
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: -2rem;
+    margin-left: -2rem !important;
   }
 
 .great-designed {
