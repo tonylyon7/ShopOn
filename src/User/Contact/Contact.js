@@ -16,7 +16,7 @@ const Contact = () => {
     <section className="contact">
       <Navbar/>
       <div className="container-fluid">
-        <div className="d-sm-flex gap-md-5 mt-md-5 ms-md-3 ">
+        <div className="d-sm-flex gap-md-5 mt-md-5 ms-md-3 mt-5">
           <div className="contact-begin col-md-6">
             <h2>Contact Us</h2>
             <p>
@@ -46,7 +46,7 @@ const Contact = () => {
                 <input type="text" placeholder="ex: return"/>{" "}
               </form>
             </div>
-            <div className=" col-md-12 d-sm-flex ">
+            <div className=" col-md-12 d-sm-flex mb-5">
               <form className="contact-form">
                 <label className="message-label">Message</label>
                 <textarea placeholder="Write your message here."></textarea>{" "}
@@ -54,7 +54,7 @@ const Contact = () => {
               </form>
             </div>         
           </div>
-          <div className="working-hour">
+          <div className="working-hour ms-sm-5">
             <h3>WORKING HOURS</h3>
             <p className="mt-1">Monday-Friday, 9:00am-5:00pm WAT.</p>
 
