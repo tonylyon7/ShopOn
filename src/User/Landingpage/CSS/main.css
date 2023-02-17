@@ -603,6 +603,21 @@ small{
     display: flex;
 }
 
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #c56336;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #DE5212;
+}
+
 
 @media (max-width: 992px) {
     .landing-page {
@@ -870,6 +885,34 @@ small{
 }
 .landing-sponsor img {
     width: 120%;
+}
+
+/* SLIDE STYLE */
+.featured-img {
+    min-width: 30rem;
+    padding: 40px;
+    margin-left: -1rem;
+}
+.featured-img img {
+    width: 500px;
+    height: 170px;
+    border-radius: 8px;
+    pointer-events: none;
+    margin-left: -4.7rem;
+}
+.featured-storename {
+    background: rgba(0, 0, 0, 0.74);
+    border-radius: 8px;
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    font-size: 11px !important;
+    padding-top: 10px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    margin-top: -3.1rem;
+    position: relative;
 }
 }
 
