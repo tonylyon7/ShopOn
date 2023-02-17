@@ -27,8 +27,8 @@ const Footer = () => {
                 <div className='landing-footer'>
                 <div className='footernav pt-3 d-sm-flex justify-content-center '>
                     <ul className='footernav list-unstyled d-sm-flex gap-sm-5'>
-                        <li><a href='' className='text-decoration-none text-dark'>About Us</a></li>
-                        <li><a href='' className='text-decoration-none text-dark'>Contact Us</a></li>
+                        <li><Link to='/About' className='text-decoration-none text-dark'>About Us</Link></li>
+                        <li><Link to='/Contact' className='text-decoration-none text-dark'>Contact Us</Link></li>
                         <li><a href='' className='text-decoration-none text-dark'>My Account</a></li>
                         <li><a href='' className='text-decoration-none text-dark'>Store Location</a></li>
                         <li><a href='' className='text-decoration-none text-dark'>Search Terms</a></li>
@@ -37,7 +37,7 @@ const Footer = () => {
 
                 <div className='pt-3 d-sm-flex justify-content-center'>
                     <ul className='footernav list-unstyled d-sm-flex gap-lg-5'>
-                        <li><a href='' className='text-decoration-none text-dark'>Help & FAQs</a></li>
+                        <li><Link to='FAQ' className='text-decoration-none text-dark'>Help & FAQs</Link></li>
                         <li><a href='' className='text-decoration-none text-dark'>Gift Cards</a></li>
                         <li><a href='' className='text-decoration-none text-dark'>Shipping & Delivery</a></li>
                         <li><a href='' className='text-decoration-none text-dark'>Refund Policy</a></li>
