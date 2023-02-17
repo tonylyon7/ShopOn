@@ -10,6 +10,7 @@ import master from "../Images/maste.png"
 import paypal from "../Images/paypal.png"
 import Navbar from '../../Navbar/Navbar'
 import Checkout from '../../Checkout/Checkout'
+import { Link } from 'react-router-dom'
 
 
 const Scart = () => {
@@ -92,9 +93,9 @@ const Scart = () => {
                             <p style={{fontSize:"10px",color:"#5D5F5F",fontWeight:"600"}} className='mb-2'>Total</p>
                             <p className='mb-2' style={{fontWeight:"800",fontSize:"12px"}}>$94.14</p>
                         </div>
-                        <a href='../../Checkout/Checkout'>
+                        <Link to='/Checkout'>
                             <button className='rounded-pill border py-2' style={{backgroundColor:"black",width:"100%",fontSize:"10px",color:"white"}}>Proceed to Checkout</button>
-                        </a> 
+                        </Link> 
                         <div className='text-center mt-2'>
                             <img className='mx-2' src={visa} style={{width:"25px"}}/>
                             <img className='mx-2' src={master} style={{width:"25px"}}/>
