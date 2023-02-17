@@ -154,7 +154,7 @@ const Main = () => {
                     <p className='after'>$42.13 <span className='before ms-3 mt-1'>$42.33</span></p>
                     <button className='tony-b px-5 py-2'> shop now</button>
                   </div>
-                      <div className='col-md-8 weather'><img src={weather}/>
+                      <div className='col-md-8 weather'><img src={weather} className='weather-bg'/>
                         <img src={group1} className='weather-group' />
                       </div>
                 </div>

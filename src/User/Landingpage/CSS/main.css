@@ -665,9 +665,12 @@ small{
     .weather {
         margin-left: -2.5rem;
     }
+    .weather-bg {
+        width: 100%;
+    }
     .weather-group {
-        margin-left: 19rem;
-        margin-top: -26rem;
+        margin-left: 17rem;
+        margin-top: -21rem;
     }
 
     /* HOTSALES */
