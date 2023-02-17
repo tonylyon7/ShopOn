@@ -90,7 +90,6 @@ import truck from './Assets/mdi_truck-delivery-outline.png'
 import vector from './Assets/Vector.png'
 import group from './Assets/Group.png'
 import Main2 from './Main2'
-import Footer from './Footer'
 
 
 const Main = () => {
@@ -1409,7 +1408,6 @@ const Main = () => {
             </div>
             {/* <Main2/> */}
           </div>
-          <Footer/>
         </div>
     </div>
   )
