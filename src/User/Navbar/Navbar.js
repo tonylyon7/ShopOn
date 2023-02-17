@@ -64,14 +64,14 @@ const Navbar = () => {
               <div className=" icons">
                 <ul className="">
                   <li>
-                    <GrFavorite />
+                  <Link to='/Wishlist' ><GrFavorite /></Link>
                   </li>
                   <li>
                     {" "}
                     <BsPerson />
                   </li>
                   <li>
-                    <BsCart2 />0
+                    <Link to='/Shopingcart'><BsCart2 />0</Link>
                   </li>
                 </ul>
               </div>
@@ -79,14 +79,14 @@ const Navbar = () => {
               <div className=" icons">
                 <ul className="">
                   <li>
-                    <GrFavorite />
+                    <Link to='/Wishlist' ><GrFavorite /></Link>
                   </li>
                   <li>
                     {" "}
                     <BsPerson />
                   </li>
                   <li>
-                    <BsCart2 /> 0
+                    <Link to='/Shopingcart'><BsCart2 />0</Link>
                   </li>
                 </ul>
               </div>
