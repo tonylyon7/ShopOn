@@ -605,6 +605,9 @@ small{
 
 
 @media (max-width: 992px) {
+    .landing-page {
+        overflow: hidden;
+    }
     .landing-fridge, .landing-girl {
         display: none;
     }

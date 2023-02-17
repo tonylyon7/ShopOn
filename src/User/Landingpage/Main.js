@@ -96,7 +96,7 @@ import Footer from './Footer'
 const Main = () => {
 
   return (
-    <>
+    <div className='landing-page'>
      <div className='container Tonys-main'>
         <div className="row">
           <div className="col-md-4 text-center pt-5">
@@ -1411,7 +1411,7 @@ const Main = () => {
           </div>
           <Footer/>
         </div>
-    </>
+    </div>
   )
 }
 
