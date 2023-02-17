@@ -876,8 +876,8 @@ small{
 .landing-insta {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5rem !important;
-    margin-left: -1.7rem !important;
+    gap: 5.5rem !important;
+    margin-left: -2.2rem !important;
 }
 .landing-insta img {
     width: 250%;

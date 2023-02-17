@@ -1337,7 +1337,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                       spaceBetween: 10,
                     },
                     480: {
