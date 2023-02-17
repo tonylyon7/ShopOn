@@ -20,17 +20,20 @@ const BlogPage = () => {
 
   return (
      <>
-    <div className=''>
+    <div className='blog-page'>
          <Navbar/>
        <div className='blog d-sm-flex text-center ms-5 mt-4'>
-       <div className='blog-pull'>
+          <aside className='blogAside none f-style fs-5'>
+               <BlogSide/>
+          </aside>
+       <div className='blog-pull bg-none'>
+       <h5 className='text-start' onClick={() => setShow(!show)}>{show === false ? "Pull Me" : "Close Me"}</h5>
           {
                show &&   <aside className='blogAside f-style fs-5'>
                               <BlogSide/>
                          </aside>
           }
           
-               <h5 className='text-start' onClick={() => setShow(!show)}>{show === false ? "Pull Me" : "Close Me"}</h5>
           </div>
           <section className='blog-container mt-3'>
             <img src={BlogImg} className='blog-main-img' />
