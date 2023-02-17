@@ -647,6 +647,7 @@ small{
         margin-left: -4rem;
     }
     .special-second {
+        margin-left: -1rem;
         margin-top: 2rem;
     }
     .special-second img {
@@ -663,7 +664,7 @@ small{
         width: 100%;
     } 
     .weather {
-        margin-left: -2.5rem;
+        margin-left: -2.5rem ;
     }
     .weather-bg {
         width: 100%;
@@ -879,7 +880,7 @@ small{
     margin-left: -1.7rem !important;
 }
 .landing-insta img {
-    width: 235%;
+    width: 250%;
 }
 .landing-sponsor {
     display: grid;
