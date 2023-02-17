@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './Assets/SHOPON.png'
 import './CSS/Footer.css'
+import { Link } from 'react-router-dom'
 import {GrFacebookOption, GrGoogle} from 'react-icons/gr'
 import {RiInstagramFill} from 'react-icons/ri'
 
