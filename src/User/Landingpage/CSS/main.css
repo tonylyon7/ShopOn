@@ -845,6 +845,7 @@ small{
 /* NEW ARRIVAL */
   .tony-arrival {
     display: grid !important;
+    gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: -3rem !important;
   }
