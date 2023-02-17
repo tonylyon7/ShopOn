@@ -717,7 +717,7 @@ const Main = () => {
                       className='mySwiper'
                       breakpoints={{
                         0: {
-                          slidesPerView: 1,
+                          slidesPerView: 1.3,
                           spaceBetween: 10,
                         },
                         480: {
@@ -778,7 +778,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 1,
+                      slidesPerView: 1.3,
                       spaceBetween: 10,
                     },
                     480: {
@@ -855,7 +855,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 1,
+                      slidesPerView: 1.3,
                       spaceBetween: 10,
                     },
                     480: {
@@ -1215,7 +1215,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 1,
+                      slidesPerView: 1.3,
                       spaceBetween: 10,
                     },
                     480: {
@@ -1276,7 +1276,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 1,
+                      slidesPerView: 1.3,
                       spaceBetween: 10,
                     },
                     480: {
@@ -1337,7 +1337,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 1,
+                      slidesPerView: 1.3,
                       spaceBetween: 10,
                     },
                     480: {
