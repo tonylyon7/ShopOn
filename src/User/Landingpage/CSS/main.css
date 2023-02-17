@@ -856,11 +856,11 @@ small{
 .landing-insta {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 4rem;
+    gap: 5rem !important;
     margin-left: -1.7rem !important;
 }
 .landing-insta img {
-    width: 200%;
+    width: 220%;
 }
 .landing-sponsor {
     display: grid;
