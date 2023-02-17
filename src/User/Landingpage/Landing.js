@@ -2,13 +2,14 @@ import React from 'react'
 import Main from './Main.js'
 import Nav from './Nav.js'
 import './CSS/main.css'
-
+import SignIn from '../SignUp/SignIn.js'
+import Footer from '../Footer/Footer.js'
 
 const Landing = () => {
   return (
     <>
     <Nav/>
-    <SignIn className='landing-sign'/>
+    {/* <SignIn className='landing-sign'/> */}
     <Main/>
     <Footer/>
     </>
