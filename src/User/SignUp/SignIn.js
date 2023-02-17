@@ -12,11 +12,13 @@ const SignIn = () => {
            <div className='row'>
                 <div className='col-md-2'></div>
                 <div className='col-md-8'>
-                <div className='card  contsteph'>
-                <div className='contentsteph d-flex'>
+                    <div className='row d-flex'>
+                        <div className='col-md-6'>
                         <div className='stephfrontimg'>
                             <img src={img}/>
                         </div>
+                       
+                        <div className='col-md-6'>
                         <div className='stephcon'>
                         <div className='stephimage2'>
                             <img src={img1}/>
@@ -51,9 +53,9 @@ const SignIn = () => {
                     </div>
                         </div>
                     
-                    
-                </div>
-            </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
                 <div className='col-md-2'></div>
            </div>

@@ -10,15 +10,19 @@ const Register = () => {
   return (
     <>
         <div className='container signin'>
-
-                        <div className='card stephnie'>
-                          <div className='d-flex stephcontent'>
-                            
+            <div className='row'>
+              <div className='col-md-2'></div>
+              <div className='col-md-8'>
+                <div className='row d-flex'>
+                  <div className='col-md-6'>
                             <div className='stephfrontimg'>
                             <img src={img} className='stephimg'/>
                             </div>
-                            
-                            <div className='stephcont'>
+                            </div>
+
+                  </div>
+                  <div className='col-md-6'>
+                  <div className='stephcont'>
                                 <div className='stephimage2'>
                                 <img src={img1}/>
                                  </div>
@@ -54,9 +58,11 @@ const Register = () => {
                             <p className='newmember'>Already a Member?</p>
                             <p className='newmembers'><Link to='/SignIn'>Sign In</Link></p>
                             </div>
-                            </div>
-                        </div>
-                        </div>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-2'></div>
+            </div>
         </div>
     </>
   )

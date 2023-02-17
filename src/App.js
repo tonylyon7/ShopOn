@@ -17,7 +17,9 @@ import Checkout from "./User/Checkout/Checkout"
 function App() {
   return (
     <>
-      <Router>
+      <SignIn/>
+      <Register/>
+      {/* <Router>
         <Routes>
           <Route path="/Register" element={<Register />} />
           <Route path="/SignIn" element={<SignIn />} />
@@ -33,7 +35,7 @@ function App() {
           <Route path="/Wishlist" element={<Wishlistp />} />
           <Route path="/Checkout" element={<Checkout/>} />
         </Routes>
-      </Router>
+      </Router> */}
     </>
   )
 }
