@@ -619,6 +619,16 @@ small{
 }
 
 
+
+
+
+/*  */
+.landing-sign {
+    position: fixed;
+}
+/*  */
+
+
 @media (max-width: 992px) {
     .landing-page {
         overflow: hidden;

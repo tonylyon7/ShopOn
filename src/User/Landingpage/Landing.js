@@ -1,13 +1,14 @@
 import React from 'react'
-import Footer from './Footer.js'
 import Main from './Main.js'
 import Nav from './Nav.js'
+import './CSS/main.css'
 
 
 const Landing = () => {
   return (
     <>
     <Nav/>
+    <SignIn className='landing-sign'/>
     <Main/>
     <Footer/>
     </>
