@@ -71,7 +71,7 @@ const Navbar = () => {
                     <BsPerson />
                   </li>
                   <li>
-                    <Link to='/Shopingcart'><BsCart2 />0</Link>
+                    <Link to='/Shoppingcart'><BsCart2 />0</Link>
                   </li>
                 </ul>
               </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
                     <BsPerson />
                   </li>
                   <li>
-                    <Link to='/Shopingcart'><BsCart2 />0</Link>
+                    <Link to='/Shoppingcart'><BsCart2 className="text-decoration-none"/>0</Link>
                   </li>
                 </ul>
               </div>

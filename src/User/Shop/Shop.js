@@ -1,16 +1,16 @@
 import React from 'react'
-import Shopfooter from './ShopComponents/Shopfooter'
+import Footer from '../Footer/Footer'
+import Navbar from '../Navbar/Navbar'
 import Shopheader from './ShopComponents/Shopheader'
 import Shopmain from './ShopComponents/Shopmain'
-import Shopnavbar from './ShopComponents/Shopnavbar'
 
 const Shop = () => {
   return (
     <>
-        <Shopnavbar/>
+        <Navbar/>
         <Shopheader/>
         <Shopmain/>
-        <Shopfooter/>
+        <Footer/>
     </>
   )
 }
