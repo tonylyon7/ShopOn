@@ -1,44 +1,27 @@
-     .contact-begin {
-         width: 100%;
-         max-width: 200%;
-         margin-top: 5rem;
-         margin-left: 1rem;
-         overflow: hidden;
-         background: blueviolet;
-     }
-     
-     .form-container {}
-     
      .name-label {
-         margin-top: 10px;
-         margin-left: 4px;
+         /* margin-top: 10px; */
          font-weight: bold;
      }
      
      .phone-label {
-         margin-top: 10px;
-         margin-left: 4px;
+         /* margin-top: 10px; */
          font-weight: bold;
      }
      
      .email-label {
-         margin-left: 153px;
          font-weight: bold;
      }
      
      .subject-label {
-         margin-top: 20px;
-         margin-left: 153px;
          font-weight: bold;
      }
      
      .message-label {
-         margin-top: 29px;
-         margin-left: 4px;
          font-weight: bold;
      }
      
-     .name-input {
+     .contact-form input {
+         width: 335px;
          padding: 10px 20px;
          outline: none;
          border: 1px solid #B6B8B8;
@@ -49,61 +32,7 @@
          background-color: #fff;
      }
      
-     .email-input {
-         margin-right: 30px;
-         padding: 10px 29px;
-         outline: none;
-         border: 1px solid #B6B8B8;
-         margin-top: 10px;
-         font-size: 1rem;
-         font-weight: 400;
-         border-radius: 40px;
-         background-color: #fff;
-     }
-     
-     .phone-input {
-         padding: 10px 20px;
-         outline: none;
-         border: 1px solid #B6B8B8;
-         margin-top: 10px;
-         font-size: 1rem;
-         font-weight: 400;
-         border-radius: 40px;
-         background-color: #fff;
-     }
-     
-     .subject-input {
-         margin-right: 30px;
-         padding: 10px 29px;
-         outline: none;
-         border: 1px solid #B6B8B8;
-         margin-top: 10px;
-         font-size: 1rem;
-         font-weight: 400;
-         border-radius: 40px;
-         background-color: #fff;
-     }
-     /* .contact-form input {
-         width: 300px;
-         padding: 10px 20px;
-         outline: none;
-         border: 1px solid #B6B8B8;
-         margin-top: 10px;
-         font-size: 1rem;
-         font-weight: 400;
-         border-radius: 40px;
-         background-color: #fff;
-     } */
-     /* 
-.email-input{
-margin-right: 30px;
-}
-
-.subject-input{
-margin-right: 30px;
-} */
-     
-     .message-input {
+     .contact-form textarea {
          width: 90%;
          height: 150px;
          padding: 12px 20px;
@@ -116,21 +45,15 @@ margin-right: 30px;
          resize: none;
      }
      
-     .submit-button {
+     .contact-form button {
          background-color: black;
          border: none;
          border-radius: 40px;
-         margin-top: 15px;
-         margin-left: 390px;
          color: #fff;
          padding: 7px 70px;
          text-decoration: none;
          cursor: pointer;
-     }
-     
-     .working-hour {
-         margin-left: 54px;
-         margin-top: 125px;
+         margin-bottom: 1rem;
      }
      
      .working-hour h3 {
@@ -142,18 +65,11 @@ margin-right: 30px;
          font-size: 15px;
          color: #5D5F5F;
      }
-     /* .iframe-map {
-         width: 100%;
-         height: 100vh;
-     } */
-     /*      
-     @media(max-width: 992px) {
-         .name-input {}
-         .email-input {
-             margin-top: 20px;
-             margin-bottom: 20px;
-             margin-right: 20px;
-             padding: 10px 20px;
-         }
-        
-     } */
+     
+     .contact-social img {
+         padding: 10px;
+     }
+     
+     .iframe-map {
+         margin-bottom: -1.8rem;
+     }

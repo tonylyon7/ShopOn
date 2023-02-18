@@ -75,7 +75,7 @@ small{
     font-weight: 600;
 }
 .men{
-    margin-left: -1rem;
+    margin-left: 1rem;
 }
 .food-text {
     width: 390px;
@@ -93,6 +93,7 @@ small{
     opacity: 0.5;
     font-size: 22px;
 }
+
 .tony-weather {
     width: 800px;
     background-color: #FFF5EB;
@@ -243,6 +244,13 @@ small{
     padding-bottom: 0.5rem;
     text-align: center;
 }
+.hott-sales {
+    margin-left: -3rem;
+}
+.hot-sales-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 .tony-hot:hover {
     box-shadow: 0 2px 8px gray;
@@ -277,7 +285,8 @@ small{
 }
 
 .SubH {
-    padding-left: 5rem;
+    padding-left: 0;
+    margin-top: 2rem;
     font-size: 30px;
     font: bolder;
     font-family: serif;
@@ -311,10 +320,11 @@ small{
 
 .tony-chair {
     background-color: #FDF2E8;
-    border-radius: 8px;
+    border-radius: 10px;
     display: flex;
     height: 27rem;
     width: 580px;
+    box-shadow: 0 2px 8px gray;
 }
 .tony-hot-last {
     margin-left: 6rem;
@@ -436,29 +446,31 @@ small{
     color:#FBF8F5;
     background-color: #E9672B;
 }
-.featured-row{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    overflow: hidden;
-    gap: 10px;
-}
 
-.featured-card{ 
-    width: 250px;
+.featured-img {
+    min-width: 30rem;
+    padding: 40px;
+    margin-left: -1rem;
 }
-.storeName{
-    background: black;
-    color: white;
-    overflow: hidden;
+.featured-img img {
+    width: 328px;
+    height: 170px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+.featured-storename {
+    background: rgba(0, 0, 0, 0.74);
+    border-radius: 8px;
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    font-size: 11px !important;
+    padding-top: 10px;
+    line-height: 36px;
+    align-items: center;
     text-align: center;
-    border-radius: 3px;
-}
-.featured-name{
-    overflow: hidden;
-    font-size: 25px;
-    font-weight: 400;
-    color: #ffff;
+    margin-top: -3.1rem;
+    position: relative;
 }
 
 
@@ -590,3 +602,343 @@ small{
     justify-content: center;
     display: flex;
 }
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #c56336;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #DE5212;
+}
+
+
+
+
+
+/*  */
+.landing-sign {
+    position: fixed;
+}
+/*  */
+
+
+@media (max-width: 992px) {
+    .landing-page {
+        overflow: hidden;
+    }
+    .landing-fridge, .landing-girl {
+        display: none;
+    }
+    .Tonys-main {
+        background: #103D37;
+        width: 100%;
+        height: 100%;
+    }
+    .special-offer {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .special img {
+        width: 90%;
+    }
+    .man{
+        background: #E8E8E8;
+        width: 100% !important;
+        height: 600px;
+    }
+    .chair {
+        margin-left: -4rem;
+    }
+    .special-second {
+        margin-left: -1rem;
+        margin-top: 2rem;
+    }
+    .special-second img {
+        width: 100%;
+        height: 220px;
+        margin-right: 10rem;
+    }
+    .food-text {
+        width: 100%;
+        height: 95px;
+        margin-top: -5.7rem;
+    }
+    .tony-weather {
+        width: 100%;
+    } 
+    .weather {
+        margin-left: -2.5rem ;
+    }
+    .weather-bg {
+        width: 100%;
+    }
+    .weather-group {
+        margin-left: 17rem;
+        margin-top: -21rem;
+    }
+
+    /* HOTSALES */
+    .hott-sales {
+        margin-left: 0;
+    }
+    .lastitem {
+        margin-left: 6rem;
+    }
+    .tony-fire{
+        margin-left: 7rem;
+    }
+    .tony-hot  {
+        justify-self: center;
+        width: -30px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 0.5rem;
+        text-align: center;
+    }
+    .hot-imgs {
+        margin-top: 2rem !important;
+    }
+    .hot-sales-imgs {
+        display: grid !important;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: -2rem;
+    }
+    .hot-sales-imgs img {
+        width: 120px;
+        margin-top: 2rem;
+        background-color: #f5f5f5;
+    }
+    .tony-hot .select {
+        display: none;
+    }
+    .tony-text, .price {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .link {display: none;}
+
+    /* TOP CATEGORIES */
+    .tony-row {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .landing-textt {
+        margin-top: 3rem;
+        background-color: #DE5212;
+        height: 50px;
+        width: 106.5%;
+        padding-left: 1rem;
+        font-size: 30px;
+        font: bolder;
+        font-family: serif;
+        margin-left: -0.8rem;
+        color: #fff;
+        text-align: start;
+        margin-bottom: 3rem;
+    }
+    .textt {
+        margin-left: -3rem;
+        width: 140%;
+    }
+    .texttt {
+        height: 72px;
+    }
+    .SubH {
+        margin-top: 3rem;
+        background-color: #DE5212;
+        height: 50px;
+        width: 115%;
+        padding-left: 1rem;
+        font-size: 30px;
+        font: bolder;
+        font-family: serif;
+        margin-left: -1.5rem;
+        color: #fff;
+        text-align: start !important;
+    }
+
+    .tony-chair {
+        height: 20rem;
+        width: 400px;
+        margin-left: -5.5rem;
+    }
+    .tony-chair1 {
+        margin-top: 2.6rem;
+        width: 200px;
+    } 
+    .tony-collection {
+        margin-left: 8rem;
+        margin-top: 8rem;
+    }
+   .tony-comfort {
+    margin-left: 8rem;
+    margin-top: 10rem;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+   }
+   .Tony-explore {
+    padding-top: 6px;
+    width: 12rem;
+    height: 40px;
+    margin-top: 15rem;
+    margin-left: 8rem;
+}
+.tony-chair2 {
+    display: none;
+}
+.tony-lamb {
+    height: 20rem;
+    width: 400px;
+    margin-left: -5.5rem;
+    margin-top: 3rem;
+}
+.tony-lamb1 {
+    display: none;
+}
+.tony-coll2 {
+    margin-left: 3rem;
+}
+.tony-comf2 {
+    margin-left: 2rem;
+}
+.tony-explo2 {
+    margin-left: 3.7rem;
+}
+
+/* FEATURED PRODUCT */
+.tony2-items {
+    display: none;
+}
+.tony-featured {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.tony-hot img {
+    width: 75px;
+    padding: 7px;
+    margin-top: 2rem;
+    background-color: #f5f5f5;
+}
+
+/* TONY-FRIDAY */
+.fridayyy { 
+    display: none;
+ }
+
+
+ /* ANOTHER TOP CATEGORIES */
+ .categotie-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ .categotie-img {
+    margin-left: -1.5rem;
+ }
+ .categotie-img img {
+    width: 130% !important;
+ }
+
+/* TONY-POPULAR */
+ .tony-popular {
+    display: none;
+ }
+
+
+/* NEW ARRIVAL */
+  .tony-arrival {
+    display: grid !important;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: -2rem !important;
+  }
+
+.great-designed {
+    display: none !important;
+}
+
+  /* TOP TRENDING */
+  .tony-trending {
+    display: grid !important;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: -2rem !important;
+  }
+
+  .featured-storename {
+    width: 330px;
+} 
+
+.newletter-img {
+    width: 150%;
+    height: 70px;
+    object-fit: cover;
+    margin-left: -3rem;
+}
+.landing-insta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5.5rem !important;
+    margin-left: -2.2rem !important;
+}
+.landing-insta img {
+    width: 250%;
+}
+.landing-sponsor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-left: -15px;
+}
+.landing-sponsor img {
+    width: 120%;
+}
+
+/* SLIDE STYLE */
+.featured-img {
+    min-width: 30rem;
+    padding: 40px;
+    margin-left: -1rem;
+}
+.featured-img img {
+    width: 500px;
+    height: 170px;
+    border-radius: 8px;
+    pointer-events: none;
+    margin-left: -4.7rem;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #c56336;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #DE5212;
+}
+}
+
+/* @media screen and (max-width: 1024px) {
+    
+}
+  
+
+@media screen and (max-width: 600px) {
+    
+    
+  } */
+  

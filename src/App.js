@@ -12,6 +12,7 @@ import Error404 from "./User/Error404/Error404"
 import Shopingcart from "./User/Shoppingcart/Shopingcart"
 import Emptyshoppingcart from "./User/Shoppingcart/Emptyshoppingcart"
 import Wishlistp from "./User/Wishlist/Wishlistp"
+import Checkout from "./User/Checkout/Checkout"
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/Shopingcart" element={<Shopingcart />} />
           <Route path="/Emptyshoppingcart" element={<Emptyshoppingcart />} />
           <Route path="/Wishlist" element={<Wishlistp />} />
+          <Route path="/Checkout" element={<Checkout/>} />
         </Routes>
       </Router>
     </>

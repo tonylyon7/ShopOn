@@ -9,54 +9,58 @@ import { Link } from 'react-router-dom'
 const Register = () => {
   return (
     <>
-        <div className='container-fluid signin'>
-            <div className='wrapper signin'>
-            <div className='row d-flex'>
-            <div className='col-md-1'>
-                </div>
-                <div className='col-md-5'>
-                    <div className='stephimage1'>
-                    <img src={img} className='stephfrontimg'/>
-                    </div>
-                </div>
-                <div className='col-md-5'>
-                    <div className='stephimage2'>
-                    <img src={img1}/>
-                    </div>
-                    <h2 className='registerheading'>Hello Friend!!!</h2>
-                    <div className='socialmedia'>
-                    <div className='stephsignin'>
-                    <a href='www.facebook.com'><AiFillFacebook/>Sign in with facebook</a>
-                    </div>
-                        <a href='www.google.com'><AiFillGoogleCircle/></a>
-                    </div>
-                    <p className='stephor'>or</p>
-                    <form>
-                        <div className='Username'>
-                        <label className='steph username'>Username</label>
-                        <input type='text' placeholder='ex:julie'/>
+        <div className='container signin'>
+            <div className='row'>
+              <div className='col-md-2'></div>
+              <div className='col-md-8 card'>
+                <div className='row d-flex'>
+                        <div className='col-md-6'>
+                            <div className='stephfrontimg'>
+                            <img src={img} className='stephimg mt-2'/>
+                            </div>
+                         </div>
+                         <div className='col-md-6 ml-5'>
+                         <div className='stephcont'>
+                                <div className='stephimage'>
+                                <img src={img1} className='stephimagee'/>
+                                 </div>
+                               <h2 className='registerheading'>Hello Friend!!!</h2>
+                                <div className='socialmedia'>
+                                    <div className='stephsignin'>
+                                    <a href='www.facebook.com' className='facebook'><AiFillFacebook/>Sign in with facebook</a>
+                                    </div>
+                                    <div className='stephgo'>
+                                    <a href='www.google.com' className='goog'><AiFillGoogleCircle/></a>
+                                    </div>
+                                </div>
+                                <p className='stephor'>or</p>
+                                <form>
+                                    <div className='Username'>
+                                    <label className='steph username'>Username</label>
+                                    <input type='text' placeholder='ex:julie'/>
+                                    </div>
+                                    <div className='email'>
+                                    <label className='email'>Your Email</label>
+                                    <input type='email' id='email' placeholder='ex:jules@gmail.com '/>
+                                    </div>
+                                    <div className='password'>
+                                    <div className='stephpassword'>
+                                    <label className='passworde'>Password</label>
+                                    <a href='' className='forgotpassword'> Forgot password?</a>
+                                    </div>
+                                    <input type='password' id='password'/>
+                                    </div>
+                                    <button className='stephbutton'>Create Account</button>
+                                </form>
+                                <div className='stephmember'>
+                                <p className='newmember'>Already a Member?</p>
+                                <p className='newmembers'><Link to='/SignIn'>Sign In</Link></p>
+                                </div>
+                          </div>
                         </div>
-                        <div className='email'>
-                        <label className='email'>Your Email</label>
-                        <input type='email' id='email' placeholder='ex:jules@gmail.com '/>
-                        </div>
-                        <div className='password'>
-                        <div className='stephpassword'>
-                        <label className='passworde'>Password</label>
-                        <a href='' className='forgotpassword'> Forgot password?</a>
-                        </div>
-                        <input type='password' id='password'/>
-                        </div>
-                        <button className='stephbutton'>Create Account</button>
-                    </form>
-                    <div className='stephmember'>
-                    <p className='newmember'>Already a Member?</p>
-                   <p className='newmembers'><Link to='/SignIn'>Sign In</Link></p>
-                    </div>
                 </div>
-                <div className='col-md-1'>
-                </div>
-            </div>
+              </div>
+              <div className='col-md-2'></div>
             </div>
         </div>
     </>

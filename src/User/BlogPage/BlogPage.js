@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './BlogCSS/Blog.css'
 import Navbar from '../Navbar/Navbar'
-import { FaSearch } from 'react-icons/fa'
+import { FaChevronCircleDown } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import BlogImg from './Assets/Rectangle 17.png'
 import BlogImg7 from './Assets/Rectangle 18.png'
@@ -13,15 +13,28 @@ import BlogImg12 from './Assets/Rectangle 17 (5).png'
 import BlogPage2 from './BlogPage2'
 import BlogSide from './BlogSide'
 import Footer from '../Footer/Footer'
+
+
 const BlogPage = () => {
+     const [show, setShow] = useState(false);
+
   return (
      <>
-    <div className=''>
+    <div className='blog-page'>
          <Navbar/>
        <div className='blog d-sm-flex text-center ms-5 mt-4'>
-          <aside className='blogAside f-style fs-5'>
-             <BlogSide/>
+          <aside className='blogAside none f-style fs-5'>
+               <BlogSide/>
           </aside>
+       <div className='blog-pull bg-none'>
+       <h5 className='text-start' onClick={() => setShow(!show)}>{show === false ? "Pull Me" : "Close Me"}</h5>
+          {
+               show &&   <aside className='blogAside f-style fs-5'>
+                              <BlogSide/>
+                         </aside>
+          }
+          
+          </div>
           <section className='blog-container mt-3'>
             <img src={BlogImg} className='blog-main-img' />
 
