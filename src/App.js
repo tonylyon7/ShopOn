@@ -13,6 +13,7 @@ import Shopingcart from "./User/Shoppingcart/Shopingcart"
 import Emptyshoppingcart from "./User/Shoppingcart/Emptyshoppingcart"
 import Wishlistp from "./User/Wishlist/Wishlistp"
 import Checkout from "./User/Checkout/Checkout"
+import Shop from "./User/Shop/Shop"
 
 function App() {
   return (
@@ -28,10 +29,11 @@ function App() {
           <Route path="/BlogDetail" element={<BlogDetail />} />
           <Route path="/FAQ" element={<FAQ />} />
           <Route path="/Error404" element={<Error404 />} />
-          <Route path="/Shopingcart" element={<Shopingcart />} />
+          <Route path="/Shoppingcart" element={<Shopingcart />} />
           <Route path="/Emptyshoppingcart" element={<Emptyshoppingcart />} />
           <Route path="/Wishlist" element={<Wishlistp />} />
           <Route path="/Checkout" element={<Checkout/>} />
+          <Route path="/Shop" element={<Shop/>} />
         </Routes>
       </Router>
     </>

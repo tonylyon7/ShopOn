@@ -8,7 +8,6 @@ import earb from "../Images/earb.svg"
 import visa from "../Images/visa.png"
 import master from "../Images/maste.png"
 import paypal from "../Images/paypal.png"
-import Navbar from '../../Navbar/Navbar'
 import Checkout from '../../Checkout/Checkout'
 import { Link } from 'react-router-dom'
 
@@ -16,7 +15,6 @@ import { Link } from 'react-router-dom'
 const Scart = () => {
   return (
     <>
-    <Navbar/>
         <div className='container py-3 mt-4'>
             <p style={{fontSize: "20px",fontWeight:"700"}}>Shopping Cart<sup style={{fontSize: "12px", fontWeight: "500"}}>(2)</sup></p>
             <div className='row'>
@@ -82,13 +80,13 @@ const Scart = () => {
                             <p style={{fontSize:"10px",color:"#5D5F5F",fontWeight:"600"}} className='mb-0'>Shipping</p>
                             <p className='mb-0' style={{fontWeight:"700",fontSize:"10px"}}>Free</p>
                         </div>
-                        <hr style={{height:"0.1px"}}></hr>
+                        <hr className='malsmhr' style={{height:"0.1px"}}></hr>
                         <p style={{fontSize:"10px",color:"#5D5F5F",fontWeight:"600"}}>Discount Code</p>
                         <form className='d-flex justify-content-between'>
                             <input type='text' placeholder='Enter coupon' className='rounded-pill border px-3 py-1 malscart' style={{width:"73%"}}/>
                             <button className='rounded-pill border' style={{width:"25%",backgroundColor:"#E9672B",fontSize:"10px",color:"white"}}>Apply</button>
                         </form>
-                        <hr style={{height:"0.1px"}}></hr>
+                        <hr className='malsmhr' style={{height:"0.1px"}}></hr>
                         <div className='d-flex justify-content-between'>
                             <p style={{fontSize:"10px",color:"#5D5F5F",fontWeight:"600"}} className='mb-2'>Total</p>
                             <p className='mb-2' style={{fontWeight:"800",fontSize:"12px"}}>$94.14</p>

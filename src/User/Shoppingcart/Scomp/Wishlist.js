@@ -4,13 +4,11 @@ import lapi from "../Images/lapi.svg"
 import uparr from "../Images/uparr.svg"
 import downarr from "../Images/downarr.svg"
 import earb from "../Images/earb.svg"
-import Navbar from '../../Navbar/Navbar'
 
 
 const Wishlist = () => {
   return (
     <>
-    <Navbar/>
         <div className='container mt-4'>
             <p style={{fontSize: "20px",fontWeight:"700",marginTop:"20px"}}>My Wishlist</p>
             <table className='table border'>
