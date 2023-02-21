@@ -1,0 +1,75 @@
+     .name-label {
+         /* margin-top: 10px; */
+         font-weight: bold;
+     }
+     
+     .phone-label {
+         /* margin-top: 10px; */
+         font-weight: bold;
+     }
+     
+     .email-label {
+         font-weight: bold;
+     }
+     
+     .subject-label {
+         font-weight: bold;
+     }
+     
+     .message-label {
+         font-weight: bold;
+     }
+     
+     .contact-form input {
+         width: 335px;
+         padding: 10px 20px;
+         outline: none;
+         border: 1px solid #B6B8B8;
+         margin-top: 10px;
+         font-size: 1rem;
+         font-weight: 400;
+         border-radius: 40px;
+         background-color: #fff;
+     }
+     
+     .contact-form textarea {
+         width: 90%;
+         height: 150px;
+         padding: 12px 20px;
+         margin-top: 10px;
+         outline: none;
+         box-sizing: border-box;
+         border: 2px solid #B6B8B8;
+         border-radius: 4px;
+         background-color: #fff;
+         resize: none;
+     }
+     
+     .contact-form button {
+         background-color: black;
+         border: none;
+         border-radius: 40px;
+         color: #fff;
+         padding: 7px 70px;
+         text-decoration: none;
+         cursor: pointer;
+         margin-bottom: 1rem;
+     }
+     
+     .working-hour h3 {
+         font-size: 18px;
+         font-weight: bold;
+     }
+     
+     .working-hour p {
+         font-size: 15px;
+         color: #5D5F5F;
+     }
+     
+     .contact-social img {
+         padding: 10px;
+     }
+     
+     .iframe-map {
+         margin-bottom: -1.8rem;
+     }

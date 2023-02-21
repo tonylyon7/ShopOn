@@ -13,7 +13,7 @@
 }
 
 .second form input {
-    padding: 8px;
+    padding: 8px 10px;
     width: 400px;
     background: #F4F4F5;
     border-radius: 40px;
@@ -38,4 +38,19 @@
     font-size: 14px;
     margin-left: -28%;
     color: #5D5F5F;
+}
+
+@media (max-width: 992px) {
+    .Tony-Nav {
+       display: none;   
+    }
+    .Tony-head {
+        display: none;
+    }
+    .Tony-main-nav {
+        display: none;
+    }
+    .landing-search {
+        display: block;
+    }
 }

@@ -14,10 +14,12 @@
     
 }
 .aero-money{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
 }
 .john-money{
-    margin-left: 90px;
+    margin-left: 50px;
     
 } 
 .john-gift{
@@ -73,18 +75,17 @@
         margin-left: 10px;
     }
     .john-money{
-        margin-left: 6px;
-        margin-top: 5px;
+        margin-left: -1px;
     }
     .john-phone{
-        margin-left: 10px;
     }
     .john-gift{
-        margin-left: 10px;
+        margin-left: -1px;
     }
-    /* .john-aero{
-        margin-left: px;
-    } */
+    .aero-money{
+        display: block;
+        margin-bottom: 20px;
+    }
     .john-study{
         margin-left: 1px;
     }

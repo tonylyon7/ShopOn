@@ -1,0 +1,139 @@
+.stephnie{
+    border: 1px solid rgb(236, 235, 235);
+    background-color: white;
+}
+.stephcontent{
+    justify-content: center;
+    align-items: center;
+}
+
+.stephimagee{
+    margin-top: 3px;
+}
+.stephimg{
+    width: 380px;
+    height:485px;
+}
+.registerheading{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.stephsignin{
+    border: 1px  rgb(183, 182, 182);
+    border-radius: 30px;
+    border-color: 2px 1px grey;
+    text-align: center;
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 4px;
+    box-shadow:.5px .5px .5px 1px rgb(151, 150, 150);
+    width: 300px;
+    text-decoration: none;
+}
+.facebook{
+    text-decoration: none;
+}
+.socialmedia{
+    display: flex;
+}
+.stephgo{
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.goog{
+    width: 300px;
+    height: 300px;
+}
+.stephor{
+    text-align: center;
+    margin: 3px;
+}
+.Username{
+    display: flex;
+    flex-direction: column;
+}
+.Username label{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.Username input{
+    border: 1.5px solid #9a9898;
+    border-radius: 30px;
+    padding: 7px;
+    box-shadow: .6px .6px rgb(163, 163, 163);
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.email label{
+    margin-top: 6px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.email input{
+    border: 1.5px solid #9a9898;
+    border-radius: 30px;
+    padding: 7px;
+    box-shadow: .6px .6px rgb(163, 163, 163);
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+.stephpassword{
+    display: flex;
+    margin-top: 8px;
+}
+.passworde{
+    margin-top: 8px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.forgotpassword{
+    margin-left: 120px;
+    color: red;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.password input{
+    border: 1.5px solid  #9a9898;
+    padding: 7px;
+    border-radius: 30px;
+    box-shadow: .6px .6px rgb(163, 163, 163);
+}
+.stephbutton{
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #E9672B;
+    justify-content: center;
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 28px;
+    font-weight: 600;
+}
+.stephmember{
+    display: flex;
+    margin-top: 8px;
+    text-align: center;
+    justify-content: center;
+
+}
+.newmember,
+.newmembers{
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+}

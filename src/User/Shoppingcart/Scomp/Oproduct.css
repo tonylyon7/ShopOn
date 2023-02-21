@@ -1,0 +1,42 @@
+.malgridd{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.malgridd:hover{
+    box-shadow: 0px 0px 10px rgb(183, 182, 182);
+    border-radius: 5px;
+}
+.malgchairr{
+    width: 70%;
+}
+.malsmcoloo{
+    width: 15px;
+    height: 13px;
+    border: none;
+    margin: 3px;
+    background-color: transparent;
+}
+.malwrop{
+    font-size: 12px;
+    margin-top: 12px;
+}
+.maldoll{
+    font-weight: 700;
+    font-size: 14px;
+}
+.malcart{
+    text-decoration: underline;
+    color: #E9672B;
+    font-size: 11px;
+}
+.malinpcol input[type=color]::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+}
+.malinpcol input[type=color]::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+}

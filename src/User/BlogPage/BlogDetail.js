@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './BlogCSS/Blog.css'
 import BlogSide from './BlogSide'
 import blogImg from './Assets/Rectangle 17.png'
@@ -10,16 +10,39 @@ import blogImg6 from './Assets/Group.png'
 import blogImg7 from './Assets/Rectangle 17 (13).png'
 import BlogComment from './BlogComment'
 import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
+
 
 const BlogDetail = () => {
+    const [show, setShow] = useState(false);
+
+
   return (
-    <div>
-        <div className='blog-title mt-5'>
+    <div className='blog-page'>
+        <style>
+            {/* .blog-date {
+                margin-left: 2rem;
+            } */}
+        </style>
+
+        <Navbar/>
+        <div className='blog-pull mt-3 pull'> 
+            <h5 className='text-start' onClick={() => setShow(!show)}>{show === false ? "Pull Me" : "Close Me"}</h5>
+            <div className='blog-pull bg-none'>
+          {
+               show &&   <aside className='blogAside f-style fs-5'>
+                              <BlogSide/>
+                         </aside>
+          }
+          
+          </div>
+        </div>
+        <div className='blog-title'>
             <h5 className='text-start ms-sm-5 pt-3 f-style fs-4'>Blog {'>'} A Guide To New Orleans' Best...</h5>
         </div>
         <div className='blog d-sm-flex text-center ms-2 mt-4'>
-          <aside className='blogAside f-style fs-5'>
-             <BlogSide/>
+        <aside className='blogAside none f-style fs-5'>
+               <BlogSide/>
           </aside>
 
           <section className='blog-container mt-3 ms-5'>
@@ -96,6 +119,8 @@ const BlogDetail = () => {
             </div>
           </section>
           </div>
+
+          <Footer/>
     </div>
   )
 }
