@@ -31,7 +31,6 @@ const FAQ = () => {
         </p>
       </div>
 
-
       {data.map((data, i) => {
         return (
          <div className='mt-3'>
