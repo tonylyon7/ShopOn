@@ -16,7 +16,9 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container">
           <a className="navbar-brand" href="#">
+          <Link to="/" >
             <img src={img} />
+          </Link>
           </a>
           <div className=" ml-auto d-flex">
             <div

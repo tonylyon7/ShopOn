@@ -17,7 +17,9 @@ const Footer = () => {
       <div className='container pt-5'>
         <div className='footer-page'>
           <div className=''>
+            <Link to="/" className="nav-link ">
               <img src={logo}/>
+            </Link>
               <p className='mt-5'>Address: 17 Princess Road, London, Greater London NW1 8JR, UK</p>
               <p>Phone: (800) 8001-8588, (0600) 874 548</p>
               <p>Email: info@gmail.com</p>
