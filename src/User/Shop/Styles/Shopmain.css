@@ -1,0 +1,171 @@
+.malsmf{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.malx{
+    width: 12px;
+    margin-top: -20px;
+}
+.malawp{
+    font-size: 9px;
+    font-weight: 700;
+    margin-top: -6px;
+    margin-left: 7px;
+}
+.malsmhr{
+    background-color: #c1c1c1;
+}
+.malsmcat{
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 8px;
+}
+.malsmsel{
+    width: 12px;
+    margin-top: -15px;
+}
+.malsmsell{
+    width: 12px;
+    margin-top: -10px;
+}
+.malporg{
+    color: #DE5212;
+    font-size: 10px;
+    font-weight: 700;
+}
+.malpgra{
+    font-size: 10px;
+    color: #5D5F5F;
+    font-weight: 600;
+}
+.form-check-input:checked {
+    background-color: #DE5212;
+    border-color: #DE5212;
+}
+.malsmcolo{
+    width: 21.5px;
+    height: 19px;
+    border: none;
+    margin: 3px;
+    background-color: transparent;
+}
+input[type=color]::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+}
+input[type=color]::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+}
+.malinpra{
+    width: 100%;
+    height: 2px;
+}
+input[type=range] {
+    height: 2px;
+    -webkit-appearance: none;
+    width: 100%;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #DE5212;
+    border-radius: 5px;
+}
+input[type=range]::-webkit-slider-thumb {
+    border: 1px solid #DE5212;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -9px;
+}
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #DE5212;
+    border-radius: 5px;
+}
+input[type=range]::-moz-range-thumb {
+    border: 1px solid #DE5212;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -9px;
+}
+.malmtfgg{
+    margin-top: -19px;
+    margin-left: 14%;
+}
+.malsmbgso{
+    background-color: #E8E8E8;
+    padding: 10%;
+}
+.malofferr{
+    width: 100%;
+}
+.malsmsn{
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    font-size: 7px;
+    color: #E9672B;
+    font-weight: 500;
+    width: 70px;
+    height: 25px;
+}
+.malsmnav2{
+    margin-top: 30px;
+}
+.malsmnav22{
+    margin-top: 10px;
+}
+.malsmgal img{
+    width: 15px;
+    margin-left: 15px;
+}
+.malsmcoloo{
+    width: 15px;
+    height: 13px;
+    border: none;
+    margin: 3px;
+    background-color: transparent;
+}
+.malgridd{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.malgridd:hover{
+    box-shadow: 0px 0px 10px rgb(183, 182, 182);
+    border-radius: 5px;
+}
+.malgchairr{
+    width: 70%;
+}
+.malsmpab{
+    border: solid 1px black;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+.malsmull a{
+    font-size: 10px;
+    color: #5D5F5F;
+}
+.malsmlsed{
+    font-size: 9px;
+}

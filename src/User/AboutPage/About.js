@@ -39,7 +39,7 @@ const About = () => {
               across major issues of freedom of expression and information, and how they are 
               experienced in various countries.
               </p>
-              <div className='aero-money '>
+              <div className='aero-money'>
                 <img className='john-aero -col-sm-6 img-fluid mt-3' src={AboutImg2}/> 
                 <img className='john-money -col-sm-6 img-fluid mt-3' src={AboutImg4}/> 
                 <img className='john-phone -col-sm-6 img-fluid mt-3'  src={AboutImg3}/> 

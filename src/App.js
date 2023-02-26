@@ -13,10 +13,10 @@ import Shopingcart from "./User/Shoppingcart/Shopingcart"
 import Emptyshoppingcart from "./User/Shoppingcart/Emptyshoppingcart"
 import Wishlistp from "./User/Wishlist/Wishlistp"
 import Checkout from "./User/Checkout/Checkout"
-import Checkout1 from "./User/Checkout/Checkout1"
-import Checkout2 from "./User/Checkout/Checkout2"
-import Checkout3 from "./User/Checkout/Checkout3"
-import Checkout4 from "./User/Checkout/Checkout4"
+import Shop from "./User/Shop/Shop"
+import InventoryNav from "./vendor/Inventory/InventoryNav"
+import InventoryAdd from "./vendor/Inventory/InventoryAdd"
+import InventoryDetails from "./vendor/Inventory/InventoryDetails"
 
 function App() {
   return (
@@ -32,15 +32,17 @@ function App() {
           <Route path="/BlogDetail" element={<BlogDetail />} />
           <Route path="/FAQ" element={<FAQ />} />
           <Route path="/Error404" element={<Error404 />} />
-          <Route path="/Shopingcart" element={<Shopingcart />} />
+          <Route path="/Shoppingcart" element={<Shopingcart />} />
           <Route path="/Emptyshoppingcart" element={<Emptyshoppingcart />} />
           <Route path="/Wishlist" element={<Wishlistp />} />
           <Route path="/Checkout" element={<Checkout/>} />
-          <Route path="/Checkout1" element={<Checkout1/>} />
-          <Route path="/Checkout2" element={<Checkout2/>} />
-          <Route path="/Checkout3" element={<Checkout3/>} />
-          <Route path="/Checkout4" element={<Checkout4/>} />
+          <Route path="/Shop" element={<Shop/>} />
 
+
+          {/* SELLER PAGE */}
+          <Route path='/InventoryNav' element={ <InventoryNav/> } />
+          <Route path="/InventoryAdd" element={ <InventoryAdd/> } />
+          <Route path="/InventoryDetails" element={ <InventoryDetails/> } />
         </Routes>
       </Router>
     </>

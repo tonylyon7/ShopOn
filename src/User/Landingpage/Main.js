@@ -90,7 +90,6 @@ import truck from './Assets/mdi_truck-delivery-outline.png'
 import vector from './Assets/Vector.png'
 import group from './Assets/Group.png'
 import Main2 from './Main2'
-import Footer from './Footer'
 
 
 const Main = () => {
@@ -154,7 +153,7 @@ const Main = () => {
                     <p className='after'>$42.13 <span className='before ms-3 mt-1'>$42.33</span></p>
                     <button className='tony-b px-5 py-2'> shop now</button>
                   </div>
-                      <div className='col-md-8 weather'><img src={weather}/>
+                      <div className='col-md-8 weather'><img src={weather} className='weather-bg'/>
                         <img src={group1} className='weather-group' />
                       </div>
                 </div>
@@ -717,7 +716,7 @@ const Main = () => {
                       className='mySwiper'
                       breakpoints={{
                         0: {
-                          slidesPerView: 1,
+                          slidesPerView: 1.3,
                           spaceBetween: 10,
                         },
                         480: {
@@ -778,7 +777,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 1,
+                      slidesPerView: 1.3,
                       spaceBetween: 10,
                     },
                     480: {
@@ -855,7 +854,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 1,
+                      slidesPerView: 1.3,
                       spaceBetween: 10,
                     },
                     480: {
@@ -1215,7 +1214,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 1,
+                      slidesPerView: 1.3,
                       spaceBetween: 10,
                     },
                     480: {
@@ -1276,7 +1275,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 1,
+                      slidesPerView: 1.3,
                       spaceBetween: 10,
                     },
                     480: {
@@ -1337,7 +1336,7 @@ const Main = () => {
                   className='mySwiper mt-4'
                   breakpoints={{
                     0: {
-                      slidesPerView: 1,
+                      slidesPerView: 1.3,
                       spaceBetween: 10,
                     },
                     480: {
@@ -1409,7 +1408,6 @@ const Main = () => {
             </div>
             {/* <Main2/> */}
           </div>
-          <Footer/>
         </div>
     </div>
   )

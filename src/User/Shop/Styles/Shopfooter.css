@@ -1,0 +1,66 @@
+.malsfbg{
+    background-color: #1D1F1F;
+    padding-top: 50px;
+}
+.malsfa{
+    font-size: 9px;
+    color: #FBF8F5;
+    text-decoration: none;
+}
+.malsfa{
+    margin-top: 30px;
+}
+.malsfimg img{
+    margin-top: 25px;
+    width: 13px;
+    height: 13px;
+    margin-right: 17px;
+}
+.malsfulli{
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+}
+.malsfd3,
+.malsfullii p{
+    font-size: 9px;
+    font-weight: 300;
+    color: #FBF8F5;
+}
+.malsfnews{
+    background-color: #3b3b3b;
+    border-radius: 30px;
+    width: 100%;
+    height: 40px;
+}
+.malsfnews input{
+    height: 90%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.malsfninggg img{
+    background-color: #E9672B;
+    border-radius: 50%;
+    padding: 14px;
+    margin-top: -4px;
+    margin-right: -1px;
+}
+.malsfnews input::placeholder{
+    color: #E3E3E3;
+    font-size: 12px;
+}
+.malsfhr{
+    background-color: #222424;
+}
+.malsfpay img{
+    width: 40px;
+    border-radius: 5px;
+    height: 24px;
+    margin-left: 15px;
+}
+.malsfcr{
+    color: #FBF8F5;
+    font-size: 10px;
+}
