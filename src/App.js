@@ -13,6 +13,10 @@ import Shopingcart from "./User/Shoppingcart/Shopingcart"
 import Emptyshoppingcart from "./User/Shoppingcart/Emptyshoppingcart"
 import Wishlistp from "./User/Wishlist/Wishlistp"
 import Checkout from "./User/Checkout/Checkout"
+import Checkout1 from "./User/Checkout/Checkout1"
+import Checkout2 from "./User/Checkout/Checkout2"
+import Checkout3 from "./User/Checkout/Checkout3"
+import Checkout4 from "./User/Checkout/Checkout4"
 
 function App() {
   return (
@@ -32,6 +36,11 @@ function App() {
           <Route path="/Emptyshoppingcart" element={<Emptyshoppingcart />} />
           <Route path="/Wishlist" element={<Wishlistp />} />
           <Route path="/Checkout" element={<Checkout/>} />
+          <Route path="/Checkout1" element={<Checkout1/>} />
+          <Route path="/Checkout2" element={<Checkout2/>} />
+          <Route path="/Checkout3" element={<Checkout3/>} />
+          <Route path="/Checkout4" element={<Checkout4/>} />
+
         </Routes>
       </Router>
     </>
