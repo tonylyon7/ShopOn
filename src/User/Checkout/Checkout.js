@@ -6,6 +6,10 @@ import Footer from '../Footer/Footer'
 import { FaArrowRight } from 'react-icons/fa'
 import norton from './CheckoutImages/Norton Icon.png'
 import axios from 'axios'
+import content from './CheckoutImages/Content.png'
+import active from './CheckoutImages/finished to active.png'
+import step from './CheckoutImages/_Step icon base.png'
+import next from './CheckoutImages/active to next step.png'
 
 const Checkout = () => {
     const [data, setData] = useState([]);
@@ -45,6 +49,12 @@ const Checkout = () => {
                     <h3 className='header2'>Choose delivery location</h3>
                     <p className='para1'>Where would be most convenient for you to receive your offer?</p>
                 </div>
+                <div className='img1'>
+                    <img src={content}/><img src={active}/><img src={step}/><img src={next}/><img src={step}/><img src={next}/><img src={step}/>
+                </div>
+                <div className='line1'>
+                    <p><span className='welcome'>Welcome</span><span className='ship'>Shipping method</span><span className='ment'>Payment</span><span className='ord'>Order</span></p>
+                </div>
                 <div className='box '>
                     <h6 className='bill mt-3'>Billing Address</h6>
                     <form className='check-form'>
@@ -56,7 +66,7 @@ const Checkout = () => {
                         <input type='email' placeholder='max.luca@gmail.com' className='email-input'></input><br/>
                         <label for='street address' className='mt-3'> Street Address</label><br/>
                         <input type='text' className='email-input'></input><br/>
-                        <label className='mt-3'>Country</label><br/>
+                        <label className='mt-3 country'>Country</label><br/>
                         <select onChange={(e) => handleCountry(e)}>
                             <option>Select Country</option>
                             {country.map(items => <option key={items} value={getCountry}>{items}</option>)}
@@ -83,12 +93,12 @@ const Checkout = () => {
                             <input type='checkbox'/>
                             <p className='ms-3 mt-3'>Create an account for 10% off this purchase</p>
                         </div>
-                        <h5>Add tip</h5>
-                        <div className='checkout-tip mt-4'>
-                            <h5>Show your support for the team at Soairshop</h5>
+                        <h5 className='add-tip'>Add tip</h5>
+                        <div className='checkout-tip mt-2'>
+                            <h5 className='support'>Show your support for the team at Soairshop</h5>
                             <div className='checkout-put-tip'>
                                 <div className='checkout-price'>
-                                    <table style={{ width: '100%' }}>
+                                    <table style={{width: '100%' }}>
                                         <tr>
                                             <td className='text-center'>15% <br/> <span>$14.70</span></td>
                                             <td className='text-center'>18% <br/> <span>$17.64</span></td>
@@ -103,17 +113,17 @@ const Checkout = () => {
                                         <button type='submit' className='ms-2'>Apply</button>
                                     </form>
                                 </div>
-                                <p className='ms-4 mt-3'>Thank you, we appreciate it</p>
+                                <p className='ms-4 mt-3 thankyou'>Thank you, we appreciate it</p>
                             </div>
                             <div className='d-flex checkout-foot'>
                                 <img src={norton}/>
-                                <Link to='' className='d-flex justify-content-center align-items-center checkout-next text-center text-decoration-none text-white'>Next <FaArrowRight className='ms-3'/></Link>
+                                <Link to='/Checkout1' className='d-flex justify-content-center align-items-center checkout-next text-center text-decoration-none text-white'>Next <FaArrowRight className='ms-3'/></Link>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-        </div>
+        </div>   
         <Footer/>
     </div>
   )

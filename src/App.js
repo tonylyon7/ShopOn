@@ -14,6 +14,9 @@ import Emptyshoppingcart from "./User/Shoppingcart/Emptyshoppingcart"
 import Wishlistp from "./User/Wishlist/Wishlistp"
 import Checkout from "./User/Checkout/Checkout"
 import Shop from "./User/Shop/Shop"
+import InventoryNav from "./vendor/Inventory/InventoryNav"
+import InventoryAdd from "./vendor/Inventory/InventoryAdd"
+import InventoryDetails from "./vendor/Inventory/InventoryDetails"
 
 function App() {
   return (
@@ -34,6 +37,12 @@ function App() {
           <Route path="/Wishlist" element={<Wishlistp />} />
           <Route path="/Checkout" element={<Checkout/>} />
           <Route path="/Shop" element={<Shop/>} />
+
+
+          {/* SELLER PAGE */}
+          <Route path='/InventoryNav' element={ <InventoryNav/> } />
+          <Route path="/InventoryAdd" element={ <InventoryAdd/> } />
+          <Route path="/InventoryDetails" element={ <InventoryDetails/> } />
         </Routes>
       </Router>
     </>

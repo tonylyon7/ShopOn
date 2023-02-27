@@ -9,6 +9,7 @@
     font-size: 30px;
     line-height: 48px;
     color: #E9672B;
+    font-family: 'Sofia Pro';
 
 }
 
@@ -19,6 +20,42 @@
     padding-top: 0;
     letter-spacing: 0.02em;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.img1 {
+    margin-left: 380px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.line1 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    margin-top: -46px;
+
+}
+
+.welcome {
+    color: #E9672B;
+    margin-left: 362px;
+}
+
+.ship {
+    color: #D7D8DA;
+    margin-left: 35px;
+}
+
+.ment {
+    color: #D7D8DA;
+    margin-left: 35px;
+}
+
+.ord {
+    color: #D7D8DA;
+    margin-left: 52px;
 }
 
 .box {
@@ -36,6 +73,7 @@
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
+    margin-bottom: 300px;
 }
 
 /* Scroll modification */
@@ -87,6 +125,16 @@
     background: #FFFFFF;
     border-bottom: 1px solid #E3E3E3;
 }
+.support {
+    width: 493px;
+    height: 16px;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #545454;
+}
 
 .checkout-put-tip {
     width: 550px;
@@ -122,6 +170,16 @@ table, tr, td {
     border: 1px solid #B6B8B8;
     border-radius: 5px;
     outline: none;
+
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 412px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #B6B8B8;
+    border-radius: 5px; */
   }
   .checkout-discount form button {
     width: 95px;
@@ -130,7 +188,20 @@ table, tr, td {
     background: #B6B8B8;
     border-radius: 5px;
     border: none;
+    padding: 13px;
   }
+  .thankyou {
+    width: 493px;
+    height: 16px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #5D5F5F;
+
+}
 
   .checkout-foot {
     margin-top: 3rem;
@@ -147,4 +218,38 @@ table, tr, td {
     border-radius: 6.2px;
     text-align: center;
     margin-left: 10rem;
-  }
+}
+
+.email-input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7.75px 10.85px;
+    gap: 6.2px;
+    width: 527px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 0.775px solid #D0D5DD;
+    box-shadow: 0px 0.775px 1.55px rgba(16, 24, 40, 0.05);
+    border-radius: 6.2px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.country {
+    margin-top: -50px;
+}
+
+.add-tip {
+    width: 527px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #333333;
+}

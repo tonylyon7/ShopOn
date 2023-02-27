@@ -16,7 +16,9 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container">
           <a className="navbar-brand" href="#">
+          <Link to="/" >
             <img src={img} />
+          </Link>
           </a>
           <div className=" ml-auto d-flex">
             <div
@@ -71,7 +73,7 @@ const Navbar = () => {
                     <BsPerson />
                   </li>
                   <li>
-                    <Link to='/Shoppingcart'><BsCart2 />0</Link>
+                    <Link to='/Shoppingcart' className="text-decoration-none text-dark"><BsCart2 />0</Link>
                   </li>
                 </ul>
               </div>
@@ -86,7 +88,7 @@ const Navbar = () => {
                     <BsPerson />
                   </li>
                   <li>
-                    <Link to='/Shoppingcart'><BsCart2 className="text-decoration-none"/>0</Link>
+                    <Link to='/Shoppingcart' className="text-decoration-none text-dark"><BsCart2 className="text-decoration-none"/>0</Link>
                   </li>
                 </ul>
               </div>
