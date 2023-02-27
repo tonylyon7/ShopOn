@@ -1,5 +1,6 @@
 import "./App.css"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+// USER IMPORTING
 import Landing from "./User/Landingpage/Landing"
 import Blog from "./User/BlogPage/Blog"
 import About from "./User/AboutPage/About"
@@ -14,15 +15,19 @@ import Emptyshoppingcart from "./User/Shoppingcart/Emptyshoppingcart"
 import Wishlistp from "./User/Wishlist/Wishlistp"
 import Checkout from "./User/Checkout/Checkout"
 import Shop from "./User/Shop/Shop"
+
+// SELLER IMOORTING
 import InventoryNav from "./vendor/Inventory/InventoryNav"
 import InventoryAdd from "./vendor/Inventory/InventoryAdd"
 import InventoryDetails from "./vendor/Inventory/InventoryDetails"
+import Dashboard from "./vendor/Dashboard/Dashboard"
 
 function App() {
   return (
     <>
       <Router>
         <Routes>
+          {/* USER ROUTING */}
           <Route path="/Register" element={<Register />} />
           <Route path="/SignIn" element={<SignIn />} />
           <Route path="/" element={<Landing />} />
@@ -35,14 +40,14 @@ function App() {
           <Route path="/Shoppingcart" element={<Shopingcart />} />
           <Route path="/Emptyshoppingcart" element={<Emptyshoppingcart />} />
           <Route path="/Wishlist" element={<Wishlistp />} />
-          <Route path="/Checkout" element={<Checkout/>} />
-          <Route path="/Shop" element={<Shop/>} />
+          <Route path="/Checkout" element={<Checkout />} />
+          <Route path="/Shop" element={<Shop />} />
 
-
-          {/* SELLER PAGE */}
-          <Route path='/InventoryNav' element={ <InventoryNav/> } />
-          <Route path="/InventoryAdd" element={ <InventoryAdd/> } />
-          <Route path="/InventoryDetails" element={ <InventoryDetails/> } />
+          {/* SELLER ROUTING */}
+          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/InventoryNav" element={<InventoryNav />} />
+          <Route path="/InventoryAdd" element={<InventoryAdd />} />
+          <Route path="/InventoryDetails" element={<InventoryDetails />} />
         </Routes>
       </Router>
     </>
