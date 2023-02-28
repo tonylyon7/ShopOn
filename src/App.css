@@ -1,3 +1,7 @@
 body {
     overflow-x: hidden;
 }
+
+::webkit-scroll-track {
+    border-radius: 10px;
+}

@@ -7350,6 +7350,11 @@ textarea.form-control-lg {
 .text-info {
   color: #0dcaf0 !important;
 }
+.f-style {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
 
 .text-warning {
   color: #ffc107 !important;

@@ -3,10 +3,10 @@ import React from "react"
 const Dashboard = () => {
   return (
     <>
-      <Topnav />
-      <Landing />
-      <SideBar />
-      <Sidenav />
+      {/* <Topnav /> */}
+      {/* <Landing /> */}
+      {/* <SideBar /> */}
+      {/* <Sidenav /> */}
     </>
   )
 }
