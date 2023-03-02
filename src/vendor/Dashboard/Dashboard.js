@@ -7,10 +7,10 @@ import Sidenav from "../Dashboard/Sidenav"
 const Dashboard = () => {
   return (
     <>
-      <Topnav />
-      <Landing />
-      <Sidebar />
-      <Sidenav />
+      {/* <Topnav /> */}
+      {/* <Landing /> */}
+      {/* <SideBar /> */}
+      {/* <Sidenav /> */}
     </>
   )
 }

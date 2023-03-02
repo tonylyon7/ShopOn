@@ -17,10 +17,12 @@ import Checkout from "./User/Checkout/Checkout"
 import Shop from "./User/Shop/Shop"
 
 // SELLER IMOORTING
+import Dashboard from "./vendor/Dashboard/Dashboard"
 import InventoryNav from "./vendor/Inventory/InventoryNav"
 import InventoryAdd from "./vendor/Inventory/InventoryAdd"
 import InventoryDetails from "./vendor/Inventory/InventoryDetails"
-import Dashboard from "./vendor/Dashboard/Dashboard"
+import MainCusNav1 from "./vendor/MainCustomer/MainCusNav1"
+
 
 function App() {
   return (
@@ -44,10 +46,11 @@ function App() {
           <Route path="/Shop" element={<Shop />} />
 
           {/* SELLER ROUTING */}
-          <Route path="/Dashboard" element={<Dashboard />} />
+          {/* <Route path="/Dashboard" element={<Dashboard />} /> */}
           <Route path="/InventoryNav" element={<InventoryNav />} />
           <Route path="/InventoryAdd" element={<InventoryAdd />} />
           <Route path="/InventoryDetails" element={<InventoryDetails />} />
+          <Route path="/MainCusNav1" element={ <MainCusNav1/> } />
         </Routes>
       </Router>
     </>

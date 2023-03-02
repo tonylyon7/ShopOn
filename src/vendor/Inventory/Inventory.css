@@ -42,7 +42,7 @@ nav h1 {
 }
 .profileUploaded .profileImg {
     width: 40px;
-    height: 40px;
+    height: 45px;
     border-radius: 8px;
     position: absolute;
     margin-top: -1.8%;
@@ -320,14 +320,11 @@ nav .bells {
 
 .product-detail {
     margin-top: 2%;
-    margin-left: 2%;
-    width: 1230px;
-    height: 600px;
+    margin-left: 1.5%;
+    width: 1263px;
+    height: 1190px;
     background: #FFFFFF;
     border-radius: 12px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
     /* padding: 90px; */
 }
 .product-nav {
@@ -356,7 +353,7 @@ nav .bells {
     display: flex;
     align-items: center;
 }
-.item .search {
+.product-nav .search {
     color: #130F26;
     font-size: 17px;
 }
@@ -377,7 +374,7 @@ nav .bells {
 .product-nav  .item {
     display: flex;
     justify-content: space-between;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 .item {
     display: flex;
@@ -478,7 +475,7 @@ nav .bells {
 .product-hr {
     width: 96%;
     margin-left: 1.7%;
-    margin-top: 2%;
+    margin-top: -0.5rem;
     border: 1px solid #abafb132;
 }
 input.check {
@@ -490,10 +487,12 @@ input.check {
     display: flex;
     align-items: center;
     margin-top: 1.5%;
+    margin-bottom: 1rem;
     margin-left: 6%;
 }
 .products-list input {
     margin-left: -3.6%;
+    margin-top: -1rem;
     position: absolute;
     cursor: pointer;
 }
