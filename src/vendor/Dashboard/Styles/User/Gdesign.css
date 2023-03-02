@@ -1,0 +1,63 @@
+.malchair{
+    position: absolute;
+    z-index: 2;
+    margin-left: 8%;
+    margin-top: -25px;
+}
+.malexp{
+    margin-right: 9%;
+    border-radius: 30px;
+    height: 48px;
+    color: white;
+    font-size: 9px;
+    width: 197px;
+    align-self: center;
+    background-color: #DA3E31;
+    border: none;
+}
+.malmd{
+    height: 141px;
+    background-color: #103D37;
+}
+.maloff{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.maltex{
+    text-align: center;
+    margin-top: 35px;
+}
+.malup{
+    font-size: 1vw;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+.mals60{
+    font-size: 3vw;
+    font-weight: 700;
+    margin-top: -30%;
+    margin-left: 20%;
+}
+.malper{
+    font-size: 0.8vw;
+    margin-left: 3%;
+}
+.malcen{
+    margin-top: -12px;
+}
+.malof{
+    margin-top: -20px;
+}
+.malmrww{
+    color: #CDD454;
+    font-size: 12px;
+}
+.malgdap{
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}

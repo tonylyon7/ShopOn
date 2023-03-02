@@ -1,0 +1,44 @@
+.malcarr{
+  width: 323px;
+  height: 237px;
+  margin: 30px;
+}
+.malnos{
+  height: 33%;
+  color: white;
+  text-align: center;
+  margin-top: 49%;
+  background-image: linear-gradient(transparent, 0%, rgba(0, 0, 0, 0.637));
+}
+.malst{
+  display: none;
+}
+.malcar:hover .malst{
+  display: block;
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .anime {
+    animation: ple infinite 0.51s alternate;
+  }
+}
+@keyframes ple {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(-10deg);
+  }
+} */
+.maloverf{
+  overflow: auto;
+}
+.maloverf::-webkit-scrollbar{
+  display: none;
+}
+.malfic{
+  width: 180vw;
+}
+.malseag{
+  font-weight: 700;
+  font-size: 36px;
+}

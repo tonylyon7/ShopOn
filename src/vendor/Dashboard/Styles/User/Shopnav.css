@@ -1,0 +1,35 @@
+.malul{
+    font-size: 10px;
+    margin-right: 80px;
+    font-weight: 500;
+}
+.malul p{
+    margin-left: 10px;
+}
+.malshop{
+    color: #000;
+    font-weight: 700;
+}
+.malsale{
+    color: #DA3E31;
+}
+.mallogo{
+    width: 80px;
+    height: 40px;
+}
+.malbor{
+    border: none;
+    width: 230px;
+}
+.malshop hr{
+    margin-top: 4px;
+    background-color: #000;
+}
+.malsnimg{
+    margin-left: 15px;
+    width: 13px;
+}
+.malbadge{
+    background-color: #DE5212;
+    border-radius: 50%;
+}

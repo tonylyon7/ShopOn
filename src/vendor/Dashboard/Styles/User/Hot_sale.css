@@ -1,0 +1,241 @@
+.flash-sales {
+    border: red 4px solid;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.days {
+    margin-top: 30px;
+    background-color: #1D1F1F;
+    height: 52px;
+    color: #FFFFFF;
+    width: 70%;
+    justify-content: center;
+    margin-left: 40px;
+    border-radius: 10px;
+} 
+
+.tony-num {
+    display: flex;
+    padding-left: 60px;
+    font-size: small;
+    margin-top: 5px;
+    word-spacing: 5px;
+    margin-left: -28px;
+}
+.tony-days{
+    font-size: small;
+    overflow: hidden;
+}
+.lastitem{
+    background-color: red;
+    width: 12rem;
+    height: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-left: 3rem;
+}
+.tony-fire {
+    color: #FDCB4B;
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: -0.5rem;
+}
+
+.black {
+    color: black;
+    margin-right: 4px;
+}
+.red {
+    color: red;
+    margin-right: 4px;
+}
+.yellow {
+    color: #FAAD14;
+    margin-right: 4px;
+}
+.grey {
+    color: #71767C;
+    margin-right: 4px;
+}
+
+.green {
+    color: #52C41A;
+    margin-right: 4px;
+}
+
+.Tony-heading{
+    text-align: center;
+    overflow: hidden;
+}
+
+.Hotsales {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    padding: 30px;
+}
+.lyon{
+    background-color: #CDD454;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 13px;
+    margin-top: 2rem;
+    position: absolute;
+    margin-left: 2rem;
+}
+
+.col-md-3 {
+    justify-self: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.col-md-3:hover {
+    box-shadow: 0 2px 8px gray;
+    border-radius: 10px;
+}
+
+.tony:hover{
+    box-shadow: none;
+
+}
+
+.select {
+    padding-left: 1rem;
+    background: none;
+    margin-left: 2rem;
+}
+
+.text {
+    color: #5D5F5F;
+}
+
+.price {
+    color: #1D1F1F;
+}
+
+.link {
+    color: #E9672B;
+    text-decoration: underline;
+}
+
+.discount {
+    text-decoration: line-through;
+}
+
+.gon {
+    padding-top: 10rem;
+}
+
+.blackfriday {
+    padding-left: 3rem;
+    padding-top: -5rem;
+}
+
+.SubH {
+    padding-left: 5rem;
+    font-size: 30px;
+    font: bolder;
+    font-family: serif;
+    padding-bottom: 20px;
+}
+
+.kid {
+    /* padding-bottom: 1rem; */
+    padding-top: 1rem;
+    border-radius: 10px;
+}
+
+.kid:hover {
+    box-shadow: 0 2px 8px gray
+}
+
+.tony-kids {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 10px;
+}
+.tony-row{
+    padding-bottom: 5rem;
+}
+
+.tony-price{
+    text-align: center;
+    padding-top: 0.7rem;
+}
+
+.tony-chair {
+    background-color: #FDF2E8;
+    border-radius: 8px;
+    display: flex;
+    height: 27rem;
+}
+
+.tony-chair:hover{
+    box-shadow: 0 2px 10px gray;
+    border-radius: 10px;
+}
+
+.tony-lamb{
+    border-radius: 8px;
+    display: flex;
+    height: 27rem;
+}
+
+.tony-lamb{
+    box-shadow: 0 2px 8px gray;
+    border-radius: 10px;
+}
+
+.tony-chair1 {
+    position: absolute;
+    padding-left: 1rem;
+    margin-left: -1.9rem;
+    margin-top: 2rem;
+}
+.tony-chair2 {
+    position: absolute;
+    padding-left: 29.5rem;
+    padding-top: 5.5rem;
+    margin-top: 3rem;
+}
+
+.tony-collection {
+    color: #E9672B;
+    position: absolute;
+    margin-top: 8.5rem;
+    margin-left: 14rem;
+}
+
+.tony-comfort {
+    position: absolute;
+    color: #1D1F1F;
+    margin-top: 10rem;
+    margin-left: 13rem;
+    overflow: hidden;
+}
+
+.Tony-explore {
+    background-color: #E9672B;
+    width: 9rem;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 15rem;
+    position: absolute;
+    margin-left: 15rem;
+    border: none;
+}
+.tony-lamp2{
+    margin-left: 20rem;
+}
+
+/* .tony-liner {
+    margin-bottom: 6rem;
+} */
+
+

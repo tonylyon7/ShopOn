@@ -1,0 +1,21 @@
+.followus{
+    font-weight: 500;
+    text-align: center !important;
+    margin-top: 50px;
+}
+.follow{
+    color: black;
+}
+.davidContainer5{
+    margin-left: 50px;
+    margin-top: 70px; 
+}
+.davidcard8{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.furnitureimage{
+    width: 240px;
+    height: 237px;
+}

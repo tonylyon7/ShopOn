@@ -1,0 +1,79 @@
+.contacH5{
+    color: #1D1F1F;
+    font-weight:700; 
+    line-height:20px;
+     
+}
+.contacP{
+    color: #1D1F1F;
+    font-weight:400; 
+    margin-right:20px;
+}
+.form-label{
+    margin-top: 20px;
+}
+
+.borderLine{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #B6B8B8;
+    border-radius: 40px !important;
+    background-color: #FFFFFF;
+}
+.borderLine2{
+    width: 680px;
+    border: 1px solid #B6B8B8;
+    border-radius: 8px !important;
+}
+button{
+    position: relative;
+    height: 48px;
+    width: 210px !important;
+    margin-left: 485px!important;
+    border-radius: 40px !important;
+    background: #1D1F1F;
+    font-weight: 400;
+}
+span{
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #5D5F5F;; 
+}
+.join{
+   color: #1D1F1F;
+   font-weight:700;
+   letter-spacing: 0.02em;
+}
+.text{
+    color: #5D5F5F;
+   font-weight:400;
+   letter-spacing: 0.02em;
+}
+.icon1{
+   color: #E9672B;
+}
+span{
+    margin-left: 10px;
+    color: #5D5F5F;
+}
+.workingH6{
+    color: #1D1F1F;;
+    font-weight: 700; 
+}
+.working li{
+    padding-left:20px;
+    margin-top: 10px;
+    /* background-color: red; */
+    
+}
+.working li img{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #B6B8B8;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color:#B6B8B8 ;
+}
+.map{
+    margin-top: 30px;
+}

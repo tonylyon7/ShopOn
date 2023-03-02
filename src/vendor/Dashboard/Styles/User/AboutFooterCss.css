@@ -1,0 +1,72 @@
+/* FOOTER STYLE */
+.footer{
+    width: 100%;
+    height:55vh;
+    overflow-x: hidden;
+    background-color: #1D1F1F;
+}
+.footerbox{
+    overflow-x: hidden;
+}
+.footerrow{
+    /* background-color: red; */
+    overflow: hidden;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+}
+.fbook li{
+    padding-left: 15px;
+} 
+.shopon{
+   color: #FBF8F5; 
+}
+.shipDiv{
+    margin-top: 80px !important;
+    
+}
+.compUl li a{
+    text-decoration:none;
+    font-family: 'Sofia Pro';
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color:#FBF8F5;
+}
+.news p{
+    color:#FBF8F5;
+    font-weight: 300;
+
+}
+/* INPUT ARROW */
+input{
+    width: 310px;
+    border: 2px solid #333535;
+    border-radius: 20px;
+    background-color: #333535;
+}
+.contain{
+    /* margin-left: 13.5%; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.7;
+}
+.arrow{
+width: 450px;
+height: 48px;
+position: relative;
+/* margin-left: 10px; */
+}
+.inputarow{
+   z-index: 10;
+   margin-left:63%;
+   border: 2px solid #e9672b;
+    border-radius: 50px;
+    background-color:#e9672b;
+   /* background-color: black; */
+}
+.flexVisa img{
+    width: 40px;
+    border-radius: 5px;
+    height: 24px;
+    margin-left: 15px;
+}

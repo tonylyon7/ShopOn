@@ -1,0 +1,324 @@
+/* Top Nav Css */
+
+.topnav-container{
+    width: 1195px;
+    height: 80px;
+    margin-left: 88px;
+    padding-top: 20px;
+    display: inline-block;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard{
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    margin-right: 17px;
+}
+.home-icon{
+    padding-top: 10px;
+    color: #E9672B;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -9px;
+}
+.select{
+    height: 32px;
+    width: 140px;
+    padding: 0px 12px 0px 10px;
+    outline: none;
+    background-color: #fef5ea;
+    border-radius: 5px;
+    border: none;
+}
+.bell{
+    color: #E9672B;
+    font-size: 20px;
+    font-weight: 400;
+}
+.profile-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+}
+.image{
+    width: 100%;
+}
+
+/* Sidebar Css */
+
+.sidebar-container{
+    width: 270px;
+    height: 100vh;
+    position: fixed;
+    /* background-color: grey; */
+    z-index: 99;
+    box-shadow: 0px 0px 3px 1px rgba(217, 217, 217, 217);
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    color: #E9672B;
+}
+.menu-icon{
+    font-size: 19px;
+    padding: 12px 0px 2px 0px;
+    color: #5D5F5F;
+    font-weight: 400;
+}
+.dashboard-icon{
+    background-color: #E9672B;
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    color: white;
+    margin: 12px 0px 9px 0px;
+}
+.dash{
+    margin-left: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'poppins';
+}
+.dashfill{
+    font-size: 25px;
+}
+.sspan{
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: #5D5F5F;
+}
+
+.order-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 9px 0px 3px 0px;
+    margin-left: -4.2rem;
+}
+.order{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+.customer-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 2px 0px 9px 0px;
+    margin-left: -2rem;
+}
+.customer{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+.inventory-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 2px 0px 9px 0px;
+    margin-left: -3rem;
+}
+.inventory-icon a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.inventory{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+.conversation-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 2px 0px 9px 0px;
+    margin-left: -0.7rem;
+}
+.conversation{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+.withdraw-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 2px 0px 9px 0px;
+    margin-left: -3.4rem;
+}
+.withdraw{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+.settings-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 2px 0px 9px 0px;
+    margin-left: -3.9rem;
+}
+.settings{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+
+.footer{
+    margin-left: 45px;
+    margin-top: 8rem;
+    width: 210px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logout{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Poppins';
+    color: #DA3E31;
+    font-size: 15px;
+    font-weight: 400;
+}
+.tbIcon{
+    font-size: 22px !important;
+    font-weight: 400;
+}
+.support{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Poppins';
+    color: #5D5F5F;
+    background: rgba(94, 99, 102, 0.1);
+    padding: 9px;
+    border-radius: 11px;
+    margin-left: 12px;
+}
+.biIcon{
+    font-size: 22px !important;
+    font-weight: 400;
+    color: black !important;
+}
+
+/* Sidenav css*/
+
+.icon-container{
+    width: 88px;
+    height: 100vh;
+    position: fixed;
+    display: inline-block;
+    /* background-color: grey; */
+    overflow: hidden;
+}
+.icon-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 25px; */
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    margin-top: 35px;
+    font-size: 21px;  
+    color: #5D5F5F;
+    overflow: hidden;
+}
+.inventory1 a{
+    text-decoration: none;
+    color: inherit;
+}
+.icon-wrapper .logo {
+    margin-top: 25%;
+}
+
+.menu1{
+    font-size: 19px;
+}
+.logo, .menu1, .shopping, .contact, .inventory1, .messsage, .currency, .setting, .logout-icon, .support-icon {
+    overflow: hidden;
+}
+.dashboard1{
+    background-color: #E9672B;
+    color: #FFFFFF;
+    padding: 7px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 60px;
+    gap: 28px;
+}
+.support-icon{
+    background: rgba(94, 99, 102, 0.1);
+    padding: 1px 7px;
+    border-radius: 9px;
+    color: #5D5F5F;
+}
+.logout-icon{
+    color: #DA3E31;
+}
+
+.dashboard-active{
+    background-color: #E9672B;
+    color: #FFFFFF;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
